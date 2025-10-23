@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "stargate",
+    "version": "0.0.0-build.265+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.amblelabs",
+          "module": "modkit",
+          "version": {
+            "requires": "1d67a7a312"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.265+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-build.265+mc.1.20.1.jar",
+          "size": 7822306,
+          "sha512": "61ffdc0f235251268f4dd869d6223896e8d3a6be9e9a9acfdaab1699cc679db771fe9999aa76296aeffd07746631d7196fa16deba852f2e6e3d6bd3b102841c8",
+          "sha256": "5177da378aa56c4f0ba9eafbc0238e55f15e72acb1e15d4b0bb3a503129454bf",
+          "sha1": "46d762be45c9f3b367c0e834ba21dedf7785af2e",
+          "md5": "907d58a8f6e3c21719edcdefad6167f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.amblelabs",
+          "module": "modkit",
+          "version": {
+            "requires": "1d67a7a312"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.265+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-build.265+mc.1.20.1.jar",
+          "size": 7822306,
+          "sha512": "61ffdc0f235251268f4dd869d6223896e8d3a6be9e9a9acfdaab1699cc679db771fe9999aa76296aeffd07746631d7196fa16deba852f2e6e3d6bd3b102841c8",
+          "sha256": "5177da378aa56c4f0ba9eafbc0238e55f15e72acb1e15d4b0bb3a503129454bf",
+          "sha1": "46d762be45c9f3b367c0e834ba21dedf7785af2e",
+          "md5": "907d58a8f6e3c21719edcdefad6167f1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.265+mc.1.20.1-sources.jar",
+          "url": "stargate-0.0.0-build.265+mc.1.20.1-sources.jar",
+          "size": 7673085,
+          "sha512": "c1321f590814756d699672cffda26851fe7d10370a43ef7054989efa06dc36f2c351d72fe500cac785a44329a69afbca3b35de48d209529b4f6593903cf0434c",
+          "sha256": "62c381ab23aa6478a61f7d3ad370d97e6a15d9755ebe23209821607c3fd54f48",
+          "sha1": "b88601a95ed3c95bdccdfd9e81c7b37fa3faf1f9",
+          "md5": "02f4618391cfb2415fd2cee3701f2348"
+        }
+      ]
+    }
+  ]
+}
