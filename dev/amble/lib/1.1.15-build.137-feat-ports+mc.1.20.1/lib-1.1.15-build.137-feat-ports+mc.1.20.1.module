@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.15-build.137-feat-ports+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-build.137-feat-ports+mc.1.20.1.jar",
+          "url": "lib-1.1.15-build.137-feat-ports+mc.1.20.1.jar",
+          "size": 482422,
+          "sha512": "037de6ca76da869ff700a0e2a13be9e732fdd9b992e69d66fab111f12e24d98b2269b1813c99ae2bec41cd56ed3ff89efe087df23c817c4344e0f7ceaf264117",
+          "sha256": "ab2b22febb2c7dd6571643836f748b9cd1b35e2f09f3a3f9db106f5a1a806351",
+          "sha1": "06efe2082534d793244de972c9ae01c11255533b",
+          "md5": "518c5efb394b4a2cee39fd3ac4653b29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-build.137-feat-ports+mc.1.20.1.jar",
+          "url": "lib-1.1.15-build.137-feat-ports+mc.1.20.1.jar",
+          "size": 482422,
+          "sha512": "037de6ca76da869ff700a0e2a13be9e732fdd9b992e69d66fab111f12e24d98b2269b1813c99ae2bec41cd56ed3ff89efe087df23c817c4344e0f7ceaf264117",
+          "sha256": "ab2b22febb2c7dd6571643836f748b9cd1b35e2f09f3a3f9db106f5a1a806351",
+          "sha1": "06efe2082534d793244de972c9ae01c11255533b",
+          "md5": "518c5efb394b4a2cee39fd3ac4653b29"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.15-build.137-feat-ports+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.15-build.137-feat-ports+mc.1.20.1-sources.jar",
+          "size": 178078,
+          "sha512": "6ed9d9fe39e6c20c05fb735f58ba0b033084abc2eac1489e14ffa35306015a591a156566cd855e60e7fb00b7c90798f1aa91bfa50994d8b79f410f38f16bc6da",
+          "sha256": "8ecd8cb285acd61abdb0950d8446eb52ba549be08c68ec39a81fc94eacf9a700",
+          "sha1": "8f215fd0fcd91a7cb2ad56279e517e96d5c9d428",
+          "md5": "4f9d8a9199a384870313a4cc18d6f3ee"
+        }
+      ]
+    }
+  ]
+}
