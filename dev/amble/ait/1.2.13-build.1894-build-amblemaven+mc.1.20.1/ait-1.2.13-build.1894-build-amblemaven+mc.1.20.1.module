@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-build.1894-build-amblemaven+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1894-build-amblemaven+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1894-build-amblemaven+mc.1.20.1.jar",
+          "size": 58389197,
+          "sha512": "5bed0f17852fd560b8e4247ef8c41cabfc7177ccbebbb8acefcf9d6ef059fdfc8237b0da919a12db85274422c23f74ecd1b257f61200d1618f8f1e8c53c70710",
+          "sha256": "358250bd7e6cefeed3551ec8fc587b088aa0e69f88871bec7b88ebeafe87aa52",
+          "sha1": "646f6f0c5b7eaf59d32317e2858c121a282636b8",
+          "md5": "2568ef2631960604f059ef6065b01cfa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1894-build-amblemaven+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1894-build-amblemaven+mc.1.20.1.jar",
+          "size": 58389197,
+          "sha512": "5bed0f17852fd560b8e4247ef8c41cabfc7177ccbebbb8acefcf9d6ef059fdfc8237b0da919a12db85274422c23f74ecd1b257f61200d1618f8f1e8c53c70710",
+          "sha256": "358250bd7e6cefeed3551ec8fc587b088aa0e69f88871bec7b88ebeafe87aa52",
+          "sha1": "646f6f0c5b7eaf59d32317e2858c121a282636b8",
+          "md5": "2568ef2631960604f059ef6065b01cfa"
+        }
+      ]
+    }
+  ]
+}
