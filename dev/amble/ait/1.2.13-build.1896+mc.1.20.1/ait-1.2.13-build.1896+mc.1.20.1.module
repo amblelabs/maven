@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-build.1896+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1896+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1896+mc.1.20.1.jar",
+          "size": 58389168,
+          "sha512": "be4ed23d965638a888d66cd2479c5577b6cfed6773a069ce4318aaef3f023098ac7893288e19c7d587c5f69725721fae767b3ed8fd55b0839fa1acc815415f94",
+          "sha256": "0d7c703d65b4b362215e48ab34b687a07dc31b49f1d2e65612ee702e23c3d934",
+          "sha1": "8039323bfcdc47e704171ab7ccb526fcdf4758d1",
+          "md5": "30ccd790a056c1dd9b0bd32cea4e5f2e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1896+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1896+mc.1.20.1.jar",
+          "size": 58389168,
+          "sha512": "be4ed23d965638a888d66cd2479c5577b6cfed6773a069ce4318aaef3f023098ac7893288e19c7d587c5f69725721fae767b3ed8fd55b0839fa1acc815415f94",
+          "sha256": "0d7c703d65b4b362215e48ab34b687a07dc31b49f1d2e65612ee702e23c3d934",
+          "sha1": "8039323bfcdc47e704171ab7ccb526fcdf4758d1",
+          "md5": "30ccd790a056c1dd9b0bd32cea4e5f2e"
+        }
+      ]
+    }
+  ]
+}
