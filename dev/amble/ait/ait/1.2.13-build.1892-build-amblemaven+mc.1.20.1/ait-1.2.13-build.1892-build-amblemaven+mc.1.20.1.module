@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble.ait",
+    "module": "ait",
+    "version": "1.2.13-build.1892-build-amblemaven+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.138-feat-ports+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1892-build-amblemaven+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1892-build-amblemaven+mc.1.20.1.jar",
+          "size": 58389173,
+          "sha512": "7f0dcb83d71834b2b2acee8749968be451f9a8938aebad2c80f0dcf883469573face293484f48a9896f96a7f482e419d09d527aab7d1d9079388f9cd8448268d",
+          "sha256": "1f0de3dc871f8806125eeaf42c63c24871721f06751567bc582ee52db0ed340b",
+          "sha1": "a8712deb79db4b76abb5835ce5b6831a6bc53a52",
+          "md5": "82b7da90b2ec71520429107893696ca4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.138-feat-ports+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1892-build-amblemaven+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1892-build-amblemaven+mc.1.20.1.jar",
+          "size": 58389173,
+          "sha512": "7f0dcb83d71834b2b2acee8749968be451f9a8938aebad2c80f0dcf883469573face293484f48a9896f96a7f482e419d09d527aab7d1d9079388f9cd8448268d",
+          "sha256": "1f0de3dc871f8806125eeaf42c63c24871721f06751567bc582ee52db0ed340b",
+          "sha1": "a8712deb79db4b76abb5835ce5b6831a6bc53a52",
+          "md5": "82b7da90b2ec71520429107893696ca4"
+        }
+      ]
+    }
+  ]
+}
