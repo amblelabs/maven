@@ -49,11 +49,11 @@
         {
           "name": "stargate-0.0.0-build.264+mc.1.20.1.jar",
           "url": "stargate-0.0.0-build.264+mc.1.20.1.jar",
-          "size": 7822308,
-          "sha512": "fdca225aa77a5512f2498ed346672532a29182af6f0124c1beaa286125ab43505ee28350a344e3bde1811a1b31708a4c7ee7459feb97e99a2642620384263ae7",
-          "sha256": "9ecc3d41c5004f6fa53ccb05016fbd506a2929338f3af4a5b6158634601a7bb8",
-          "sha1": "c643161fce2513686616e0869cc98a31e0000986",
-          "md5": "76454439dd8986350e55553cc799cb34"
+          "size": 7822303,
+          "sha512": "37e45e19ff4f0e45439778309c3f6c7b5507385e56d8deec924d6db1325e256e908661309896ca766db286ae0c7ed805ad823a6e762a3714a23f97286626e4cc",
+          "sha256": "81f134d56c9bd9db1d96f93e54934f067e05f387380e1004e919fe90df0c8a2f",
+          "sha1": "616feaf603a9fa13ccf2c9d2086929527d1819e6",
+          "md5": "4f497e0f9c73a73b35f1dc933d7a0aaf"
         }
       ]
     },
@@ -99,11 +99,11 @@
         {
           "name": "stargate-0.0.0-build.264+mc.1.20.1.jar",
           "url": "stargate-0.0.0-build.264+mc.1.20.1.jar",
-          "size": 7822308,
-          "sha512": "fdca225aa77a5512f2498ed346672532a29182af6f0124c1beaa286125ab43505ee28350a344e3bde1811a1b31708a4c7ee7459feb97e99a2642620384263ae7",
-          "sha256": "9ecc3d41c5004f6fa53ccb05016fbd506a2929338f3af4a5b6158634601a7bb8",
-          "sha1": "c643161fce2513686616e0869cc98a31e0000986",
-          "md5": "76454439dd8986350e55553cc799cb34"
+          "size": 7822303,
+          "sha512": "37e45e19ff4f0e45439778309c3f6c7b5507385e56d8deec924d6db1325e256e908661309896ca766db286ae0c7ed805ad823a6e762a3714a23f97286626e4cc",
+          "sha256": "81f134d56c9bd9db1d96f93e54934f067e05f387380e1004e919fe90df0c8a2f",
+          "sha1": "616feaf603a9fa13ccf2c9d2086929527d1819e6",
+          "md5": "4f497e0f9c73a73b35f1dc933d7a0aaf"
         }
       ]
     },
@@ -119,11 +119,11 @@
         {
           "name": "stargate-0.0.0-build.264+mc.1.20.1-sources.jar",
           "url": "stargate-0.0.0-build.264+mc.1.20.1-sources.jar",
-          "size": 7673091,
-          "sha512": "3632be35790caa7c27fac26a01f1b06fe62efa9627bc913b3805547b72e0c90424096a3128131ab1e905f8eb551a272d97e77f9164fcbbd15e2baf01a50fb0b8",
-          "sha256": "d79dfc713257f5276aa9098522f4e667018cb4e7e58a5a632b1c84f3cff2ab0f",
-          "sha1": "c269f71423a34b1e5005e733cf5ea343b014ad24",
-          "md5": "9eb7ae5f2417cd32b76bf9861ffc860d"
+          "size": 7673082,
+          "sha512": "26077fb0ef015effd8dc26da2a71c242df57143fab3a3318fd6471bd407081ffe2b9aabb23ff3051bca7ea95450a8a3145b42facf603f27c56da4916022fa566",
+          "sha256": "7f8aca733783e13eb56303f319c0f3e6b62fed3f03535f36bf4263ad504d5353",
+          "sha1": "15c1c4e7c77b677839aae0b05de13d834cbd676e",
+          "md5": "dabcd4abbf9063242afaf2c5003a72f3"
         }
       ]
     }
