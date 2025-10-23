@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble.lib",
+    "module": "amble",
+    "version": "1.1.15-build.136-feat-ports+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amble-1.1.15-build.136-feat-ports+mc.1.20.1.jar",
+          "url": "amble-1.1.15-build.136-feat-ports+mc.1.20.1.jar",
+          "size": 482431,
+          "sha512": "69677a123d7b7254f18000c67cdc59a66e9c54459232e56c54c8a7a0f6f367f4ee65aed3e873940974333bf42ba8ff8cf0f239cecc33e47621605265df75daf7",
+          "sha256": "07b13f1ba0d0155869166772c5e28f3a979afa5bb27fa99ecb0eed9cfa0876d7",
+          "sha1": "c721ced5ec03a1279738363bc46af408cd6f3b0b",
+          "md5": "4705e446e266bb0891790995a71ce981"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amble-1.1.15-build.136-feat-ports+mc.1.20.1.jar",
+          "url": "amble-1.1.15-build.136-feat-ports+mc.1.20.1.jar",
+          "size": 482431,
+          "sha512": "69677a123d7b7254f18000c67cdc59a66e9c54459232e56c54c8a7a0f6f367f4ee65aed3e873940974333bf42ba8ff8cf0f239cecc33e47621605265df75daf7",
+          "sha256": "07b13f1ba0d0155869166772c5e28f3a979afa5bb27fa99ecb0eed9cfa0876d7",
+          "sha1": "c721ced5ec03a1279738363bc46af408cd6f3b0b",
+          "md5": "4705e446e266bb0891790995a71ce981"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "amble-1.1.15-build.136-feat-ports+mc.1.20.1-sources.jar",
+          "url": "amble-1.1.15-build.136-feat-ports+mc.1.20.1-sources.jar",
+          "size": 178078,
+          "sha512": "f7ca2ba02d6e84b5aa312931ceaae36db5e42c0886e5daaefb79ddae1fe18501a2f240138fdb23c1d7ff28f6ea4c8877c6c31e4456bc50382a3cec43c9d02e13",
+          "sha256": "1842623b8b56cc32f081a3febff4156c11522c02b54468bd1f4b9a1fe88b3e1d",
+          "sha1": "34f4c3bd5741c1ce322c6372c05027f2ee0a5662",
+          "md5": "3dfaaf654f7868c289eff62f6c94f82b"
+        }
+      ]
+    }
+  ]
+}
