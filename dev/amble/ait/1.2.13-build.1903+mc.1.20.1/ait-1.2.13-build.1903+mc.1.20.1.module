@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-build.1903+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1903+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1903+mc.1.20.1.jar",
+          "size": 58389618,
+          "sha512": "6bdbcbe29bc61674bc291b484eae8670b745b7db3bad4ce3d74520506a664b2d42e4a93e0766c919a73273755c90ca9c3af3cb76095b1efeff84bc6021c43dd1",
+          "sha256": "01bc7078b64c077714164091911bf9d2a3415e4d22cb625610e9c47031017aa5",
+          "sha1": "be6ffeb948db529baa5f766eb7e308dfab665fa3",
+          "md5": "1a4a0596ce4110e3ca64e310542d7964"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1903+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1903+mc.1.20.1.jar",
+          "size": 58389618,
+          "sha512": "6bdbcbe29bc61674bc291b484eae8670b745b7db3bad4ce3d74520506a664b2d42e4a93e0766c919a73273755c90ca9c3af3cb76095b1efeff84bc6021c43dd1",
+          "sha256": "01bc7078b64c077714164091911bf9d2a3415e4d22cb625610e9c47031017aa5",
+          "sha1": "be6ffeb948db529baa5f766eb7e308dfab665fa3",
+          "md5": "1a4a0596ce4110e3ca64e310542d7964"
+        }
+      ]
+    }
+  ]
+}
