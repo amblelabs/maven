@@ -1,9 +1,11 @@
 # AmbleLabs Maven Repo
 
 ```groovy
-repositories {
-    maven {
-        url = "https://amblelabs.github.io/maven"
+maven {
+    url = "https://amblelabs.github.io/maven"
+
+    content {
+        includeGroup "dev.amble"
     }
 }
 ```
