@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "amblekit",
+    "version": "1.1.15-build.141+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amblekit-1.1.15-build.141+mc.1.20.1.jar",
+          "url": "amblekit-1.1.15-build.141+mc.1.20.1.jar",
+          "size": 487675,
+          "sha512": "469b5fafa06cca63fc6d58f3c5435a0efc293826ee2721a278f1987442acab70cbf0446582ea67aa6a5d5d7a7aae41dda6d855191ff5b53c8ced1a2d21fc71a6",
+          "sha256": "f91499fb4b5034b5c991be2010b0f5bc279f13b3285b21038ecfb27c9d8917e5",
+          "sha1": "9f38690513fb8b3ade290afa6848c06dc516919b",
+          "md5": "a02bc29ce5c9bc912bad91c09977b13a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amblekit-1.1.15-build.141+mc.1.20.1.jar",
+          "url": "amblekit-1.1.15-build.141+mc.1.20.1.jar",
+          "size": 487675,
+          "sha512": "469b5fafa06cca63fc6d58f3c5435a0efc293826ee2721a278f1987442acab70cbf0446582ea67aa6a5d5d7a7aae41dda6d855191ff5b53c8ced1a2d21fc71a6",
+          "sha256": "f91499fb4b5034b5c991be2010b0f5bc279f13b3285b21038ecfb27c9d8917e5",
+          "sha1": "9f38690513fb8b3ade290afa6848c06dc516919b",
+          "md5": "a02bc29ce5c9bc912bad91c09977b13a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "amblekit-1.1.15-build.141+mc.1.20.1-sources.jar",
+          "url": "amblekit-1.1.15-build.141+mc.1.20.1-sources.jar",
+          "size": 179753,
+          "sha512": "cb486632ec0c4900c95ac5b08a5a88ebe0600e4c01c7d62db08332fb895bff11b048f26b57af7d070e10c93f16ae432ac6b9f3a5f5164919167a7ed83f0d3ad0",
+          "sha256": "d48e45e645cc652cfdfe6fb598b67f8b8c393c07aa45b632ac1b1bbaa1fd5972",
+          "sha1": "38b4fad8d2ff078fb718a64f2423b5e68c80e766",
+          "md5": "37e7e24f46814faa77efadc11683b85b"
+        }
+      ]
+    }
+  ]
+}
