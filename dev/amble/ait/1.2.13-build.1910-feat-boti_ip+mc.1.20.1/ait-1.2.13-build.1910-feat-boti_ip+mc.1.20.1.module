@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-build.1910-feat-boti_ip+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1910-feat-boti_ip+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1910-feat-boti_ip+mc.1.20.1.jar",
+          "size": 58423386,
+          "sha512": "41e6ca232764445f59feb956d42829f784799938f6e00cca46709cb798560165ff8ea82be138dd64dff9c3679dff885f97e00adb68ca5100e54e01cab7748274",
+          "sha256": "7531cc36f8be446b42b6e9372b7ac730292f9bfb665feb7fff13b2c404137de0",
+          "sha1": "d676927d858cf7b9eb85eb592c0f9926ab9bc0de",
+          "md5": "aaf2d6e0538c307865cde06312bf8b28"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "imm_ptl_core",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "q_misc_util",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1910-feat-boti_ip+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1910-feat-boti_ip+mc.1.20.1.jar",
+          "size": 58423386,
+          "sha512": "41e6ca232764445f59feb956d42829f784799938f6e00cca46709cb798560165ff8ea82be138dd64dff9c3679dff885f97e00adb68ca5100e54e01cab7748274",
+          "sha256": "7531cc36f8be446b42b6e9372b7ac730292f9bfb665feb7fff13b2c404137de0",
+          "sha1": "d676927d858cf7b9eb85eb592c0f9926ab9bc0de",
+          "md5": "aaf2d6e0538c307865cde06312bf8b28"
+        }
+      ]
+    }
+  ]
+}
