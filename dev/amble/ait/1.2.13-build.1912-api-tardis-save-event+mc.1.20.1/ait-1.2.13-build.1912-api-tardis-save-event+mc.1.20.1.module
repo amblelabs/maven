@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-build.1912-api-tardis-save-event+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1912-api-tardis-save-event+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1912-api-tardis-save-event+mc.1.20.1.jar",
+          "size": 58424393,
+          "sha512": "697b30ceaf3d8c940a4d74dbf8d7df8f40f9e53c68d87096d3c1a30c94edc2fa5b15484517c7240e68f04078ba63ac4c8e038c1878eb3d4e0337dac25d91daee",
+          "sha256": "923c18ec6bd8bacef7b6d29322a18776aa406b79a52073d072ace8b94cd85983",
+          "sha1": "3d50b55c41aba37f053c8759ff5638b243a0e56e",
+          "md5": "ebe1c9406207560c51602f4e02956c0e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.139+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "imm_ptl_core",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "q_misc_util",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-build.1912-api-tardis-save-event+mc.1.20.1.jar",
+          "url": "ait-1.2.13-build.1912-api-tardis-save-event+mc.1.20.1.jar",
+          "size": 58424393,
+          "sha512": "697b30ceaf3d8c940a4d74dbf8d7df8f40f9e53c68d87096d3c1a30c94edc2fa5b15484517c7240e68f04078ba63ac4c8e038c1878eb3d4e0337dac25d91daee",
+          "sha256": "923c18ec6bd8bacef7b6d29322a18776aa406b79a52073d072ace8b94cd85983",
+          "sha1": "3d50b55c41aba37f053c8759ff5638b243a0e56e",
+          "md5": "ebe1c9406207560c51602f4e02956c0e"
+        }
+      ]
+    }
+  ]
+}
