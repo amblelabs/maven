@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "stargate",
+    "version": "0.0.0-build.272+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.138-feat-ports+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.272+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-build.272+mc.1.20.1.jar",
+          "size": 7823096,
+          "sha512": "bbc927fd6fcb4e143dfc7b74768b02786ef18d5fae8d9f48510472c7a8aca6af6923d17cf99f5cd025a97a78b1251fbb6f77b3b66e179ee920d6f76da5a99802",
+          "sha256": "ad7792ae3cdb94a612d2b02c230ec8b86125e8bf7cda28ef5b4e81a615de77cb",
+          "sha1": "2ccf1fe5fe568b4740228207f8568065c5f9891d",
+          "md5": "011656354b7e13f77d227c046a694a7b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-build.138-feat-ports+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.272+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-build.272+mc.1.20.1.jar",
+          "size": 7823096,
+          "sha512": "bbc927fd6fcb4e143dfc7b74768b02786ef18d5fae8d9f48510472c7a8aca6af6923d17cf99f5cd025a97a78b1251fbb6f77b3b66e179ee920d6f76da5a99802",
+          "sha256": "ad7792ae3cdb94a612d2b02c230ec8b86125e8bf7cda28ef5b4e81a615de77cb",
+          "sha1": "2ccf1fe5fe568b4740228207f8568065c5f9891d",
+          "md5": "011656354b7e13f77d227c046a694a7b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stargate-0.0.0-build.272+mc.1.20.1-sources.jar",
+          "url": "stargate-0.0.0-build.272+mc.1.20.1-sources.jar",
+          "size": 7673863,
+          "sha512": "eadaa23da4a951c62dac9249702cd222f9fb74c326670fe43daa51f89cf466b6ab2f7196319e28afc02b25f80e4a1b2040e1e60a965d9f7b853c6ab3179fc369",
+          "sha256": "33118d060f93fad43692ef5f0f51cf1a24bf8910852c5814c9e3e5c411f4304b",
+          "sha1": "a9bcd2741ea2e7874fb8779c34ac57b8e0e1dfbe",
+          "md5": "d35735928cc49afe662b77f95bf6f4be"
+        }
+      ]
+    }
+  ]
+}
