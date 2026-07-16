@@ -1,0 +1,30 @@
+name: Optimize
+
+on:
+    workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Optimize
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git checkout --orphan optimized
+          git add .
+          git commit -m "[ci skip] Optimize"
+          
+          # Replace main branch
+          git branch -D ${{ github.ref_name }}
+          git branch -m ${{ github.ref_name }}
+          
+          # Force push to create new history
+          git push --force-with-lease origin ${{ github.ref_name }}

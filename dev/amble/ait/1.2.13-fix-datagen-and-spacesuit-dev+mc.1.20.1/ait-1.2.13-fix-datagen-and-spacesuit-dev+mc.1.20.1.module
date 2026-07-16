@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1.jar",
+          "size": 63947591,
+          "sha512": "2bfadbabae68a4ba9d036673b85153b2e39e57c6a6b0e4410dfadba306c74ffe67fa32f7d22c893aa8bcb5752d13af9fa601c9aa92149e96806c4ed4fed4d955",
+          "sha256": "effa89918d65c8d3f7dc75e44713a71bd820c1bd8ecf14cc4596e150f8029227",
+          "sha1": "0cc68e2b11cba608b4557e546b241b35ab2505c1",
+          "md5": "44cf5fafc98f0a67641d4e5f9c7ab485"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1.jar",
+          "size": 63947591,
+          "sha512": "2bfadbabae68a4ba9d036673b85153b2e39e57c6a6b0e4410dfadba306c74ffe67fa32f7d22c893aa8bcb5752d13af9fa601c9aa92149e96806c4ed4fed4d955",
+          "sha256": "effa89918d65c8d3f7dc75e44713a71bd820c1bd8ecf14cc4596e150f8029227",
+          "sha1": "0cc68e2b11cba608b4557e546b241b35ab2505c1",
+          "md5": "44cf5fafc98f0a67641d4e5f9c7ab485"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-datagen-and-spacesuit-dev+mc.1.20.1-sources.jar",
+          "size": 62430859,
+          "sha512": "59a5f823c83bfe96641b16aed996122a74809138705f5107d68294287f74bce680a6e1542f9ab883689e1cf0a992aa7e52d81d1cba25f8e58c158e699f798264",
+          "sha256": "89b59f50c4124ace55134d9c886532a279e91eb7a6a86efef0fb587ce5159ed2",
+          "sha1": "4607cf96c289b407eaa83a4b2c1b685c8bef504e",
+          "md5": "850d7b1034ce6c2824f274746c3edb4d"
+        }
+      ]
+    }
+  ]
+}

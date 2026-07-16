@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-biome-textures-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1.jar",
+          "size": 69781268,
+          "sha512": "e01f21b0fe5c83df14feffe66893498da4de04d8e843c4d35db0e473058ac878a95331699ce1d420fffd5e70b873bf07102e38126a0034090cde3453c0035263",
+          "sha256": "7bfbd58e9b22e73bdf2abce6e668a9d0cf36eb06e5cd5d73cf1d1a2dd9459946",
+          "sha1": "947ccdc3f07030b8304dc08584927145cc5c6fac",
+          "md5": "60846cf31252bfc54d99e7c69507ce4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1.jar",
+          "size": 69781268,
+          "sha512": "e01f21b0fe5c83df14feffe66893498da4de04d8e843c4d35db0e473058ac878a95331699ce1d420fffd5e70b873bf07102e38126a0034090cde3453c0035263",
+          "sha256": "7bfbd58e9b22e73bdf2abce6e668a9d0cf36eb06e5cd5d73cf1d1a2dd9459946",
+          "sha1": "947ccdc3f07030b8304dc08584927145cc5c6fac",
+          "md5": "60846cf31252bfc54d99e7c69507ce4b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-biome-textures-dev+mc.1.20.1-sources.jar",
+          "size": 68266409,
+          "sha512": "7599f03a37e7d557c2f4413dcdf8891beed8ac00759aede09a458e5436ce0b1c1f7182ccb36890aed99b8a3445397db91e941ad4b80b896cf00174524196673d",
+          "sha256": "92192fe3fd12fcd499dcc651b17330df5d3d933d9d8885f6a451b28dbfe8b855",
+          "sha1": "0286870380a58562500985d8c34656fad9eeaaf4",
+          "md5": "5af3d70f29ad537930444de8cefc940c"
+        }
+      ]
+    }
+  ]
+}

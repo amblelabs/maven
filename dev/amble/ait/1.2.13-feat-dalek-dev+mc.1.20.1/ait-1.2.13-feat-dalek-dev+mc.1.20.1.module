@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-dalek-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dalek-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-dalek-dev+mc.1.20.1.jar",
+          "size": 59674323,
+          "sha512": "15f7606ba05b943e8fc37594a2153e052472007526289ba886c1d8e68da7f06565ba8e63b6371833f600d6d912ec3c16162219fe1ff9fa39fdc335b3d619368b",
+          "sha256": "a2dd224a0602f2a415ac6f9314a156aa142151c8cbd747bb79828fc3bdb6cd2d",
+          "sha1": "92cd2499d0aa39b5016462acc8abf505b24fbeec",
+          "md5": "b3a95ec46bc4e9c9a94810e153b0795b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dalek-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-dalek-dev+mc.1.20.1.jar",
+          "size": 59674323,
+          "sha512": "15f7606ba05b943e8fc37594a2153e052472007526289ba886c1d8e68da7f06565ba8e63b6371833f600d6d912ec3c16162219fe1ff9fa39fdc335b3d619368b",
+          "sha256": "a2dd224a0602f2a415ac6f9314a156aa142151c8cbd747bb79828fc3bdb6cd2d",
+          "sha1": "92cd2499d0aa39b5016462acc8abf505b24fbeec",
+          "md5": "b3a95ec46bc4e9c9a94810e153b0795b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dalek-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-dalek-dev+mc.1.20.1-sources.jar",
+          "size": 58146845,
+          "sha512": "7ea838c24e6afc9b9145639378ea6c3667ecd710acfe080b04e9c06a220b5247c484dbba7ae61b44aff1f6ba2cfce1c9eeb01d072fc1710132b7d4b9ab5ec8b8",
+          "sha256": "0ffbb746a0d1a5c24b65070951932e01a51fd19bd12077ac79f3e079b47c7027",
+          "sha1": "fa6ac54b2eb293d827da0c26471aed3fde70951f",
+          "md5": "feb976180aa44b2ae53c1be94c20f634"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-rift-manager-npe-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1.jar",
+          "size": 58599590,
+          "sha512": "d78c09550c1a1606484a80c0cf86a205083b3a5f685d42c29cb44ac4a5646db95c084eb3384ccb84f094fc9130bbeceeb474eaaad57fc79e5d8ae43393e88e74",
+          "sha256": "1d622178281eba62e3ca37ade0032072b1c7c1743f27bd05fd12e1cbfbd11a5b",
+          "sha1": "eca51dcbfdab9ea9d353461f440f5fbf64efb6a5",
+          "md5": "1a57ac8bd977552b4b5d9e02a6ac0a78"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1.jar",
+          "size": 58599590,
+          "sha512": "d78c09550c1a1606484a80c0cf86a205083b3a5f685d42c29cb44ac4a5646db95c084eb3384ccb84f094fc9130bbeceeb474eaaad57fc79e5d8ae43393e88e74",
+          "sha256": "1d622178281eba62e3ca37ade0032072b1c7c1743f27bd05fd12e1cbfbd11a5b",
+          "sha1": "eca51dcbfdab9ea9d353461f440f5fbf64efb6a5",
+          "md5": "1a57ac8bd977552b4b5d9e02a6ac0a78"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-rift-manager-npe-dev+mc.1.20.1-sources.jar",
+          "size": 57102466,
+          "sha512": "47766076f772e528c427406ae8f93986b89c4cd9716851c1933144b2206c1423d45f5821afdb51972e6fe9b10b866e672ada35a31ad6d6d9b64ed99b7e3a70c8",
+          "sha256": "c11a65ee913edd0e49742fa2a7114496345af3462c829fd9ad35cf94910cc29a",
+          "sha1": "a7dbf9cba44aff80c1ffd1192188bb54662e2644",
+          "md5": "6c4e11140d00f86ceae503c7fec53d08"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.15-ci-automation-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-ci-automation-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.15-ci-automation-dev+mc.1.20.1.jar",
+          "size": 487722,
+          "sha512": "e64e653bd1f23061a5eaa2fff362eb455d13a0b9bdd038ff6b14c7b2ad846cab1e6cf7fcf61c7c3080c3553fe49cce03e8f33e24f828777628eca007ab93891a",
+          "sha256": "dd2058d0dfefe1b83664be5655e471bb9fa331c0b5acad8787e022839ed5961d",
+          "sha1": "bf9c4fe009457a8c6647b83ea95c9434ef0b0c2b",
+          "md5": "9276815e14459c5c9d42340f6c8c8b8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-ci-automation-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.15-ci-automation-dev+mc.1.20.1.jar",
+          "size": 487722,
+          "sha512": "e64e653bd1f23061a5eaa2fff362eb455d13a0b9bdd038ff6b14c7b2ad846cab1e6cf7fcf61c7c3080c3553fe49cce03e8f33e24f828777628eca007ab93891a",
+          "sha256": "dd2058d0dfefe1b83664be5655e471bb9fa331c0b5acad8787e022839ed5961d",
+          "sha1": "bf9c4fe009457a8c6647b83ea95c9434ef0b0c2b",
+          "md5": "9276815e14459c5c9d42340f6c8c8b8b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.15-ci-automation-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.15-ci-automation-dev+mc.1.20.1-sources.jar",
+          "size": 179804,
+          "sha512": "f2c23ac81e60375a33d2f366c176906abdf958cab700da4b7e179e0b218d06749216041cb601152cbadbcacf912ffa53dd44ec922f8dd2ed3ff69102f8be1716",
+          "sha256": "b08364cb8db89c64da0ca3c38ec9233f392ed08234755d20701188051a84b68d",
+          "sha1": "f0d60cc38d47be67a54473243b503cbbe364ada3",
+          "md5": "7ece99a841fe59f922d279a047408cfb"
+        }
+      ]
+    }
+  ]
+}

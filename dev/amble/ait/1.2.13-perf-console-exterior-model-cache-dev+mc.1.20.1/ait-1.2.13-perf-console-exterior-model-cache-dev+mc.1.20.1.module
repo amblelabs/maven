@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1.jar",
+          "size": 60740075,
+          "sha512": "94ed3dedb945b5569f1b78e9d07366d7e5b77623eb84826c9449bdee2656d8b1f2f905d80d3ac2edd2d203758c5ea6e7d6f51f530a30ed774e5b9443eea55a3e",
+          "sha256": "77d36cb7acdbb8263b9224d904f655c33f3d6a5205fc211fd256c8fedd68e525",
+          "sha1": "61ff65b208dbc68c3891602294d4de0fb3dd6b9a",
+          "md5": "2a1e2271d77bd60859111954f781dc7d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1.jar",
+          "size": 60740075,
+          "sha512": "94ed3dedb945b5569f1b78e9d07366d7e5b77623eb84826c9449bdee2656d8b1f2f905d80d3ac2edd2d203758c5ea6e7d6f51f530a30ed774e5b9443eea55a3e",
+          "sha256": "77d36cb7acdbb8263b9224d904f655c33f3d6a5205fc211fd256c8fedd68e525",
+          "sha1": "61ff65b208dbc68c3891602294d4de0fb3dd6b9a",
+          "md5": "2a1e2271d77bd60859111954f781dc7d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-perf-console-exterior-model-cache-dev+mc.1.20.1-sources.jar",
+          "size": 59224701,
+          "sha512": "ce1335ec56a7cba78d2e77f8b462d1acca85d1f5dfd0aeede50cfc0b2ad10d9f41a7006605f8ba82cf2dc39fb5019a0f8844a3baa92f109d252ba5cd2cd636ed",
+          "sha256": "1d6fbbf1b951f8ab1293c757d7c705aa08abfe194e84d2766e25782eed009b82",
+          "sha1": "01117ce26a2c0400ca98a8b0f0f913a7c2265214",
+          "md5": "cd6174db3fa242532c85732acb041d0e"
+        }
+      ]
+    }
+  ]
+}

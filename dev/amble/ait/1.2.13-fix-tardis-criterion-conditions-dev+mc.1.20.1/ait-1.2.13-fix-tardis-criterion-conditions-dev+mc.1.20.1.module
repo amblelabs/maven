@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1.jar",
+          "size": 60680905,
+          "sha512": "93c03f4400fdd6572a4170570288e87b638b351e1317ca6075d88473d3e43bf2520f0a16863b91b04e75aa156e7f6bc44d416b60aab831120f59502a2a390c09",
+          "sha256": "ed8babdd305f00e9b8ed270f7a11c420e15e10f62857469b526a0f7fc7c2e156",
+          "sha1": "bb4f448ff4301a1607ae81d7725d00d76ca04209",
+          "md5": "a931db88af6767c1cefaefff4f669fe2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1.jar",
+          "size": 60680905,
+          "sha512": "93c03f4400fdd6572a4170570288e87b638b351e1317ca6075d88473d3e43bf2520f0a16863b91b04e75aa156e7f6bc44d416b60aab831120f59502a2a390c09",
+          "sha256": "ed8babdd305f00e9b8ed270f7a11c420e15e10f62857469b526a0f7fc7c2e156",
+          "sha1": "bb4f448ff4301a1607ae81d7725d00d76ca04209",
+          "md5": "a931db88af6767c1cefaefff4f669fe2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-tardis-criterion-conditions-dev+mc.1.20.1-sources.jar",
+          "size": 59165757,
+          "sha512": "1b1e2338887a022c014eca2a6c7ea7d6f8dfd2a8bcaf8e9d52d85bb936cbcbc0926f38ac762e40857227d377ef41d13e13a6762c0c8bdb89bc1f39fbe35c694f",
+          "sha256": "3293375f5e86e31569d0ad716d83c8f55de647152337667bbb5067ab2191474c",
+          "sha1": "7c34d7d5763d740b6e779b5a3780f50631e7f8b5",
+          "md5": "b6cb74bb96f10fe26c1c331291164dee"
+        }
+      ]
+    }
+  ]
+}

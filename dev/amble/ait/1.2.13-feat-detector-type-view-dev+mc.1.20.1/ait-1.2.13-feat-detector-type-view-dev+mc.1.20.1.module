@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-detector-type-view-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1.jar",
+          "size": 60780698,
+          "sha512": "29535659294274e4a8d10166fda6354d8da2a012adf2f005d22298d763a25b2c908c9c7388933db1e2076c2e6531bfe9d0f60a7b01731b141edd481bdf4b49b7",
+          "sha256": "1bc5ceacf2443a7d1305f194ae2f5bee85f45690f2615602650de6f3d872d997",
+          "sha1": "8c84e2dd04bbd24f27c2d27ea26f8ef8c071d5f6",
+          "md5": "c930a7e2ee0f6253dc36c3aab6f7f341"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1.jar",
+          "size": 60780698,
+          "sha512": "29535659294274e4a8d10166fda6354d8da2a012adf2f005d22298d763a25b2c908c9c7388933db1e2076c2e6531bfe9d0f60a7b01731b141edd481bdf4b49b7",
+          "sha256": "1bc5ceacf2443a7d1305f194ae2f5bee85f45690f2615602650de6f3d872d997",
+          "sha1": "8c84e2dd04bbd24f27c2d27ea26f8ef8c071d5f6",
+          "md5": "c930a7e2ee0f6253dc36c3aab6f7f341"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-detector-type-view-dev+mc.1.20.1-sources.jar",
+          "size": 59258167,
+          "sha512": "24c4cab757c8356cae6ce78b16615acefc019c1df21b7fefbf6c18897b3fbe64e7fb59d1d44fea59dd21600053d698564f29566b6653edcafb9cbac459af1930",
+          "sha256": "84ba516aae7a516ed8ae030ac345a2df166a4e16f69cee410122271505b0381f",
+          "sha1": "ccd4c22ffa6decf645e6108dc4d1806e62acec96",
+          "md5": "7304f648763b464bca08bbb689be90a5"
+        }
+      ]
+    }
+  ]
+}

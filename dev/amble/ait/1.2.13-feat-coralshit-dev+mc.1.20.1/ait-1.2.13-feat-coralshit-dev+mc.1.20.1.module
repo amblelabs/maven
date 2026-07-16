@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-coralshit-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1.jar",
+          "size": 58495611,
+          "sha512": "7753c9a4e46690d1bd4636b62ea556c30ca5f6b9485f880441da891dcc4b7c8f66d5ba95449f3797dff95804454cc38fddd702ee3a8f59f5390fb2036febb702",
+          "sha256": "432140886c167f56972af6accba6dd7b4c804d3ee83b3b5f971fe57f8309ada1",
+          "sha1": "f144298d04a7428a76f2e287129a2c4eae83f2ed",
+          "md5": "216750d603b81e8a43b4aec8aef13472"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1.jar",
+          "size": 58495611,
+          "sha512": "7753c9a4e46690d1bd4636b62ea556c30ca5f6b9485f880441da891dcc4b7c8f66d5ba95449f3797dff95804454cc38fddd702ee3a8f59f5390fb2036febb702",
+          "sha256": "432140886c167f56972af6accba6dd7b4c804d3ee83b3b5f971fe57f8309ada1",
+          "sha1": "f144298d04a7428a76f2e287129a2c4eae83f2ed",
+          "md5": "216750d603b81e8a43b4aec8aef13472"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-coralshit-dev+mc.1.20.1-sources.jar",
+          "size": 57009645,
+          "sha512": "a290fd298beed100438b71f738f2fd7791822ec95618da687985d9413155448d7826c83e72f4c86f2469b585ad188443ed40b17253a874488d92a289f7caf566",
+          "sha256": "8a20a0f6627a41148ee48a5e9332a1cb2e5cc04d47d2046eb3d4aae7641c57cd",
+          "sha1": "1ab80a6928caf29fa18efabcef2c05d2799c3228",
+          "md5": "eefa9274642879b06de09f4c0402fa11"
+        }
+      ]
+    }
+  ]
+}

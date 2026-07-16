@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-animations-sound-preview-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1.jar",
+          "size": 63995545,
+          "sha512": "e04477cb3b6081e72b63e7a6844327632802161b80b93c7756d4be8621e6048decef0f1f852dd4b565cf26c1df0e11f7d154917f95048692fcd06b3bc401765b",
+          "sha256": "3e2732536ed8fd2ec5d7c3c03e3092661ae7893f4c1029368ff87a0194fb1826",
+          "sha1": "3b1edcd1689aec794a4b852e286e7b66a45016a6",
+          "md5": "7182a93168645424882df39209cb60b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1.jar",
+          "size": 63995545,
+          "sha512": "e04477cb3b6081e72b63e7a6844327632802161b80b93c7756d4be8621e6048decef0f1f852dd4b565cf26c1df0e11f7d154917f95048692fcd06b3bc401765b",
+          "sha256": "3e2732536ed8fd2ec5d7c3c03e3092661ae7893f4c1029368ff87a0194fb1826",
+          "sha1": "3b1edcd1689aec794a4b852e286e7b66a45016a6",
+          "md5": "7182a93168645424882df39209cb60b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-animations-sound-preview-dev+mc.1.20.1-sources.jar",
+          "size": 62467595,
+          "sha512": "8dd8edfeee288d45c6064e1bd39db7342831bb074d287b35d5f63ee93f728438391487c8a55356ddc94b4057dd1c5cf0486c4524c0b556cefc7317a22786d08f",
+          "sha256": "c9fa44fba02c6746a064e18349f35580cc6086b5ee7c6f2cb38ff33d30529aa1",
+          "sha1": "eb9eeda91285e6f76e6b3e9b1b24c7dee90059d9",
+          "md5": "85a89fd4c7f737380d576f7606470aa4"
+        }
+      ]
+    }
+  ]
+}

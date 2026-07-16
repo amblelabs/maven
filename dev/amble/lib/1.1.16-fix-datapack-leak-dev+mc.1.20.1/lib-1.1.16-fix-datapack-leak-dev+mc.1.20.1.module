@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-datapack-leak-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1.jar",
+          "size": 496781,
+          "sha512": "28e59525e1089032a25b7bea0295fa7a69b30987b7194e810e6f59356c423b628ffeb8fe567eb835940008b87250b7aa9e257d68fe389a8670c20aa8d2d21947",
+          "sha256": "2f66eee099cead9c9b48540dd3a2c22f9a552decdb215c720b48e6ba572fd1df",
+          "sha1": "218c794227fa7f032accfaa0fde2a39542abbc33",
+          "md5": "6a4ce9f098caab33c554c90f54d76e2a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1.jar",
+          "size": 496781,
+          "sha512": "28e59525e1089032a25b7bea0295fa7a69b30987b7194e810e6f59356c423b628ffeb8fe567eb835940008b87250b7aa9e257d68fe389a8670c20aa8d2d21947",
+          "sha256": "2f66eee099cead9c9b48540dd3a2c22f9a552decdb215c720b48e6ba572fd1df",
+          "sha1": "218c794227fa7f032accfaa0fde2a39542abbc33",
+          "md5": "6a4ce9f098caab33c554c90f54d76e2a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-datapack-leak-dev+mc.1.20.1-sources.jar",
+          "size": 186323,
+          "sha512": "a40f9e9857b6405233224a149b6a2f70a803a4447b9fc1b9dd5f602bf6707cec7f16872ababde7add7b51a8f7a1be59d8983880c51b473a238358e3e65ec3da3",
+          "sha256": "7d2094ec72cfc773ab6f17341c0b1d04e51b10230d85a94e04b57483a49399e0",
+          "sha1": "c3041eb2e0d6ed8be682572ca18241cb0e399d93",
+          "md5": "06e01c8d9135f8f00a968e5ff95ba6ef"
+        }
+      ]
+    }
+  ]
+}

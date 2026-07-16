@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-perf-optimize-rain-check-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1.jar",
+          "size": 58599677,
+          "sha512": "daf29eb6e887d562e066c18855f1a0c4f0d6eb66382304ef4336146983e173ba0cc777c47ede4c6d1d8e7679d4bae73e17114ac027e0a8385c21c5e88af96ffb",
+          "sha256": "1007641ba6466b2f44e4f620ebae31e19281d42cc472798afa98894ef5038650",
+          "sha1": "d9ba98428fe9098dfbc64744fcb96afdaedd89ba",
+          "md5": "9317ad0f161c3f408a149fb00be5b740"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1.jar",
+          "size": 58599677,
+          "sha512": "daf29eb6e887d562e066c18855f1a0c4f0d6eb66382304ef4336146983e173ba0cc777c47ede4c6d1d8e7679d4bae73e17114ac027e0a8385c21c5e88af96ffb",
+          "sha256": "1007641ba6466b2f44e4f620ebae31e19281d42cc472798afa98894ef5038650",
+          "sha1": "d9ba98428fe9098dfbc64744fcb96afdaedd89ba",
+          "md5": "9317ad0f161c3f408a149fb00be5b740"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-perf-optimize-rain-check-dev+mc.1.20.1-sources.jar",
+          "size": 57102525,
+          "sha512": "7dfb736044e49601a4552f5c360be693d496796bfb14a15be4c15d894b743642434ec636f2abff9e7c9af552f0c6e5f91cf74a0729e6d371589fcae27b0d992a",
+          "sha256": "7e3ad0492f8b490038dbfd19eb36308ba97d25127e1a5a35de53b4d0a9f62ae4",
+          "sha1": "9cebec0a63eed4852d67b68d79b29899193619e7",
+          "md5": "50fd84458cf3040cae2483077bc6adce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-debug-command-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1.jar",
+          "size": 58423588,
+          "sha512": "ada847876c3a02cd3bbdaed4b5291a7094f393dbd72aa8adc977c5031164f877924f1a8911481758e3b746b8adb1575abb41b099569303eeb82d2f3436135c61",
+          "sha256": "9b0788fd74dbce62e2a243a0728a3aefcf9a6d8624c4145af0907f4b57d40200",
+          "sha1": "38b24f212cdd25e19275d4c53c838e2f9b783ae9",
+          "md5": "dd2e15fb72e0d511e58f5b96e945a970"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "imm_ptl_core",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "q_misc_util",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1.jar",
+          "size": 58423588,
+          "sha512": "ada847876c3a02cd3bbdaed4b5291a7094f393dbd72aa8adc977c5031164f877924f1a8911481758e3b746b8adb1575abb41b099569303eeb82d2f3436135c61",
+          "sha256": "9b0788fd74dbce62e2a243a0728a3aefcf9a6d8624c4145af0907f4b57d40200",
+          "sha1": "38b24f212cdd25e19275d4c53c838e2f9b783ae9",
+          "md5": "dd2e15fb72e0d511e58f5b96e945a970"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-debug-command-dev+mc.1.20.1-sources.jar",
+          "size": 56943586,
+          "sha512": "6c8bb20fd06d6916e24c586212d842e7282fa331d4182dbd9f539b709e0b32d69e35bb08dd8af9228c9314d798246311bf4dade00b8a006e64aaecf0f9e16ebc",
+          "sha256": "84cf1cbaffbe8ca769edaa315aa7a5aac0d048b28e067dbf4fdee320a83b5b31",
+          "sha1": "3fdf269e58d2474f7f651d91460a1aa24cf8004f",
+          "md5": "7a30d0c85010017abc9cedbd03f79216"
+        }
+      ]
+    }
+  ]
+}

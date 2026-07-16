@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1.jar",
+          "size": 58597116,
+          "sha512": "3a76fafb368ea3008361bba32b1f212a64d72fdab30c546f70dceb902a44c8c6e2acd4c7031529c5c9e201cefd163685906f387ccd153252b3e2e648b7b2ee68",
+          "sha256": "b9336572225529f47d7aa3c1713b49eb5d87b7ccc0aadd971a60c1dafcdb2235",
+          "sha1": "c03ade948e3b9d046f0fc0ab82c2d6bd5659e56d",
+          "md5": "bd474ad556ceb1dff8da52abfb301803"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1.jar",
+          "size": 58597116,
+          "sha512": "3a76fafb368ea3008361bba32b1f212a64d72fdab30c546f70dceb902a44c8c6e2acd4c7031529c5c9e201cefd163685906f387ccd153252b3e2e648b7b2ee68",
+          "sha256": "b9336572225529f47d7aa3c1713b49eb5d87b7ccc0aadd971a60c1dafcdb2235",
+          "sha1": "c03ade948e3b9d046f0fc0ab82c2d6bd5659e56d",
+          "md5": "bd474ad556ceb1dff8da52abfb301803"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-boti-portal-positioning-dev+mc.1.20.1-sources.jar",
+          "size": 57100459,
+          "sha512": "c71690c77b3099cef8363f86efe970498b8af4a854314299acba8d2f7a750c58a349038323353d414045539b68bb8283378c7e80c42996e09463dfd855e1d141",
+          "sha256": "a0771686850036dc5488f44f6d0ff0a244fef3a633de37be24d4a7e03dbc15a2",
+          "sha1": "7df67394c45e2a26db017b76ecef27c0636ed39e",
+          "md5": "8229b8d2a6fb1941f161662a43349e96"
+        }
+      ]
+    }
+  ]
+}

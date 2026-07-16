@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-datapack_holo_float-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1.jar",
+          "size": 58519597,
+          "sha512": "30cf81c4aaf1a112fbabdc69e34eacfbdc683a1a2b2f1a7a4721e3c2278d4762930f2f12dc116d27bef94ff11ba289a243bda30e18734ef030d3f7fe96254311",
+          "sha256": "880de95cae984947c2cb9cc35162a3dbf9730c352fb2f9fcad47cdeef8cde9ed",
+          "sha1": "b1506d05b5cfc4d3ffda94472c4921bae430fa46",
+          "md5": "022c08b9042e6f2c87e92e86a0b1839c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1.jar",
+          "size": 58519597,
+          "sha512": "30cf81c4aaf1a112fbabdc69e34eacfbdc683a1a2b2f1a7a4721e3c2278d4762930f2f12dc116d27bef94ff11ba289a243bda30e18734ef030d3f7fe96254311",
+          "sha256": "880de95cae984947c2cb9cc35162a3dbf9730c352fb2f9fcad47cdeef8cde9ed",
+          "sha1": "b1506d05b5cfc4d3ffda94472c4921bae430fa46",
+          "md5": "022c08b9042e6f2c87e92e86a0b1839c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-datapack_holo_float-dev+mc.1.20.1-sources.jar",
+          "size": 57031591,
+          "sha512": "e62e6c6b243747b8e4cc72e7a2684e0e3d4ef8ead6b0d7560a61dee82ec0d1220dd90b50d7049e1c3026cd9982e837d9fe7743fcaa4498e928546e11da77d3c5",
+          "sha256": "13e3df7662de4a0403be53b90e2b9d3a1ca33ba342ed2f67f2f4bebbaa1a4baa",
+          "sha1": "887fa93e2fdf3abb3d084ae93dcad3d32ecc4a6d",
+          "md5": "905f5c0511f32c40ed195916a4e904f2"
+        }
+      ]
+    }
+  ]
+}

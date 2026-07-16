@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-console-issues-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1.jar",
+          "size": 63962815,
+          "sha512": "3a628f09992424a21ab565d729f1df28a5bc7abba2147f30a7d3176c7fefbb1f7520916acf4b5fb16bcd9c2ec98fcdd9ce820b4b084ef07928e4e49006512dad",
+          "sha256": "3b66f8cd6427c19429b6aaef47824184d4c45742a4d460ad7b850175fc96dcbf",
+          "sha1": "d4b69339d3c4acc5a244fb40e7a61f04227624a4",
+          "md5": "9f90f4532af69b90db185a3dfd3b3262"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1.jar",
+          "size": 63962815,
+          "sha512": "3a628f09992424a21ab565d729f1df28a5bc7abba2147f30a7d3176c7fefbb1f7520916acf4b5fb16bcd9c2ec98fcdd9ce820b4b084ef07928e4e49006512dad",
+          "sha256": "3b66f8cd6427c19429b6aaef47824184d4c45742a4d460ad7b850175fc96dcbf",
+          "sha1": "d4b69339d3c4acc5a244fb40e7a61f04227624a4",
+          "md5": "9f90f4532af69b90db185a3dfd3b3262"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-console-issues-dev+mc.1.20.1-sources.jar",
+          "size": 62433799,
+          "sha512": "06efa756f399f127795a4cfcd391ec50207a65ceb8844f02d06715dc1a13f2031a4cead96c01c4025bbcf6488ba298fbd8c21f0c27ea47157dacad260ff01800",
+          "sha256": "9a1b9c2b6d226de0ec025c51ff25ffcb4878d9b2d24678609747ed55abb4ef1e",
+          "sha1": "3c7cb6a39e371e9d778d2f534877731e4c5cb21d",
+          "md5": "9608083e48de4e3741a9f99f949c2fc4"
+        }
+      ]
+    }
+  ]
+}

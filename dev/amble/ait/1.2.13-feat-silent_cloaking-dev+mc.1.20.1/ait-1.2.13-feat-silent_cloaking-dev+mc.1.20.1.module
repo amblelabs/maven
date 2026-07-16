@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-silent_cloaking-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1.jar",
+          "size": 63943171,
+          "sha512": "43e9a9a302ec5035c5a0acbcde1fc07400d0924a3cfd040634059c00067a4453a1cfcb5dc1c76fa070f31c522844a59d59e88b043afbcf994e71c21884c6848b",
+          "sha256": "c5d087920149233a0097a1d8b5f874cac3b15785914a7609f88062b4e318e727",
+          "sha1": "81741def60c305443a09052f723a0c8a3740ef2e",
+          "md5": "13ca8de9922050397a88692c6210ecef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1.jar",
+          "size": 63943171,
+          "sha512": "43e9a9a302ec5035c5a0acbcde1fc07400d0924a3cfd040634059c00067a4453a1cfcb5dc1c76fa070f31c522844a59d59e88b043afbcf994e71c21884c6848b",
+          "sha256": "c5d087920149233a0097a1d8b5f874cac3b15785914a7609f88062b4e318e727",
+          "sha1": "81741def60c305443a09052f723a0c8a3740ef2e",
+          "md5": "13ca8de9922050397a88692c6210ecef"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-silent_cloaking-dev+mc.1.20.1-sources.jar",
+          "size": 62429829,
+          "sha512": "9dc05de5d825180b432d88323aab6c24c1dd6ba9d23084c2f0e183ba53e5f3c30ddde2e3f4588a156f5dd133c1312f97aae3ecf02c7c0ebd6a1ce779692c30ae",
+          "sha256": "4e2601d7b499b0785a72e2bb2e54c25adf3449a0f34a3863668d0ebfdaf58c3b",
+          "sha1": "d7186828c1b4b7d2aeea43fa50322900864319ba",
+          "md5": "c439cc3f62bfa9b37af1d32daffa3dbf"
+        }
+      ]
+    }
+  ]
+}

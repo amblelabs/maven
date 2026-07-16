@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1.jar",
+          "size": 60686004,
+          "sha512": "4aae087ca729e56e8a0abe0bc2ea71513f948cd91273b02291bc87ba0287018d344b846ca67ef21779fbbf8302f00e843d9702a25e0b0ca6fe996afb2003b737",
+          "sha256": "b984692665d752cde415b4656422cd8542b9231e60e31758fafcad8ba39118b9",
+          "sha1": "aef1d57e8bbe9739e044b6844918b618a72580cb",
+          "md5": "e37cd056e823ae97dfb0b57b0d4cdbde"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1.jar",
+          "size": 60686004,
+          "sha512": "4aae087ca729e56e8a0abe0bc2ea71513f948cd91273b02291bc87ba0287018d344b846ca67ef21779fbbf8302f00e843d9702a25e0b0ca6fe996afb2003b737",
+          "sha256": "b984692665d752cde415b4656422cd8542b9231e60e31758fafcad8ba39118b9",
+          "sha1": "aef1d57e8bbe9739e044b6844918b618a72580cb",
+          "md5": "e37cd056e823ae97dfb0b57b0d4cdbde"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-crash-disc-smaller-logo-dev+mc.1.20.1-sources.jar",
+          "size": 59169355,
+          "sha512": "1ae3816ee85ab8d750741c9ffc84bec243e969bf562063157a038374fa7364150f4fae0399413d3c965c3cfbfa9ff6541d0185813dfdcad9e1be68b49216dbef",
+          "sha256": "fa65c34413bb72536beb82f1ec1dfe2d49e6783e0a740674cebb4abaca4df85a",
+          "sha1": "eb0ce0570fb53d770bd73af4bf381aa71f06dbe2",
+          "md5": "a4171ff7c1de36f1adf7224c39002035"
+        }
+      ]
+    }
+  ]
+}

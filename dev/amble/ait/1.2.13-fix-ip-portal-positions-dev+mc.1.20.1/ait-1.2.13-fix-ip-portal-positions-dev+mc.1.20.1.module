@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-ip-portal-positions-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1.jar",
+          "size": 63928013,
+          "sha512": "7f48fe5e541a1acbc0b6827a624834621b2e97064b572f11d3f64e63877d7af9a21e0dc5903d4353adbc3a59a06d43c04da70517e6b2a02db47be176b0eaa2a0",
+          "sha256": "783af3d31404426e920824e584b005c447d8c5f6693d07fbed22afaa6367daf0",
+          "sha1": "21b9e6522a89b9e17bc01fa53db8e32cb75dfc7a",
+          "md5": "7aa251a2ae58f94920aeb26432b60b7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1.jar",
+          "size": 63928013,
+          "sha512": "7f48fe5e541a1acbc0b6827a624834621b2e97064b572f11d3f64e63877d7af9a21e0dc5903d4353adbc3a59a06d43c04da70517e6b2a02db47be176b0eaa2a0",
+          "sha256": "783af3d31404426e920824e584b005c447d8c5f6693d07fbed22afaa6367daf0",
+          "sha1": "21b9e6522a89b9e17bc01fa53db8e32cb75dfc7a",
+          "md5": "7aa251a2ae58f94920aeb26432b60b7e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-ip-portal-positions-dev+mc.1.20.1-sources.jar",
+          "size": 62425448,
+          "sha512": "5e00059a20384a69f7520c432ec0bb4c108db3156ad2bd9f70030392ea2cdbf72b63e8f6be1633b8dd2a6f0d41999a949b5cbe8708b55aa6ede7b9a15c88f04a",
+          "sha256": "96baed585ea4abd661747b787a3705f8da5b4e58f4776c15e30ffc3cb0e24b32",
+          "sha1": "1c46321d0abb7e65dcd6f5fb5bc02c4d46c7ea90",
+          "md5": "9d2da041138fde5c1f9f1d855137dbd9"
+        }
+      ]
+    }
+  ]
+}

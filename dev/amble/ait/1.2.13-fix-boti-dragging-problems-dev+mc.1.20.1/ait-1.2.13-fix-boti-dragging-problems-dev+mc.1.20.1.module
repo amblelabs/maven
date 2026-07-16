@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1.jar",
+          "size": 60685580,
+          "sha512": "5a5ee9f80e13c5d1ec47561744efa0974af0ddbd5685abb32cce66eb53b19045d431739ed6f12a49d325f5eebdaa7b3a1f16fc6f56d4f444bc0d36a05bd55c60",
+          "sha256": "eaaaccc3cda16de2feb8659f6d8e145fb3655f6e050172fa9dc02e53b77ce63b",
+          "sha1": "eb19cbd17ae1f0d0f136690704904430f7cd7059",
+          "md5": "c3c93b834e9242d7ac424be86ef68c44"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1.jar",
+          "size": 60685580,
+          "sha512": "5a5ee9f80e13c5d1ec47561744efa0974af0ddbd5685abb32cce66eb53b19045d431739ed6f12a49d325f5eebdaa7b3a1f16fc6f56d4f444bc0d36a05bd55c60",
+          "sha256": "eaaaccc3cda16de2feb8659f6d8e145fb3655f6e050172fa9dc02e53b77ce63b",
+          "sha1": "eb19cbd17ae1f0d0f136690704904430f7cd7059",
+          "md5": "c3c93b834e9242d7ac424be86ef68c44"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-boti-dragging-problems-dev+mc.1.20.1-sources.jar",
+          "size": 59170105,
+          "sha512": "e8c818ec0504f62f6bffc401c17cc9a999b071ff769654f499d82a39ee17d644fc128b89c4c10a49075526b4b9ec0b3536fa2aa0ac69da3a7a4efea55609ba7e",
+          "sha256": "da3fec2e54a7997e70ba87f713470649e4bb9700e5e30e9d6bfb4b544a70d728",
+          "sha1": "cc9d47faa74822b784cf5f5fea5a5b192dbe3536",
+          "md5": "c464ceb61537f8cc051d22fa8dacf80a"
+        }
+      ]
+    }
+  ]
+}

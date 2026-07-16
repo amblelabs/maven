@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-boti-smearing-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1.jar",
+          "size": 58523520,
+          "sha512": "d6069eec8817a050d3dd9a1cdc88bb9395f9489c751d965308ff399bda2d053828401d819be67812a14248bb93a5531ab0d039fbaa4303bec03885a1f5c9ea2b",
+          "sha256": "994df0ff97f7bb213ccf9e346b65a48a2e13bcf5167314e5fe6e14d20729e31f",
+          "sha1": "5aa7f3f7093ef14db42da7a436f935a3df2f8060",
+          "md5": "6756213f259e0bfbd82889fc43716947"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1.jar",
+          "size": 58523520,
+          "sha512": "d6069eec8817a050d3dd9a1cdc88bb9395f9489c751d965308ff399bda2d053828401d819be67812a14248bb93a5531ab0d039fbaa4303bec03885a1f5c9ea2b",
+          "sha256": "994df0ff97f7bb213ccf9e346b65a48a2e13bcf5167314e5fe6e14d20729e31f",
+          "sha1": "5aa7f3f7093ef14db42da7a436f935a3df2f8060",
+          "md5": "6756213f259e0bfbd82889fc43716947"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-boti-smearing-dev+mc.1.20.1-sources.jar",
+          "size": 57034833,
+          "sha512": "360706415121a6e23e0cf00909f1e49a8991110bf0b8244cb29856031d0b523e31ace54588288161901082c36786a76ba10c309f6416aa18575759e93677ad17",
+          "sha256": "3e114dc5ae41258e07af6227f7f70584ca01c5de97346262291d44b62cc48245",
+          "sha1": "e408e8df401910302d7e84b43fee8a7331ae8049",
+          "md5": "f8f246ae0135ccfec5261b6592116d69"
+        }
+      ]
+    }
+  ]
+}

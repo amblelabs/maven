@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-projector-overhaul-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1.jar",
+          "size": 63947783,
+          "sha512": "02fb6904beea3ef3ab3794fd9a63f2f885ac31a8af59041d06e554681f212b884aafdc8ba21a0c3a9293aaf286f9ef9120fa9262dade3bd15e90a5f180e899c6",
+          "sha256": "1ddfd3085c584118ba396891cac48d77358fc7015317d06f796482aabfcf2541",
+          "sha1": "239689df6397123a19979e2308e716afec991730",
+          "md5": "5eeb538f037ea30b2ae40730f0733bc1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1.jar",
+          "size": 63947783,
+          "sha512": "02fb6904beea3ef3ab3794fd9a63f2f885ac31a8af59041d06e554681f212b884aafdc8ba21a0c3a9293aaf286f9ef9120fa9262dade3bd15e90a5f180e899c6",
+          "sha256": "1ddfd3085c584118ba396891cac48d77358fc7015317d06f796482aabfcf2541",
+          "sha1": "239689df6397123a19979e2308e716afec991730",
+          "md5": "5eeb538f037ea30b2ae40730f0733bc1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-projector-overhaul-dev+mc.1.20.1-sources.jar",
+          "size": 62430565,
+          "sha512": "6ab29e1698fd6e620ee47b82c26aa0bc3691c8be0cdae17c7f672369c13b219591df38d56359bc4a95667d75a0130dacf31ff10e8f9a7a7450285b378d1a0984",
+          "sha256": "9345c6a11a2dfea6ea8cb652f1edd91e95492c4fb5aea2d3ac6a0cad9856b3d1",
+          "sha1": "a3871f86a8bb583d51aaef60b176515384ba70f8",
+          "md5": "bd207fad4b5e5fdd7aaef9f47ad9146c"
+        }
+      ]
+    }
+  ]
+}

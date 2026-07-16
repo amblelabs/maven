@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-beta-locking-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1.jar",
+          "size": 60790189,
+          "sha512": "2cc6659505681f0d44672bd91f5e425a09bdf656211870a6f6af38526fe2a857959e4c4a660c32e232e66e5788352ee50ccf3aee2361dfe8c5f4fcb1d6756ed4",
+          "sha256": "48bc395c44076d7fb108bb25a00dabfc67e1e5fed0d0348770652766b211a54d",
+          "sha1": "b598f28245b552ca9cc04579b94306d6276b2898",
+          "md5": "216c22b8c98026190971c3a696061b40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1.jar",
+          "size": 60790189,
+          "sha512": "2cc6659505681f0d44672bd91f5e425a09bdf656211870a6f6af38526fe2a857959e4c4a660c32e232e66e5788352ee50ccf3aee2361dfe8c5f4fcb1d6756ed4",
+          "sha256": "48bc395c44076d7fb108bb25a00dabfc67e1e5fed0d0348770652766b211a54d",
+          "sha1": "b598f28245b552ca9cc04579b94306d6276b2898",
+          "md5": "216c22b8c98026190971c3a696061b40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-beta-locking-dev+mc.1.20.1-sources.jar",
+          "size": 59261424,
+          "sha512": "cdd51ff4824d69c72ed0adcc3eaf9308243c017420d96f24a782138e30733d381c30090ceb1546a208436b01f429d27ee41a3f4d040667caedfe09588051a83d",
+          "sha256": "4b63bc5cec3f7917d5cac8e89e4c66c197cf58d49d3887a57ec8b205fbbb515e",
+          "sha1": "d7b83e5333da6b8cf96d1d2fe8359c58bb7ac64e",
+          "md5": "9262b93504e2882c0f56b5b88538ea91"
+        }
+      ]
+    }
+  ]
+}

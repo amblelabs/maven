@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-refactor-environment_gui_location-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1.jar",
+          "size": 63951917,
+          "sha512": "e8311441760d98b2318668fa7b6a04c3f92ad5d60ffb5e9ac8e7e6f85ef5f23b5a6d44af6feb9782aaa49799f0e2445eb7b93b7a827b23ed7b97a82e684b210b",
+          "sha256": "4c4683817a29e6d57521a26c66c5a30e80342a6ec03fc172cbe642adad99928a",
+          "sha1": "3db14ca0779cba9a140fc219cff066b83677a576",
+          "md5": "09340b0524fb536c3a7b9e5a01f9cb40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1.jar",
+          "size": 63951917,
+          "sha512": "e8311441760d98b2318668fa7b6a04c3f92ad5d60ffb5e9ac8e7e6f85ef5f23b5a6d44af6feb9782aaa49799f0e2445eb7b93b7a827b23ed7b97a82e684b210b",
+          "sha256": "4c4683817a29e6d57521a26c66c5a30e80342a6ec03fc172cbe642adad99928a",
+          "sha1": "3db14ca0779cba9a140fc219cff066b83677a576",
+          "md5": "09340b0524fb536c3a7b9e5a01f9cb40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-refactor-environment_gui_location-dev+mc.1.20.1-sources.jar",
+          "size": 62429952,
+          "sha512": "62efb7646fc05d6c34b22b76a26be1692f27d94365f2e186189083c15c8ccb708a0d5217cbfb0fec6d645ef09fec20ababaadf109a59d075ab1100a742726282",
+          "sha256": "7a9ae0b4d42fd48dc526a49f6f900dddc41960cb871eb96308fbeda50dbc41cf",
+          "sha1": "c992f3ddda882e97da22725d74ee3b9db851136d",
+          "md5": "59e7396bf68b0abf127a06b9f8476aa0"
+        }
+      ]
+    }
+  ]
+}

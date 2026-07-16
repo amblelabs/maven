@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1.jar",
+          "size": 63995457,
+          "sha512": "587e2c34616dc1ca21419c3947213270cffdbcdb87e6066115dd574169be6c40ad0bf70b810635ba808bdb4b505594466cb1aaf6abc461b455d25f333c68dc64",
+          "sha256": "5347f7c1fc5d5b935512d0492715d4953d5144be68af24fef5ccd7af9577bad6",
+          "sha1": "56a8b4aa80bbadd5b12ff52419feb3eb0dfaee3e",
+          "md5": "0c234b17146a704e69ad01f5c26d83ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1.jar",
+          "size": 63995457,
+          "sha512": "587e2c34616dc1ca21419c3947213270cffdbcdb87e6066115dd574169be6c40ad0bf70b810635ba808bdb4b505594466cb1aaf6abc461b455d25f333c68dc64",
+          "sha256": "5347f7c1fc5d5b935512d0492715d4953d5144be68af24fef5ccd7af9577bad6",
+          "sha1": "56a8b4aa80bbadd5b12ff52419feb3eb0dfaee3e",
+          "md5": "0c234b17146a704e69ad01f5c26d83ab"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-itemsubsystemblockrendering-dev+mc.1.20.1-sources.jar",
+          "size": 62482852,
+          "sha512": "91e05616fee4af4f1fb0d9e3bec305056284078372567fcf9dc5f33e2df3dfc5156fd7fe3d49b471529318d3f02ba469206febf696ea9f8de1c06823a1264791",
+          "sha256": "2a656191a5f9ed3e1c16541a4e1f2a9fea31f27b876f97c46a0b2c53b186de88",
+          "sha1": "5afc93ce1672d3dd3c1a32ea8fc2bfc6becedc1a",
+          "md5": "afda754e4528d28c78c81da533330316"
+        }
+      ]
+    }
+  ]
+}

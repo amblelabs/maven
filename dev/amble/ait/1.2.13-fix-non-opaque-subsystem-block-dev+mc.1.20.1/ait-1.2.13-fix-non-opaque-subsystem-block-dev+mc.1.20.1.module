@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1.jar",
+          "size": 69784637,
+          "sha512": "7e1468efdc2fef56c193902ef3e75ab9ba18d6746632d69325907741ac31bcb0d2e64eccb919d71a533d4bca5f7445b8388b1cbb1bc642b186be34a258d3f97d",
+          "sha256": "a36407392a3eaab2b2bec0f1ddb50821b9cd0e938dd690159a425a1b708ec2eb",
+          "sha1": "559de04173ef3de137ee2acb7876a483ff167f9e",
+          "md5": "cb8f793ff6e9b037d0e263dde6fd7602"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1.jar",
+          "size": 69784637,
+          "sha512": "7e1468efdc2fef56c193902ef3e75ab9ba18d6746632d69325907741ac31bcb0d2e64eccb919d71a533d4bca5f7445b8388b1cbb1bc642b186be34a258d3f97d",
+          "sha256": "a36407392a3eaab2b2bec0f1ddb50821b9cd0e938dd690159a425a1b708ec2eb",
+          "sha1": "559de04173ef3de137ee2acb7876a483ff167f9e",
+          "md5": "cb8f793ff6e9b037d0e263dde6fd7602"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-non-opaque-subsystem-block-dev+mc.1.20.1-sources.jar",
+          "size": 68268272,
+          "sha512": "4eba3f205901af3453b3e31a2115b3dcf0ec83f99bf877001c6cda652580cfde573995d17a93787edf11561a5dbbbd2e7afbb25208d0a520b2374842f865fb8b",
+          "sha256": "2258ea1ff0e38d029adb860f9aa01e214aebf16a7261a5e03d1447efa9924b0e",
+          "sha1": "9b1797a74bd730c82745346999c779d635ed1c51",
+          "md5": "043d8b26e5ae14e4e541478506105b78"
+        }
+      ]
+    }
+  ]
+}

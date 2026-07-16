@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-ip-backface-bug-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1.jar",
+          "size": 60779831,
+          "sha512": "2b32e566605117f99f2b74176bf5ef63182cdce8b9a462e0136b39a3a0aa48e5057a68f536664de200db660e4772187a2faac060d5b86942fb8264b402caa646",
+          "sha256": "4069562d725ba7a2b58830e92f76209c73ef3a126d1f08c58568b0033141c2b2",
+          "sha1": "2ce3e598dfb8a34e7281f7c70231fcdc6e15c3b0",
+          "md5": "5d433913255951f66a120e69abe62209"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1.jar",
+          "size": 60779831,
+          "sha512": "2b32e566605117f99f2b74176bf5ef63182cdce8b9a462e0136b39a3a0aa48e5057a68f536664de200db660e4772187a2faac060d5b86942fb8264b402caa646",
+          "sha256": "4069562d725ba7a2b58830e92f76209c73ef3a126d1f08c58568b0033141c2b2",
+          "sha1": "2ce3e598dfb8a34e7281f7c70231fcdc6e15c3b0",
+          "md5": "5d433913255951f66a120e69abe62209"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-ip-backface-bug-dev+mc.1.20.1-sources.jar",
+          "size": 59257590,
+          "sha512": "738b106141492f84ab23aad599afb9be775fc245f76cb2f620ce985f0d59952b2e99ff1fc0777e7a5ea5defb647acdb83a6559f7e830a84348cc58b2a686e9c5",
+          "sha256": "775523ab767621e311e8b1e4dcab004084074b56eaf6d72e01546fe647338727",
+          "sha1": "1113486fac4060151397334ee4bd06e0c90d8c23",
+          "md5": "6a027a24b6ed0fc03da3b16af5508888"
+        }
+      ]
+    }
+  ]
+}

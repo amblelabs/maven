@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-comp-interiors-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1.jar",
+          "size": 63916951,
+          "sha512": "eb2e74febd6b9a6c574c32ff0a46a6419f6da446d0732a5288733563046542efde30348dcaf5ece0c4a2f13d25caf302261db4e98e512972123d95ee800731e4",
+          "sha256": "0f39bc8ab2477226219686de82eaf76f5bc91b84d606cd1cd57839aef2ac7f27",
+          "sha1": "634a76bd0deb1b54ec055e00a3c41ae759d9b6bc",
+          "md5": "0b809a0b62a9e11bd6c08eb14b97156c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1.jar",
+          "size": 63916951,
+          "sha512": "eb2e74febd6b9a6c574c32ff0a46a6419f6da446d0732a5288733563046542efde30348dcaf5ece0c4a2f13d25caf302261db4e98e512972123d95ee800731e4",
+          "sha256": "0f39bc8ab2477226219686de82eaf76f5bc91b84d606cd1cd57839aef2ac7f27",
+          "sha1": "634a76bd0deb1b54ec055e00a3c41ae759d9b6bc",
+          "md5": "0b809a0b62a9e11bd6c08eb14b97156c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-comp-interiors-dev+mc.1.20.1-sources.jar",
+          "size": 62401249,
+          "sha512": "febc13a1c29ce38718b7b62cb9c4209188ac2ef8c30304f93a31bef8a50ea640b493cc8c0345ddc87eb6b742f14a9fe5a88f582836d4ed6d2dde5b65f08ff859",
+          "sha256": "c5ac9e6b912300a95d7ca565c3b1238b2a8e15c03e817d07b0e1358fa0bbbfe6",
+          "sha1": "a54660a61750a02d422b6affa27ae4831a24d067",
+          "md5": "30453a2b4a7fbc5b55564f9a9a4416ec"
+        }
+      ]
+    }
+  ]
+}

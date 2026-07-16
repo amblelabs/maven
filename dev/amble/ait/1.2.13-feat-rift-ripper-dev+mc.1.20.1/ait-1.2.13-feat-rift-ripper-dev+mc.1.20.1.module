@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-rift-ripper-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1.jar",
+          "size": 63974213,
+          "sha512": "6bf7e39df3994bf5c9628195085c5da91e0f3c9333ffffd4d0fa159bc5c9afb57dc2541d82481cc72866fb963ddf2b019bc1631602583fedde8845b27093b749",
+          "sha256": "11049820a115a97eaa5e90f0cce740bed1d936eceec31a959be48bbf1e87e28a",
+          "sha1": "f5156993f0edce73446b99c666d62a9b2c02830e",
+          "md5": "e2542b292b49390fc290aae59f909414"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1.jar",
+          "size": 63974213,
+          "sha512": "6bf7e39df3994bf5c9628195085c5da91e0f3c9333ffffd4d0fa159bc5c9afb57dc2541d82481cc72866fb963ddf2b019bc1631602583fedde8845b27093b749",
+          "sha256": "11049820a115a97eaa5e90f0cce740bed1d936eceec31a959be48bbf1e87e28a",
+          "sha1": "f5156993f0edce73446b99c666d62a9b2c02830e",
+          "md5": "e2542b292b49390fc290aae59f909414"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-rift-ripper-dev+mc.1.20.1-sources.jar",
+          "size": 62461516,
+          "sha512": "cdf436ed4290852d3e7494cec22a2909112dc64703e9ce859473eadd7ba34a654bd2667d24eda8a0f8f5f0628fb9370fcc11de94e3f5d8bb736275223e5e5421",
+          "sha256": "d8c2498144c5d1d86eaf7343af6ed5eb70f1368cc8ad684002e461b46657c513",
+          "sha1": "420de3ac83b2c4f6dba430b220840ecd2ff0c3ee",
+          "md5": "e58e3f9a3bbeef05a9571ec91f62800e"
+        }
+      ]
+    }
+  ]
+}

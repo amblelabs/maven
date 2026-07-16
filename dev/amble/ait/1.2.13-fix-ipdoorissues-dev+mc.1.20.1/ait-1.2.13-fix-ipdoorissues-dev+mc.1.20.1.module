@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-ipdoorissues-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1.jar",
+          "size": 69781477,
+          "sha512": "ad3908f2c1fee7c0fb4ef007601b88d19231fd778603a2331dfa03ce01a8ae4995dbd14b36beec341104dfe905f84572e874d08f92353b30ac4dc54e71cc097f",
+          "sha256": "ccb8871caf301c991a1ff457efbe7eb4c4a19a5ab2c864ce0667d9a99e0b09d3",
+          "sha1": "dba416ea579b94250b58424b7d43814317fe6f7a",
+          "md5": "90d5a573f9e5fd52f888b3980d237a84"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1.jar",
+          "size": 69781477,
+          "sha512": "ad3908f2c1fee7c0fb4ef007601b88d19231fd778603a2331dfa03ce01a8ae4995dbd14b36beec341104dfe905f84572e874d08f92353b30ac4dc54e71cc097f",
+          "sha256": "ccb8871caf301c991a1ff457efbe7eb4c4a19a5ab2c864ce0667d9a99e0b09d3",
+          "sha1": "dba416ea579b94250b58424b7d43814317fe6f7a",
+          "md5": "90d5a573f9e5fd52f888b3980d237a84"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-ipdoorissues-dev+mc.1.20.1-sources.jar",
+          "size": 68266534,
+          "sha512": "2ee65ba811693c6bd7c145b8e46e1bba77084a2a9de302b141bf0a31b5834f80ddd5e6a2ebd537ae6700b3e8566223e4d0edb54287da58b1d9f2cbcae27ed508",
+          "sha256": "8fbf4e93b8dfb0136e26bd689d2abf8593fe117fd3d906d613b5d6ae206095a9",
+          "sha1": "cc9200db6052a42d8e1a16fb3bf1502f2f2b57f9",
+          "md5": "4535ef1df9ceb6ede7025cfaef53eebf"
+        }
+      ]
+    }
+  ]
+}

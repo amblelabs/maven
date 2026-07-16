@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1.jar",
+          "size": 63940166,
+          "sha512": "6ec74ea40a1443ea3961bdcfe5e8f995a3935868fb9248305552fd125727282fdeb3855f4e55b4c6964593edd89440ddf65ee802b6fd015973d3427e7ae5920f",
+          "sha256": "6d55f27fbfcb67d6b1d56b901d6ee48a5eebd2e0070e9edfede10522594ed99c",
+          "sha1": "8617d2be56075c6cd8eff8f04d2090806533a769",
+          "md5": "fb22f817acae996bcc02b35f6cf2de1d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1.jar",
+          "size": 63940166,
+          "sha512": "6ec74ea40a1443ea3961bdcfe5e8f995a3935868fb9248305552fd125727282fdeb3855f4e55b4c6964593edd89440ddf65ee802b6fd015973d3427e7ae5920f",
+          "sha256": "6d55f27fbfcb67d6b1d56b901d6ee48a5eebd2e0070e9edfede10522594ed99c",
+          "sha1": "8617d2be56075c6cd8eff8f04d2090806533a769",
+          "md5": "fb22f817acae996bcc02b35f6cf2de1d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-increase-interior-change-countdown-dev+mc.1.20.1-sources.jar",
+          "size": 62429648,
+          "sha512": "b46b12fd24106578e2570b1b33f4bbbc5b6eecc258d742a3505c139ac7c8f20cabd962a27a7929ac825e1e6eba04cfca10a9678adfff00d4392d8196624cec47",
+          "sha256": "65039ecdd2965e1a05ca98a6e90c68fb5c9019deab33b418e4f4aaeeea58498b",
+          "sha1": "040e02f25efd2d2e3caa05cc2c5ec768b28af8c2",
+          "md5": "5f9875b8056b8024976fc23429741879"
+        }
+      ]
+    }
+  ]
+}

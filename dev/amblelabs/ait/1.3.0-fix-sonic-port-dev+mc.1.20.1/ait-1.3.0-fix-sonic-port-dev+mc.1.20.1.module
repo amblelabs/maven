@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amblelabs",
+    "module": "ait",
+    "version": "1.3.0-fix-sonic-port-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1.jar",
+          "size": 69784851,
+          "sha512": "5463fde0d6a4a02d7fac029b50f964ddf06e3dc278de432045f227e942644fbc6621a408458ba356a280b0f90743b7620726dbadd7a793f2d593cc56e728b158",
+          "sha256": "2c83da0aca1739f7595b417740ece078785431e24b3c27005483527c90e23de5",
+          "sha1": "4e48807c90bed784696068a300ec7bcc21bd086d",
+          "md5": "a99b92b126dfc4e8d621c67506536edb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1.jar",
+          "size": 69784851,
+          "sha512": "5463fde0d6a4a02d7fac029b50f964ddf06e3dc278de432045f227e942644fbc6621a408458ba356a280b0f90743b7620726dbadd7a793f2d593cc56e728b158",
+          "sha256": "2c83da0aca1739f7595b417740ece078785431e24b3c27005483527c90e23de5",
+          "sha1": "4e48807c90bed784696068a300ec7bcc21bd086d",
+          "md5": "a99b92b126dfc4e8d621c67506536edb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.3.0-fix-sonic-port-dev+mc.1.20.1-sources.jar",
+          "size": 68268491,
+          "sha512": "de648cf6df04547a183d8ad752ad2cc1fdd9b53ed5d3c85196708c4d35a78ee097d7fff79eaae6ed97e1dbf052904a3c987a663b27de2c5b805f5aa781a600f9",
+          "sha256": "a54b3a876e2b851bcdb4dd928a3a6c862bf48132faa7a192bc7139d26428e8cb",
+          "sha1": "22b0d77ba15d1260a5dc5b0f24bd5c727d80c968",
+          "md5": "febe33c050ea339246f705a171109c58"
+        }
+      ]
+    }
+  ]
+}

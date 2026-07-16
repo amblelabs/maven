@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1.jar",
+          "size": 63956222,
+          "sha512": "0d901eb085ebc5e971f13895aac98cc867076512163a6dec8660f79e01042dedf2e3f01e6ece5341734d4946e96cc7fdf10f6d977c6748aa12f917fd6c8e713e",
+          "sha256": "36fc746ab59cdc97b5d8d924aa58b13e47e7538e0ccc7905d99aa10968b2e7d0",
+          "sha1": "15f5c8572983877ea3895a3c89153e4b5a712876",
+          "md5": "be434a4cf3e2b6cd9f49dc866654a600"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1.jar",
+          "size": 63956222,
+          "sha512": "0d901eb085ebc5e971f13895aac98cc867076512163a6dec8660f79e01042dedf2e3f01e6ece5341734d4946e96cc7fdf10f6d977c6748aa12f917fd6c8e713e",
+          "sha256": "36fc746ab59cdc97b5d8d924aa58b13e47e7538e0ccc7905d99aa10968b2e7d0",
+          "sha1": "15f5c8572983877ea3895a3c89153e4b5a712876",
+          "md5": "be434a4cf3e2b6cd9f49dc866654a600"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-sonic_flowerpot-dev+mc.1.20.1-sources.jar",
+          "size": 62435146,
+          "sha512": "605681f827c5260d4d3225e169e883f2dc6564149dc97019c91ff9c8cf58e1d99be3329faa1c62fc91fa38ed7a659fd566031a7deedfeed7fe7affed9f46b61f",
+          "sha256": "ac1800bcb4d1e51f8e61332f864fa4a710d65363ddf1d16cb4a52b95f79a127d",
+          "sha1": "6175e97d56ea4b7cc57a0baf38ef5d74cbe4d9c8",
+          "md5": "0de378ed27073b04f0fc9dee449fb0a5"
+        }
+      ]
+    }
+  ]
+}

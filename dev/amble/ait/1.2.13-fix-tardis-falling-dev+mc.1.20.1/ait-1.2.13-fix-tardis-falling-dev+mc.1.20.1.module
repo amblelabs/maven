@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-tardis-falling-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1.jar",
+          "size": 63966179,
+          "sha512": "f40b0817adef860d5cf435266f300ff3f1a1e698c737ee054913b12d9e2e8b7e1002c5bfdc92d93300576295109006f320fc2fbb0e48bb099bf5bdfaead7d619",
+          "sha256": "6024990b1c5b3e5417e02814d3562333c04b1e61d149f44c80fa7eb93a12ea40",
+          "sha1": "4c2d18e5b55841e0bda4b363b1553b1f6b60d34a",
+          "md5": "fb852390d91c7f7a522eaa683a840325"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1.jar",
+          "size": 63966179,
+          "sha512": "f40b0817adef860d5cf435266f300ff3f1a1e698c737ee054913b12d9e2e8b7e1002c5bfdc92d93300576295109006f320fc2fbb0e48bb099bf5bdfaead7d619",
+          "sha256": "6024990b1c5b3e5417e02814d3562333c04b1e61d149f44c80fa7eb93a12ea40",
+          "sha1": "4c2d18e5b55841e0bda4b363b1553b1f6b60d34a",
+          "md5": "fb852390d91c7f7a522eaa683a840325"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-tardis-falling-dev+mc.1.20.1-sources.jar",
+          "size": 62435281,
+          "sha512": "d86c2a4c81ce326003d2718a55e96b12cd88541b8336fd2326046e0b6e0e8fee87955752eeca3e7e834a8383792d32555840a29fe22b1dad6875eb3e74c443ba",
+          "sha256": "f7b92f576a608a464cdd4d573e107467899213a3fd175f68e5bb3aadf4434c35",
+          "sha1": "63aea487ed752d122aab2eac654811e70c933807",
+          "md5": "cf21c64b191544258f98880680aea7b0"
+        }
+      ]
+    }
+  ]
+}

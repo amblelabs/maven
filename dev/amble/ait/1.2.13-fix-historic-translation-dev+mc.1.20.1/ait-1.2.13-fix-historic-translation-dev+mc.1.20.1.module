@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-historic-translation-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1.jar",
+          "size": 63951962,
+          "sha512": "bc4eccac2002bb5434c836fbfc2a25133f33676001af2838a7ecb702f7fb8e2f18a0dde9abdc53c8aeffd4756ab4aaa0daf74f69f4826881c8f526e4b8fee079",
+          "sha256": "c4c215e0ee60b5edc76a86c4e9e1dc91e2dbb62fe37b9979f9b36c3fbf7125af",
+          "sha1": "5d0daac28c0c058f3caf36ecbb63a014c816831e",
+          "md5": "006d449aaa4590b196c1a60e094820ea"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1.jar",
+          "size": 63951962,
+          "sha512": "bc4eccac2002bb5434c836fbfc2a25133f33676001af2838a7ecb702f7fb8e2f18a0dde9abdc53c8aeffd4756ab4aaa0daf74f69f4826881c8f526e4b8fee079",
+          "sha256": "c4c215e0ee60b5edc76a86c4e9e1dc91e2dbb62fe37b9979f9b36c3fbf7125af",
+          "sha1": "5d0daac28c0c058f3caf36ecbb63a014c816831e",
+          "md5": "006d449aaa4590b196c1a60e094820ea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-historic-translation-dev+mc.1.20.1-sources.jar",
+          "size": 62429980,
+          "sha512": "16985f6cc8999f3e0f0d80710e808c59e76e75eddecf343e67710991c40d24e2333a9d029cc2371d720c85e4cbf29d2ef696a068c70490ab24908b8e8354e083",
+          "sha256": "2979363be5da2b9971b9b75b360b6684a06308b87fe9e7a072d838e3e25527ea",
+          "sha1": "8b587a09123673d78e885cd8c9a1aa0dfb31c5f3",
+          "md5": "dd3f066bb9dc5c282d2c3f22ef036219"
+        }
+      ]
+    }
+  ]
+}

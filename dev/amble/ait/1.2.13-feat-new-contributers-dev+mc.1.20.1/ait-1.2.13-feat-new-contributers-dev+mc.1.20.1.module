@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-new-contributers-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1.jar",
+          "size": 60741877,
+          "sha512": "443c79e39054360b3d98a0841e6d4965bb549a8209c8f98ad54466a7d45bf90d6645aebc6e71a21de279bb2f674ddbbdc705bac253ce3748ce847c817d528eb2",
+          "sha256": "bd5924e13169a451d2257b5ae60eb44e135e860df15d3199ae4f8713423dbb47",
+          "sha1": "5487c5810b9561b91fcead515a570fa2281129e3",
+          "md5": "2b01a2acbb86d24f7c8d3492b7deddc7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1.jar",
+          "size": 60741877,
+          "sha512": "443c79e39054360b3d98a0841e6d4965bb549a8209c8f98ad54466a7d45bf90d6645aebc6e71a21de279bb2f674ddbbdc705bac253ce3748ce847c817d528eb2",
+          "sha256": "bd5924e13169a451d2257b5ae60eb44e135e860df15d3199ae4f8713423dbb47",
+          "sha1": "5487c5810b9561b91fcead515a570fa2281129e3",
+          "md5": "2b01a2acbb86d24f7c8d3492b7deddc7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-new-contributers-dev+mc.1.20.1-sources.jar",
+          "size": 59225583,
+          "sha512": "0c0aaf80255635ca4c3ffa9c637b7207328eb381aac2f2a6c2fb0cbd3c00c65e0c2f92b92dd020453534123ed3f7f71e2bc4a61d38dd2f0d46f77421e3aabc0a",
+          "sha256": "dcbe633c76defc372ccc9375a548442484fad445cc28e821072f4228785a62e8",
+          "sha1": "0bd392c511ffcce37cb108a40d753d6ad79d3aab",
+          "md5": "4076570f3ef5013f0f4d17e91dd0e917"
+        }
+      ]
+    }
+  ]
+}

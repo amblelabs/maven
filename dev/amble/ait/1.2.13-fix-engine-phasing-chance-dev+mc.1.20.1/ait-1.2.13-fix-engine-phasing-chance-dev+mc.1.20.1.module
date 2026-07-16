@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1.jar",
+          "size": 60680902,
+          "sha512": "ffefeec3050bde943e3c387ad935a4227095cb36e6eeb8e4134a583d447588df3cba1ec7c0be9008900d52313646d61222fef454007d86b3df6e3df5815aec5f",
+          "sha256": "83d0d5e6b1ed3fd79f19839320b4d1916f99ed8ef4855d59628f57776a143f28",
+          "sha1": "489b6fb88e650579f1e37a712140d7a37d11e34b",
+          "md5": "0caa5144bcc0efe5fabf69afba4a6db9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1.jar",
+          "size": 60680902,
+          "sha512": "ffefeec3050bde943e3c387ad935a4227095cb36e6eeb8e4134a583d447588df3cba1ec7c0be9008900d52313646d61222fef454007d86b3df6e3df5815aec5f",
+          "sha256": "83d0d5e6b1ed3fd79f19839320b4d1916f99ed8ef4855d59628f57776a143f28",
+          "sha1": "489b6fb88e650579f1e37a712140d7a37d11e34b",
+          "md5": "0caa5144bcc0efe5fabf69afba4a6db9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-engine-phasing-chance-dev+mc.1.20.1-sources.jar",
+          "size": 59165771,
+          "sha512": "42c14fd2cd465ba30f1dc7c89df1c54b969540c309071d1ec7782b665dc0092eace52322682b6cd4ea243dc09d733cc13ba967b922b618c0abfa86dc75b8fd82",
+          "sha256": "e78232b52a641d28115b17d6a62335047f5b4d3fe27702811f09e78aff67a452",
+          "sha1": "0b75362e8ca323c3290b57068d2e93574cff6a89",
+          "md5": "2f4d377902e69df6b62ea914a6788cc4"
+        }
+      ]
+    }
+  ]
+}

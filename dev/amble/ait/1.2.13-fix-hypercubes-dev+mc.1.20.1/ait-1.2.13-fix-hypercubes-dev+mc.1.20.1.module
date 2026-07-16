@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-hypercubes-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1.jar",
+          "size": 60742479,
+          "sha512": "fb0be237a5add01b66b5ba37d03e05b23eb5cee79512f23a331b8ddb27ebe5f937ce1174afe5cf662464c72cd0cf97b69c464d02ed5c9494bb282e411569cacf",
+          "sha256": "79a3641e5a212d855d4532cfe43ce6e59475cc8e369661feb2e197812022f4ae",
+          "sha1": "b2f3f060436c87a6330e211399ca8900de70000a",
+          "md5": "700660ad7c5f0f476ab5357c9474abff"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1.jar",
+          "size": 60742479,
+          "sha512": "fb0be237a5add01b66b5ba37d03e05b23eb5cee79512f23a331b8ddb27ebe5f937ce1174afe5cf662464c72cd0cf97b69c464d02ed5c9494bb282e411569cacf",
+          "sha256": "79a3641e5a212d855d4532cfe43ce6e59475cc8e369661feb2e197812022f4ae",
+          "sha1": "b2f3f060436c87a6330e211399ca8900de70000a",
+          "md5": "700660ad7c5f0f476ab5357c9474abff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-hypercubes-dev+mc.1.20.1-sources.jar",
+          "size": 59225909,
+          "sha512": "4822b6026dbd35361b48e15c8d9e1f2b7a12750d92fe21518fc41dd6e63aa15ab84bc66ff8de69a6ecfc4ad0b8c7e4bb9ac0a9349175adf298fa8119d0882335",
+          "sha256": "528375bfe6e7195f9d1b4d876c56b5533b2fb52a35608c6b78d3ce4cf629336b",
+          "sha1": "44cd373368e0bc16ca4ac533a23006242eb6b7f5",
+          "md5": "63b60d0e005c5555ab0a8db80421162f"
+        }
+      ]
+    }
+  ]
+}

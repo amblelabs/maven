@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-rift-spawing-config-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1.jar",
+          "size": 58531199,
+          "sha512": "1cd46c12e2baa2c0d7c10e3fd74190f39c56fd2f1cfaaabfa448dc438a49d951b599c9809ac6750c6334d01f74ac606c37fd9f4e9541fc814745db12b08fd1c2",
+          "sha256": "a6899486dcf20f532db5064c840cc5b6b83904237212893c73c8dce20f2a5a45",
+          "sha1": "15e1a2ecd675ca6cb64ce5c74bc15e7f731466db",
+          "md5": "eedf6af4adc5ab7bd75b66d6e83fc4c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1.jar",
+          "size": 58531199,
+          "sha512": "1cd46c12e2baa2c0d7c10e3fd74190f39c56fd2f1cfaaabfa448dc438a49d951b599c9809ac6750c6334d01f74ac606c37fd9f4e9541fc814745db12b08fd1c2",
+          "sha256": "a6899486dcf20f532db5064c840cc5b6b83904237212893c73c8dce20f2a5a45",
+          "sha1": "15e1a2ecd675ca6cb64ce5c74bc15e7f731466db",
+          "md5": "eedf6af4adc5ab7bd75b66d6e83fc4c3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-rift-spawing-config-dev+mc.1.20.1-sources.jar",
+          "size": 57037646,
+          "sha512": "dace779dbbeb70e3e864fc4df449714be7a96760fce8906d9798b95546c776720d7dff4db2466d86dd9b516042566fedaed27a7ec3450b411cab38804d48d46d",
+          "sha256": "9fd8b3eb9caf0adfbfec941e9fbd3762947623b9922e518fd8ac9d68ac734ed4",
+          "sha1": "fc9f88f902332bd1b6d25d022a98eac1f8a56592",
+          "md5": "aa866ec755dfd6e918a7dfe492da19e5"
+        }
+      ]
+    }
+  ]
+}

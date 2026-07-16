@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-vivecraft-compat-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1.jar",
+          "size": 58553791,
+          "sha512": "fdbfe07f17242847470095e4bc58ec5be3854ed0839c49e0c1c3b22be8423564fdb5031bb3ffbb7d75baee34f8db37018502f9ce3ff5b4f60844f2f2dd93e3be",
+          "sha256": "8217e13ddb0a8035288f25a568309944c732e06a295ae3f6b4491f5d7801a6df",
+          "sha1": "6b07ca1722975666efe2ae308bb46795d9f8c95f",
+          "md5": "48bfd3da743419790b16f101f08c0d0b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1.jar",
+          "size": 58553791,
+          "sha512": "fdbfe07f17242847470095e4bc58ec5be3854ed0839c49e0c1c3b22be8423564fdb5031bb3ffbb7d75baee34f8db37018502f9ce3ff5b4f60844f2f2dd93e3be",
+          "sha256": "8217e13ddb0a8035288f25a568309944c732e06a295ae3f6b4491f5d7801a6df",
+          "sha1": "6b07ca1722975666efe2ae308bb46795d9f8c95f",
+          "md5": "48bfd3da743419790b16f101f08c0d0b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-vivecraft-compat-dev+mc.1.20.1-sources.jar",
+          "size": 57053929,
+          "sha512": "dd1acef298b547dffd89b8bb319d51a5972e41294b03060fc438f13ce902ef35444b4ac901a9262a876a4697c2ba24208c5be39b359d23d53a6288ed68d4ee4c",
+          "sha256": "b2250a286367186daaaa55527768a32ef87fd8afe44c30dda4437c7b68540907",
+          "sha1": "04bff313828e7a6810477e267cb3160ec7a8723c",
+          "md5": "6ff971a8d172a3e822a4fda4b7928511"
+        }
+      ]
+    }
+  ]
+}

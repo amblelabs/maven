@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-control-repair-nerf-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1.jar",
+          "size": 60680922,
+          "sha512": "f713e1746c5952c8e387181ebe4437018b634c2d1c2cf1da33ac2b0f62eeca08bc5494580ea4096bf4ea52abe57a60d16eef458b865dda5bf69d4fcfc7733519",
+          "sha256": "e5c491ffcbbdacc6ef3162af9b4c12520beed8cb3f4f074af8d660a2033e4821",
+          "sha1": "8ed4378074715efe3f1fc448f64c89024bc5fe3a",
+          "md5": "a60c6db8e6d9508bc5f52dee40ffb77a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1.jar",
+          "size": 60680922,
+          "sha512": "f713e1746c5952c8e387181ebe4437018b634c2d1c2cf1da33ac2b0f62eeca08bc5494580ea4096bf4ea52abe57a60d16eef458b865dda5bf69d4fcfc7733519",
+          "sha256": "e5c491ffcbbdacc6ef3162af9b4c12520beed8cb3f4f074af8d660a2033e4821",
+          "sha1": "8ed4378074715efe3f1fc448f64c89024bc5fe3a",
+          "md5": "a60c6db8e6d9508bc5f52dee40ffb77a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-control-repair-nerf-dev+mc.1.20.1-sources.jar",
+          "size": 59165749,
+          "sha512": "0dac6d75293553bbfc8963789dad847a103609902afcfa1c582921acbdff75604bbf8355d71416acb9917d0bbcef39b86d95d9c2dd6be5ffc0ba144be786680c",
+          "sha256": "02d75224a758050fd4a1eba88453ea3e92a9a2620b08d9d8b9e80e814d376df0",
+          "sha1": "ea695d8dc67fcd03c9c6ce956b92b859167f7d45",
+          "md5": "035223eb486fa625a3b13a3cd553969f"
+        }
+      ]
+    }
+  ]
+}

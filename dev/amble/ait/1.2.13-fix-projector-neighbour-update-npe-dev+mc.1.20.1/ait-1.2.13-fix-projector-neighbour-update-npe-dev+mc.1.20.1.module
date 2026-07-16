@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1.jar",
+          "size": 63940138,
+          "sha512": "21955bb5ace897e4fafb74cd0809a55419b10aedcf6f62029ce292e511f37876452240da59ee5e7ad033d5c193d887c783223215367524c127c7c8e21d13cd23",
+          "sha256": "be0d4772aa75333d9601792d0372d914d0d6c73a804fce250483bcf1288611f2",
+          "sha1": "411a6f0bd18852bfb259f57384eaad0354338315",
+          "md5": "d960b60b633d623b1d798a3f769c7099"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1.jar",
+          "size": 63940138,
+          "sha512": "21955bb5ace897e4fafb74cd0809a55419b10aedcf6f62029ce292e511f37876452240da59ee5e7ad033d5c193d887c783223215367524c127c7c8e21d13cd23",
+          "sha256": "be0d4772aa75333d9601792d0372d914d0d6c73a804fce250483bcf1288611f2",
+          "sha1": "411a6f0bd18852bfb259f57384eaad0354338315",
+          "md5": "d960b60b633d623b1d798a3f769c7099"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-projector-neighbour-update-npe-dev+mc.1.20.1-sources.jar",
+          "size": 62429642,
+          "sha512": "2837c8405e803819ed97cbaf61b68471abfa1ee94637e21c51367af0cc18c0902778d4c8907d5e8f6d114ec3e3b7e056ec692eef2d4ae6c5a10d992466229487",
+          "sha256": "fd8fca0caf923c36c689c4fbc342be8bf76885eeb1903295a2fc075157e924a7",
+          "sha1": "2e968544011247beff6cab057dd265a736ca5d11",
+          "md5": "65e00d27cbbf52b5bd579837e3346b98"
+        }
+      ]
+    }
+  ]
+}

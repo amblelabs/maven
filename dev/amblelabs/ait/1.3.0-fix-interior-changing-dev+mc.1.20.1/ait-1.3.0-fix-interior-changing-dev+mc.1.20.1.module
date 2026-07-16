@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amblelabs",
+    "module": "ait",
+    "version": "1.3.0-fix-interior-changing-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1.jar",
+          "size": 69783624,
+          "sha512": "e7f1c0f8f5ca8257cb772272584d40219c61fe6f82d28ff6ebc9cabce332cd1da7dfb23296df550be92030e42d70ed4f96f1f9820a483e10e28f70857502a9d9",
+          "sha256": "96ef695b8b97064c785d358be780bb28410cee9ff62fa7f0c02152286cdfce3e",
+          "sha1": "0c045c1784af49b1c91a1277e962abb1e92b7ac4",
+          "md5": "0be7abf4eca3a79c8e23280d5621367f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1.jar",
+          "size": 69783624,
+          "sha512": "e7f1c0f8f5ca8257cb772272584d40219c61fe6f82d28ff6ebc9cabce332cd1da7dfb23296df550be92030e42d70ed4f96f1f9820a483e10e28f70857502a9d9",
+          "sha256": "96ef695b8b97064c785d358be780bb28410cee9ff62fa7f0c02152286cdfce3e",
+          "sha1": "0c045c1784af49b1c91a1277e962abb1e92b7ac4",
+          "md5": "0be7abf4eca3a79c8e23280d5621367f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.3.0-fix-interior-changing-dev+mc.1.20.1-sources.jar",
+          "size": 68267774,
+          "sha512": "06038bcfed2e06235649f66e376e14758ef9077b6677f37e15e5835c2ba66bbd2508597498687c06b42926923009b74a195dd64c979b28995fec762d8faea75c",
+          "sha256": "917edabdb2b96b10ca49a1fc975e294fa94b82d871fcddaeb12048bffe769842",
+          "sha1": "93a3f783b664bf80aaea06a32b1c3331acd7b086",
+          "md5": "d5be67ba7077cea8bffb223f6ec4d080"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-api-username-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-api-username-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-api-username-dev+mc.1.20.1.jar",
+          "size": 945479,
+          "sha512": "d1f39a7d5a13c5e56337333687c65b67d6ac16a53a8302cc3933bcad7b0f1a56a5a13c87fd2514a0e7b2270175ddd9a9000cd2307bc805ff75862320f132f1a8",
+          "sha256": "adc0e046cd0534cf6820974adc487e983293863ec1b56da83c270e5c71641b90",
+          "sha1": "9609b938c4919d4d96d0ffa6f36427502d3a82bf",
+          "md5": "8601964572f4922cfd93a514c66d3cb1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "org.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-api-username-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-api-username-dev+mc.1.20.1.jar",
+          "size": 945479,
+          "sha512": "d1f39a7d5a13c5e56337333687c65b67d6ac16a53a8302cc3933bcad7b0f1a56a5a13c87fd2514a0e7b2270175ddd9a9000cd2307bc805ff75862320f132f1a8",
+          "sha256": "adc0e046cd0534cf6820974adc487e983293863ec1b56da83c270e5c71641b90",
+          "sha1": "9609b938c4919d4d96d0ffa6f36427502d3a82bf",
+          "md5": "8601964572f4922cfd93a514c66d3cb1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-api-username-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-api-username-dev+mc.1.20.1-sources.jar",
+          "size": 239112,
+          "sha512": "8356c45ac22090e94367660b1708dc0b97c53c1253d45c0733a946fc26cb516554df958d7a40d35aa07531ab08e900dc748245cfd086c7fb85d81da4e23300b0",
+          "sha256": "9a3bf335bda37a5bb7b0e4fd5a8d974b1a73998ec51fa5771f65a46bbed1dffb",
+          "sha1": "e1e190c3d2d741f715fa98123494fb6834218df7",
+          "md5": "d87a6715b02a9daa76803fa4c411b3c8"
+        }
+      ]
+    }
+  ]
+}

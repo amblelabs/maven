@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-exterior-ticking-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1.jar",
+          "size": 60779827,
+          "sha512": "fe279d6a04f88d0ab284cb131a742d29f25fce59464be3d5c25dfb060cf3aa8fde89c2706b90133202b7cc93714d0b1071e8dc420dc3af6b32af5971ada56b9a",
+          "sha256": "f99976ec850cd27aa36bf5da4845efc920826cc73a0e995c1704609c77460b62",
+          "sha1": "2f6e57a7de2324bfb1aa8b80d1d7e3d84bcb23b4",
+          "md5": "2b0e2dfdf49fcbd5412b45a67d26c523"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1.jar",
+          "size": 60779827,
+          "sha512": "fe279d6a04f88d0ab284cb131a742d29f25fce59464be3d5c25dfb060cf3aa8fde89c2706b90133202b7cc93714d0b1071e8dc420dc3af6b32af5971ada56b9a",
+          "sha256": "f99976ec850cd27aa36bf5da4845efc920826cc73a0e995c1704609c77460b62",
+          "sha1": "2f6e57a7de2324bfb1aa8b80d1d7e3d84bcb23b4",
+          "md5": "2b0e2dfdf49fcbd5412b45a67d26c523"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-exterior-ticking-dev+mc.1.20.1-sources.jar",
+          "size": 59257653,
+          "sha512": "b448487196c9950d262d4f11eb41d8d988611742dbd717c0868078000a84acb160ac561bb310674ecfc46a5e56e80b6eff597cc5aab30298a88130020694df14",
+          "sha256": "e1f6688b8aaa961dcfe66b5f3305c8d440f425be14391b83f251351030fd413e",
+          "sha1": "982dcb283db3496da2cc8ddef90e1603c113657b",
+          "md5": "8e34025c72e468a368b86d4ebe9242bd"
+        }
+      ]
+    }
+  ]
+}

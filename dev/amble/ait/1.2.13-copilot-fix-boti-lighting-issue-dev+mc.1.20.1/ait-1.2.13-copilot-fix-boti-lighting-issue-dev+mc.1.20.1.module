@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1.jar",
+          "size": 58584729,
+          "sha512": "bc6d32740efeb1fe5e2ea7f81b05ef15a996664d178da938748706c35b0bdb24838d8528d41356f226ebc0b0fa0f9e0f10bd433ba1bfe2a8d8da7bcf8899a02e",
+          "sha256": "f475915b039f246028389c664f141501a0ebd514746dab8621f8c5236c2a6fb9",
+          "sha1": "2311284b23a5a8a627263dc1d76cfe31056a1dd6",
+          "md5": "2dd8fb911b6242aed52fe4d878bf5836"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1.jar",
+          "size": 58584729,
+          "sha512": "bc6d32740efeb1fe5e2ea7f81b05ef15a996664d178da938748706c35b0bdb24838d8528d41356f226ebc0b0fa0f9e0f10bd433ba1bfe2a8d8da7bcf8899a02e",
+          "sha256": "f475915b039f246028389c664f141501a0ebd514746dab8621f8c5236c2a6fb9",
+          "sha1": "2311284b23a5a8a627263dc1d76cfe31056a1dd6",
+          "md5": "2dd8fb911b6242aed52fe4d878bf5836"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-copilot-fix-boti-lighting-issue-dev+mc.1.20.1-sources.jar",
+          "size": 57065629,
+          "sha512": "2a45fd3bf3e66f500e766ee2fd026017701b7a381fffb1c0b755123b65df6fe9f78d4b0de6b84c2c5119b9c0765c8d8813624b76f1a118b2d3912a7414313a77",
+          "sha256": "492a5770f49d00b7c2deb6ac6fafe10f7fdeb6ff52d55a1ae43b217711927a83",
+          "sha1": "5ee55c604ae323b1f558f3fcef0a0425e023e129",
+          "md5": "0481a47c139720ecc9f0b3108ea56db5"
+        }
+      ]
+    }
+  ]
+}

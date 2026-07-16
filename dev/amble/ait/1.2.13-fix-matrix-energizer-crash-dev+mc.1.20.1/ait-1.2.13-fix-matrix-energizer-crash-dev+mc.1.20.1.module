@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1.jar",
+          "size": 69783056,
+          "sha512": "51e6220e790f328f4e49d099949bc4b42f2af800412433c4827accab42204b37d0eea1bba9ba23b607b68a4e9640a1f37170f836c219138364a76b1c374a8610",
+          "sha256": "104ca3cf888935991e14e38bcc5bed1068cc260f5f496299071bced96b612a9f",
+          "sha1": "739b0c920750a3e2432c78a54386a8ffdcd56901",
+          "md5": "46efedcbba39d0326341d9e2e7a72e55"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1.jar",
+          "size": 69783056,
+          "sha512": "51e6220e790f328f4e49d099949bc4b42f2af800412433c4827accab42204b37d0eea1bba9ba23b607b68a4e9640a1f37170f836c219138364a76b1c374a8610",
+          "sha256": "104ca3cf888935991e14e38bcc5bed1068cc260f5f496299071bced96b612a9f",
+          "sha1": "739b0c920750a3e2432c78a54386a8ffdcd56901",
+          "md5": "46efedcbba39d0326341d9e2e7a72e55"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-matrix-energizer-crash-dev+mc.1.20.1-sources.jar",
+          "size": 68267383,
+          "sha512": "b3b6a10c516d13523f9f651f63d3c76596cebc5ac50afa95ed72c2ee7d4914d16c3f37c4529d19f76725f263ad6825b634dace47974a2283f1ec2ef5a52dd240",
+          "sha256": "5f33680b36350f2791864a44c2288148ca740c00e9e87a6b2119a1188bf7285c",
+          "sha1": "6141cf8a32cd8bdafdf510c0cca78d3ac2e99a55",
+          "md5": "ad0fa920f787b3e3077f8a1e98564c2d"
+        }
+      ]
+    }
+  ]
+}

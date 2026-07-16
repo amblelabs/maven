@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1.jar",
+          "size": 58599437,
+          "sha512": "9061b2fe3b4dc36edbf6deff493cb3426516cafb0b463be8e8a00e2789f1b2c7f37a4a8fa4b80a4d3c350ed61858b4354cc4aad3270946d7f495a3a6566ce3b2",
+          "sha256": "f12f2ddbaf2718fc40d3c450f354ac69e7e3a9fc800005299b278193119fe95e",
+          "sha1": "23139812884978d11a62d0613d6ac9fd1319d7de",
+          "md5": "a20a59fc4f09ceabee7b2d72abba1af8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1.jar",
+          "size": 58599437,
+          "sha512": "9061b2fe3b4dc36edbf6deff493cb3426516cafb0b463be8e8a00e2789f1b2c7f37a4a8fa4b80a4d3c350ed61858b4354cc4aad3270946d7f495a3a6566ce3b2",
+          "sha256": "f12f2ddbaf2718fc40d3c450f354ac69e7e3a9fc800005299b278193119fe95e",
+          "sha1": "23139812884978d11a62d0613d6ac9fd1319d7de",
+          "md5": "a20a59fc4f09ceabee7b2d72abba1af8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-travel-crash-exterior-duplication-dev+mc.1.20.1-sources.jar",
+          "size": 57100692,
+          "sha512": "aaa326210dc0105c1aba108a0825a4a8f1dc135c9de65c41eb137c66556a97cf3dd2326d8e48c6fe3cf1eed720fb585503f94472d06e739ff78c329913244568",
+          "sha256": "a02f979fe071ebfec93911bc6b809254b506a93b27ddb64ee7d706d6505c1b65",
+          "sha1": "8cd04a7f48c2e6229f7d748254b5ad48e8fdabf8",
+          "md5": "724c166bbd0751a8b2d2cfa124e8d6a7"
+        }
+      ]
+    }
+  ]
+}

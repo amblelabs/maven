@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.amblelabs</groupId>
+  <artifactId>ait</artifactId>
+  <versioning>
+    <latest>1.3.0-fix-ip-issues-dev+mc.1.20.1</latest>
+    <release>1.3.0-fix-ip-issues-dev+mc.1.20.1</release>
+    <versions>
+      <version>1.3.0-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-rift-render-ip-fallback-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-sonic-port-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-infested-space-blocks-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-stupidIPstuff-dev+mc.1.20.1</version>
+      <version>1.3.0-chore-untempered-schism-recipe-dev+mc.1.20.1</version>
+      <version>1.3.0-feat-autopilot-config-dev+mc.1.20.1</version>
+      <version>1.3.0-chore-packet-removal-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-property-sync-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-rendering-queue-dev+mc.1.20.1</version>
+      <version>1.3.0-feat-new-splashes-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-interior-changing-dev+mc.1.20.1</version>
+      <version>1.3.0-fix-ip-issues-dev+mc.1.20.1</version>
+    </versions>
+    <lastUpdated>20260716191645</lastUpdated>
+  </versioning>
+</metadata>

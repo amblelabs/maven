@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-restart-crash-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1.jar",
+          "size": 60779859,
+          "sha512": "9c0923edcb9e7115537379fdcceba82a943cc7c5598cc0a7ba63edd71b86d2207d8758429071534b61ecefbe3110ea710bb988c734ec923b0f284c8280f47a93",
+          "sha256": "5c842aeea4a7f66c12bb09e340445bf0bab414230afdf535a472232b21696d40",
+          "sha1": "1e4120bc9922aa389a7b5e492843057eb0da96b4",
+          "md5": "45663570e174c601434880ef9f53bde1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1.jar",
+          "size": 60779859,
+          "sha512": "9c0923edcb9e7115537379fdcceba82a943cc7c5598cc0a7ba63edd71b86d2207d8758429071534b61ecefbe3110ea710bb988c734ec923b0f284c8280f47a93",
+          "sha256": "5c842aeea4a7f66c12bb09e340445bf0bab414230afdf535a472232b21696d40",
+          "sha1": "1e4120bc9922aa389a7b5e492843057eb0da96b4",
+          "md5": "45663570e174c601434880ef9f53bde1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-restart-crash-dev+mc.1.20.1-sources.jar",
+          "size": 59257673,
+          "sha512": "086ec5d412708e4cbd78edd3e13d72c1f8bd526916e5820603045a8b8cf53a00578a37bd25dab8ea5df1474bf24b7963448d01aabe9824525e928b9a8084b2e9",
+          "sha256": "d89fe91ec48e1b37da25aca31e2977d357a4d455f61578f9154161ad7f494cda",
+          "sha1": "6e1b5ceecc5b30de2d4a510eb2e8d0b823a3d2f6",
+          "md5": "49f79c865cf2c52dfebb54881a733ebf"
+        }
+      ]
+    }
+  ]
+}

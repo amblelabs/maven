@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-api-datapack_control_anims-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-perf-anim-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1.jar",
+          "size": 63961202,
+          "sha512": "5e1871da43dfab3073c8edde4cce5c9e6a20658febacfcf1065fd7a731498107e439f190c6241745aa29b76c07ebd4a9e894615309861a873a89cbe913b6e10d",
+          "sha256": "ab69de56e1b75b092fceb87944a8a3cbd076b5198f9ca45c8ea322c64f3e122e",
+          "sha1": "b36e9792f0a37f9a97f9d52db48f23101d37e4a7",
+          "md5": "68add9b2fb1645d858361ad91586651f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-perf-anim-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1.jar",
+          "size": 63961202,
+          "sha512": "5e1871da43dfab3073c8edde4cce5c9e6a20658febacfcf1065fd7a731498107e439f190c6241745aa29b76c07ebd4a9e894615309861a873a89cbe913b6e10d",
+          "sha256": "ab69de56e1b75b092fceb87944a8a3cbd076b5198f9ca45c8ea322c64f3e122e",
+          "sha1": "b36e9792f0a37f9a97f9d52db48f23101d37e4a7",
+          "md5": "68add9b2fb1645d858361ad91586651f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-api-datapack_control_anims-dev+mc.1.20.1-sources.jar",
+          "size": 62437680,
+          "sha512": "2d1aa829364a108b3d24487bcca8f817aeb849155cf0cf075818646c59d3d1ab53a9f51d2c0e88f805fb14e9f16fd23133b78394105dd4995c495d09f14e07ed",
+          "sha256": "5db24386ae2607cecb1ca7bf8da0859faeddbb3f3693000cec8d8a871276e806",
+          "sha1": "006e11c4a0faf8827989afd03ca77cbcdde9f8ee",
+          "md5": "155f4283041d83f925c6319591e1cdf9"
+        }
+      ]
+    }
+  ]
+}

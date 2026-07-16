@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-qol-changes-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-qol-changes-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-qol-changes-dev+mc.1.20.1.jar",
+          "size": 60740310,
+          "sha512": "7cdfb3d106fa1e59b225fd06e748f3d7d22901b0b998f04bd9d9bfc613700444671afb92da281cfe05715b6d6fee19d3c8daa005350cebc594bba78c91eba91c",
+          "sha256": "924abdb68889ef25fad0e60f29d144e98fbe7849c78a0b1dcb03d6a9fbba07cc",
+          "sha1": "c0cb18747ab480292d554d960325732a6ce51f6f",
+          "md5": "a7e9250af97497dfd8c361713a74f324"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-qol-changes-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-qol-changes-dev+mc.1.20.1.jar",
+          "size": 60740310,
+          "sha512": "7cdfb3d106fa1e59b225fd06e748f3d7d22901b0b998f04bd9d9bfc613700444671afb92da281cfe05715b6d6fee19d3c8daa005350cebc594bba78c91eba91c",
+          "sha256": "924abdb68889ef25fad0e60f29d144e98fbe7849c78a0b1dcb03d6a9fbba07cc",
+          "sha1": "c0cb18747ab480292d554d960325732a6ce51f6f",
+          "md5": "a7e9250af97497dfd8c361713a74f324"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-qol-changes-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-qol-changes-dev+mc.1.20.1-sources.jar",
+          "size": 59224677,
+          "sha512": "f6ede1e71eed05d9e3a3d206d47368eeb467175bbd86716a15eb8a7a4efde2a55595a107323233be85ec5db7fe65ad8cf99757b2e1d07cef97b2d7ac9e2308ef",
+          "sha256": "05e999a86e7b49ff625816c06589d261516c012cd20c9d36fc1a701636bc4a52",
+          "sha1": "dccbcb05a272bb1bef8fb817cd229caa7e1f6396",
+          "md5": "b0164b9a68906eb90badb387ed798c4c"
+        }
+      ]
+    }
+  ]
+}

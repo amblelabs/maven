@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-dynlights-compat-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1.jar",
+          "size": 58522165,
+          "sha512": "b5088686de36824cc47bcd8c26a644cab7e4ebcb1e40ed415dbb46d2f6f3ec2709af946912000c3fd7521788a1c494eb7ddff5ea958745a41fa2db2a268b74ab",
+          "sha256": "705e4c497eb575b29f3b1c4f790c657e9681ae6813c5c1776b71a8f5d80d523b",
+          "sha1": "26c1bbabfa79482a87a3f2608c31b2a07b02affd",
+          "md5": "2ed5c653f48f0300cb8b6b8eb0d8da99"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1.jar",
+          "size": 58522165,
+          "sha512": "b5088686de36824cc47bcd8c26a644cab7e4ebcb1e40ed415dbb46d2f6f3ec2709af946912000c3fd7521788a1c494eb7ddff5ea958745a41fa2db2a268b74ab",
+          "sha256": "705e4c497eb575b29f3b1c4f790c657e9681ae6813c5c1776b71a8f5d80d523b",
+          "sha1": "26c1bbabfa79482a87a3f2608c31b2a07b02affd",
+          "md5": "2ed5c653f48f0300cb8b6b8eb0d8da99"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-dynlights-compat-dev+mc.1.20.1-sources.jar",
+          "size": 57033059,
+          "sha512": "069e2d12133c2a18a54910012608d61ad8f8b27df230482d29e24433267d1ef2943f844e484f0599a4e47870ec083f00e189c399e18071a8c5c97f145a8becec",
+          "sha256": "944d5da56f6fabaf2dd75a09c37e3d3a1efc30e5d2c8fdb2230d23ccc8d68730",
+          "sha1": "09908d91c7758ba6078fb40b8f434b895ecf0c2c",
+          "md5": "2845028ad44e796ed4c8f690a8298078"
+        }
+      ]
+    }
+  ]
+}

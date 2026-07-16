@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1.jar",
+          "size": 60680912,
+          "sha512": "14c3d8c03c11beb49ee6bb2855c3341ff13d860c3a9ee2291911bcae09e9e3b1a3de3eb32adabea920e48b8d78b2cbed5a3150c9de338cb9ea7f6c1595c31e12",
+          "sha256": "e62577e477d009f96b0a2772db041df474efc9b5b799a8f529343323330bded2",
+          "sha1": "532051d64dc8809b9ba05ed9ecf5a56e1deac910",
+          "md5": "9e0a1666c33007200b2ebf8bad95f94a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1.jar",
+          "size": 60680912,
+          "sha512": "14c3d8c03c11beb49ee6bb2855c3341ff13d860c3a9ee2291911bcae09e9e3b1a3de3eb32adabea920e48b8d78b2cbed5a3150c9de338cb9ea7f6c1595c31e12",
+          "sha256": "e62577e477d009f96b0a2772db041df474efc9b5b799a8f529343323330bded2",
+          "sha1": "532051d64dc8809b9ba05ed9ecf5a56e1deac910",
+          "md5": "9e0a1666c33007200b2ebf8bad95f94a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-coral-fan-bullshitery-dev+mc.1.20.1-sources.jar",
+          "size": 59165769,
+          "sha512": "ffddece50a061c2e211e974d0bfb91a300627c291cc6b969f365f338d459eea0d6ad1a4a80ef8fee7932ba960728105369838295a9ea67ab51800f54206e6c1b",
+          "sha256": "d2d59645e662ca0fb5a057c5a2d8fc7b09d0989f01e682d665c03145d3f12a81",
+          "sha1": "892574a93c4a4a25b59fb3f78f8ce4f32e462a2b",
+          "md5": "129b507e2d508c0acdfb293aeb823ab5"
+        }
+      ]
+    }
+  ]
+}

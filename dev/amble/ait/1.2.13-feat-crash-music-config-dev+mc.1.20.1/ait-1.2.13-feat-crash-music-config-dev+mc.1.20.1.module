@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-crash-music-config-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1.jar",
+          "size": 60683102,
+          "sha512": "06bc78fbc0dd666af4b779f8d03cb48c5240ddd6d7ac6688a8130f08e4d26d6714c0c9755d7deafdb4476bf9749733efbb0004ca664e7b44986c7963a23b7231",
+          "sha256": "4bf4becf670130632d42041b50d54284c518c0e02c9924ab67f942d22abe7427",
+          "sha1": "a11c604189c7ef7861b57c64e42539f31a46babb",
+          "md5": "1333f8f2de7085589ee6dbc94d948e87"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1.jar",
+          "size": 60683102,
+          "sha512": "06bc78fbc0dd666af4b779f8d03cb48c5240ddd6d7ac6688a8130f08e4d26d6714c0c9755d7deafdb4476bf9749733efbb0004ca664e7b44986c7963a23b7231",
+          "sha256": "4bf4becf670130632d42041b50d54284c518c0e02c9924ab67f942d22abe7427",
+          "sha1": "a11c604189c7ef7861b57c64e42539f31a46babb",
+          "md5": "1333f8f2de7085589ee6dbc94d948e87"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-crash-music-config-dev+mc.1.20.1-sources.jar",
+          "size": 59167034,
+          "sha512": "ad6ccfc64b315cb1ff2df17f990ca52d5a7b595f88ca8d6ab24d2ae46b9f9ee16274cc859c9fb42004cd731952e39f0f6e8e9d34a3c101c7b3ffff9292be5cb9",
+          "sha256": "bd5044d416e6081ceaed9490c57cdeddbf3d34214a6e0c2bcd0d1b542ec2c522",
+          "sha1": "9e093b77d484a1d00f8860b69a23fb6a72b6f362",
+          "md5": "23501f2de8818e520618f5937de8f7e6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-door-lighting-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1.jar",
+          "size": 60742412,
+          "sha512": "c2370a9007e4335c9bcce43d9f4f862c0dcf5456eaf37f0ba392107eb7c6d3c164ed8e09ec0a7f5780491e2ab4722e431d41d7b679f6e8fd05a61313657f5973",
+          "sha256": "7c06962cea6e349661bac6c9dd3d63b39f603b1414f3a4aea8589d1fbe8559c6",
+          "sha1": "d7c5e53c368e344adf3399bfa1c4d7286d29bd5e",
+          "md5": "7f9d7575b7e008a210c9c1f675f37d4f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1.jar",
+          "size": 60742412,
+          "sha512": "c2370a9007e4335c9bcce43d9f4f862c0dcf5456eaf37f0ba392107eb7c6d3c164ed8e09ec0a7f5780491e2ab4722e431d41d7b679f6e8fd05a61313657f5973",
+          "sha256": "7c06962cea6e349661bac6c9dd3d63b39f603b1414f3a4aea8589d1fbe8559c6",
+          "sha1": "d7c5e53c368e344adf3399bfa1c4d7286d29bd5e",
+          "md5": "7f9d7575b7e008a210c9c1f675f37d4f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-door-lighting-dev+mc.1.20.1-sources.jar",
+          "size": 59225836,
+          "sha512": "c394eea1834faead27bcb3271e783f7b08a4d0ce067a01a57f1be85daeacf8defd0caa965d2531304b88fbe45b199327fccd8498b40cfe0c2119de8cdc8e6903",
+          "sha256": "a19f0843b280eaa8c5dc734510315f87b6034550598426b27e6d94fc9dc54d5e",
+          "sha1": "b2a23e63238109cef2775d8a66ed47e0161cb085",
+          "md5": "0f58436e969ef38f54fc3b50814973bb"
+        }
+      ]
+    }
+  ]
+}

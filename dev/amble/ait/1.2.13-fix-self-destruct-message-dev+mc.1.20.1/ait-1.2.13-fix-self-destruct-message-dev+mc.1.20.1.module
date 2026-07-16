@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-self-destruct-message-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1.jar",
+          "size": 58499552,
+          "sha512": "8e67fae28d9ed51a61fddd4f2ba4cf016f3bfe5bb6fc167cebf5cdbf313ce8088af133f494da437f61980ff0282e1a8455057afb3916e012a22d1b4542e64c7a",
+          "sha256": "ef75c286b7a7a4e9986c46f804fba2d0b4c4a0194f64c376dadc00f382f766e1",
+          "sha1": "e858f5797ccbf32ec26a2411bf47fa1e4c4b1f98",
+          "md5": "4358da50ccec8a1f518d8f6d2c3f309b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1.jar",
+          "size": 58499552,
+          "sha512": "8e67fae28d9ed51a61fddd4f2ba4cf016f3bfe5bb6fc167cebf5cdbf313ce8088af133f494da437f61980ff0282e1a8455057afb3916e012a22d1b4542e64c7a",
+          "sha256": "ef75c286b7a7a4e9986c46f804fba2d0b4c4a0194f64c376dadc00f382f766e1",
+          "sha1": "e858f5797ccbf32ec26a2411bf47fa1e4c4b1f98",
+          "md5": "4358da50ccec8a1f518d8f6d2c3f309b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-self-destruct-message-dev+mc.1.20.1-sources.jar",
+          "size": 57012367,
+          "sha512": "3ca5b06ddeda85b9d871fec095f9a03276ab1bbbff9a9129847d66c750d28de75017094856efe15347e30bb3aa5f4fdb205eb9f585532d755722b06746b12337",
+          "sha256": "d8dfb614d974efbcf8342f076e23663386ec8a4915338f34ca0ef00e52e32a0f",
+          "sha1": "e6e851a6d6c7254be00902ced0de2861b96fea87",
+          "md5": "92047be7d64ee14ba02bac520a477ff1"
+        }
+      ]
+    }
+  ]
+}

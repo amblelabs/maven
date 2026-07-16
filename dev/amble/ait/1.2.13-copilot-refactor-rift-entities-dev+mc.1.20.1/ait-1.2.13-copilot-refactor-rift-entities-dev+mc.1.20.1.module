@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1.jar",
+          "size": 58532335,
+          "sha512": "00454692f9e03db6f18bb11d8686eb8206761ed35c7bfb93eb91537674ca70d9944222b8ac95c0384a384f6422cf1b369fd741396040de938aa7910e0db0e4aa",
+          "sha256": "31001fec96dd8bdc79f8b6c74f5758adb487d665de9b36fcc3aee92112455bca",
+          "sha1": "dc1e75031ab5c76074b87fdc38f10bfcf426e22b",
+          "md5": "6dce4a774df7054acfdf66e38c974eb9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1.jar",
+          "size": 58532335,
+          "sha512": "00454692f9e03db6f18bb11d8686eb8206761ed35c7bfb93eb91537674ca70d9944222b8ac95c0384a384f6422cf1b369fd741396040de938aa7910e0db0e4aa",
+          "sha256": "31001fec96dd8bdc79f8b6c74f5758adb487d665de9b36fcc3aee92112455bca",
+          "sha1": "dc1e75031ab5c76074b87fdc38f10bfcf426e22b",
+          "md5": "6dce4a774df7054acfdf66e38c974eb9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-copilot-refactor-rift-entities-dev+mc.1.20.1-sources.jar",
+          "size": 57039388,
+          "sha512": "83c46c88823fec8f29322646c10b8736b88c620965ef85423658637415cc93970c4a13925c3fe03a5fc14bbd292a7b990f50e8ad5290bc02a028585296d98d32",
+          "sha256": "5567c86a2e6cbe68865a80659ed5f1a0d8f95efba05aa55f9869fc8d37c8f8fe",
+          "sha1": "1c3e0a6cd58a35809a25eb691f229309e5bc5b85",
+          "md5": "229209ab1f59c73d6c90ccecad06c97b"
+        }
+      ]
+    }
+  ]
+}

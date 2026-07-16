@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1.jar",
+          "size": 63944838,
+          "sha512": "d64f1bd31df2aeabf915bd633444fb57a8449c3a1206c7bd94d2f8900793909a020c59cb1d79e5a0966f6d4ddb2d85f379afaa213469e1c69bba16d90cef9335",
+          "sha256": "69f0cc97405e3aecda767ef3482c817d364c36e2948df3b6e8943b8a2cc0d861",
+          "sha1": "6d5e78068fb6240dd10dda97513361ba4feff3a7",
+          "md5": "b4ae21a4fc51431d841174e981ff0850"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1.jar",
+          "size": 63944838,
+          "sha512": "d64f1bd31df2aeabf915bd633444fb57a8449c3a1206c7bd94d2f8900793909a020c59cb1d79e5a0966f6d4ddb2d85f379afaa213469e1c69bba16d90cef9335",
+          "sha256": "69f0cc97405e3aecda767ef3482c817d364c36e2948df3b6e8943b8a2cc0d861",
+          "sha1": "6d5e78068fb6240dd10dda97513361ba4feff3a7",
+          "md5": "b4ae21a4fc51431d841174e981ff0850"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-mallet-control-durability-bypass-dev+mc.1.20.1-sources.jar",
+          "size": 62431487,
+          "sha512": "6035c9ec8d5392b0a6c29b3b496d32794757be8144b8f3514d57d07c5c27f273ca6a3874b84e47ba2d491be6a9774cbece877785e04d9aa230bda15212f80966",
+          "sha256": "c14543d273b2a7f053a5a7c0cbf2cb84606ef1f25eb8a4fcd1c1f264e998e7e3",
+          "sha1": "b0c9c80f3b8e08bea0ea30b9a00a509482c66b45",
+          "md5": "bd5f4d1a61600975eaa4d373e1ff3e4e"
+        }
+      ]
+    }
+  ]
+}

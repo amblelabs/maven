@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-chore-modkit-16-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1.jar",
+          "size": 60741522,
+          "sha512": "dfccf5a0c3fec0bb3e4cdc9aab7ce36c963a30a56eab2cc829dd6faefc81ac79246aa5be037d8794124b4810e3b8e3960129d254d4dfb23de193ece5ce78ba9b",
+          "sha256": "e59fc49bed70f358b9e797a819d124b97187269b4dfd120d055e05938457b41f",
+          "sha1": "92f779a52915ca202c7471e8de760cf9e59a7cf4",
+          "md5": "b24b58e877cec6499116b3d8cdd7d88b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1.jar",
+          "size": 60741522,
+          "sha512": "dfccf5a0c3fec0bb3e4cdc9aab7ce36c963a30a56eab2cc829dd6faefc81ac79246aa5be037d8794124b4810e3b8e3960129d254d4dfb23de193ece5ce78ba9b",
+          "sha256": "e59fc49bed70f358b9e797a819d124b97187269b4dfd120d055e05938457b41f",
+          "sha1": "92f779a52915ca202c7471e8de760cf9e59a7cf4",
+          "md5": "b24b58e877cec6499116b3d8cdd7d88b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-chore-modkit-16-dev+mc.1.20.1-sources.jar",
+          "size": 59225431,
+          "sha512": "c5e8afba7327da48e641cfd9524ff425539bf2357786439d6d396fe61ebe1e35512079769ea69e076fc170e4aa59b420c23d4ca458505b5ec660350f8af79df1",
+          "sha256": "79e30d378f401a7d2917ab8cff69e3fcbf19290d4454037a12b747f2bc33f033",
+          "sha1": "31fae62d952b4b764adb0f92a5a140a5186d60db",
+          "md5": "0c227d5d8d1ecc6092a55ca44249b93a"
+        }
+      ]
+    }
+  ]
+}

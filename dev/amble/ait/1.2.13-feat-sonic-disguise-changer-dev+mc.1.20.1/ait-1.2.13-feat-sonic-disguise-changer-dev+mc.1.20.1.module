@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1.jar",
+          "size": 58424413,
+          "sha512": "94d81be7906197d9490be99c9b2e5d46c9c6ec60bbace1331a220bb4295b5bd47b53889aa97128848363ad77f2f82e61ff00f338b31d9720b5f4e169dfff3e57",
+          "sha256": "c18b5f14d902e2d93fb3b82253ee5700f5905fd6b2e4d692051e1b08b544f9de",
+          "sha1": "772a5a79758e8d53332654b27814a0f91df5c255",
+          "md5": "570d1bed7f6c6c9082c76be0c4311dce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "imm_ptl_core",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "q_misc_util",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1.jar",
+          "size": 58424413,
+          "sha512": "94d81be7906197d9490be99c9b2e5d46c9c6ec60bbace1331a220bb4295b5bd47b53889aa97128848363ad77f2f82e61ff00f338b31d9720b5f4e169dfff3e57",
+          "sha256": "c18b5f14d902e2d93fb3b82253ee5700f5905fd6b2e4d692051e1b08b544f9de",
+          "sha1": "772a5a79758e8d53332654b27814a0f91df5c255",
+          "md5": "570d1bed7f6c6c9082c76be0c4311dce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-sonic-disguise-changer-dev+mc.1.20.1-sources.jar",
+          "size": 56943963,
+          "sha512": "9c251e55265d822915850bf436efcf8d450cecbe49b0d9da0d79fbb447346443bb5da0bc67b3685c73c6a45c69c08c59a26801aadc5f554caab08e1043aade01",
+          "sha256": "8ce6a31eccdf2525302f855c0ec0ec326f1418c480c053148a2a9ef973eed922",
+          "sha1": "570dd29d1cd862dbd346dbfe962450dda53e9a4c",
+          "md5": "5a03c26211f2ca99fd20b8b3db5a6986"
+        }
+      ]
+    }
+  ]
+}

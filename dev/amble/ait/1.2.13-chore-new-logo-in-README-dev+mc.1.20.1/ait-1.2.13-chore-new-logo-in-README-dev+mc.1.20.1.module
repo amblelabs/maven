@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-chore-new-logo-in-README-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1.jar",
+          "size": 63947775,
+          "sha512": "de807ea546eae82329dad83aab98b24e39c12565a0bc05d0a00a7e8ad65ca46db0679cd55393206bb700f9eff1fe92a5d80bf3d099f475a8e0f3bf64b32fefd8",
+          "sha256": "62785085ff1b2ce90b3aa90b1a7ca8933881b800c2b78a8bcf640e7b64d2fb7c",
+          "sha1": "1a62aa6947863e40b6b8a39ee6cd72b07c028383",
+          "md5": "2406c615910c00007c83b3800c68dd86"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1.jar",
+          "size": 63947775,
+          "sha512": "de807ea546eae82329dad83aab98b24e39c12565a0bc05d0a00a7e8ad65ca46db0679cd55393206bb700f9eff1fe92a5d80bf3d099f475a8e0f3bf64b32fefd8",
+          "sha256": "62785085ff1b2ce90b3aa90b1a7ca8933881b800c2b78a8bcf640e7b64d2fb7c",
+          "sha1": "1a62aa6947863e40b6b8a39ee6cd72b07c028383",
+          "md5": "2406c615910c00007c83b3800c68dd86"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-chore-new-logo-in-README-dev+mc.1.20.1-sources.jar",
+          "size": 62430557,
+          "sha512": "b6f04eec685c903299975d33ea3d6e8e1731c89dbcd64c538587ede73a28aca6f21a332c13ade3f02a8a3e744747044f48b4d085c8ec03cffa1335f690e5837d",
+          "sha256": "16efab43b8bad0880bb47804bd9a15236b5cac70d5a92c7b65a41e8c15f02f99",
+          "sha1": "aa15ee2b3258172fd3def73a0f5b959b2462b8c6",
+          "md5": "ed40ee3c6fa716aa632a1039e155cb3c"
+        }
+      ]
+    }
+  ]
+}

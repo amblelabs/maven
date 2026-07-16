@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-scale-command-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1.jar",
+          "size": 58519402,
+          "sha512": "bca8d51d7c8cabacb75b9c43a17f8ed20c390511f716e1c585af8e266ed73cb7ae0c4832a89b833854e5c431b09bc9d442fe8c7ad95a0077ea583bb9aadc94ba",
+          "sha256": "18e4a99066be9dd811574bf99c310e5f682b20e3ed0e9e5709c0fa292ddcc866",
+          "sha1": "adc11c3dc10d603966236c8bfb6dd92b6f021b8a",
+          "md5": "95aa45b9ddea65e7ec8aaf80453624e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1.jar",
+          "size": 58519402,
+          "sha512": "bca8d51d7c8cabacb75b9c43a17f8ed20c390511f716e1c585af8e266ed73cb7ae0c4832a89b833854e5c431b09bc9d442fe8c7ad95a0077ea583bb9aadc94ba",
+          "sha256": "18e4a99066be9dd811574bf99c310e5f682b20e3ed0e9e5709c0fa292ddcc866",
+          "sha1": "adc11c3dc10d603966236c8bfb6dd92b6f021b8a",
+          "md5": "95aa45b9ddea65e7ec8aaf80453624e4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-scale-command-dev+mc.1.20.1-sources.jar",
+          "size": 57031496,
+          "sha512": "02dce20746dff3acc1a0c03e1af0f2a52fc393d73a9e2548e216120fd68dd7ff9b3ac15a2f5fdb58157fe4650cf6e5885a0506b4ee4237f0ee553d00d861c651",
+          "sha256": "32e40139e772e6fdbbb13fe7735c2c9b8f4dc7590eb6ea0cf41dfb57121da7ca",
+          "sha1": "80f03b6d229992b546314ceba117c2309e05752f",
+          "md5": "cfd4776f1abf76a4e62ffffed6d244e2"
+        }
+      ]
+    }
+  ]
+}

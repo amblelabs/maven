@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amblelabs",
+    "module": "ait",
+    "version": "1.3.0-fix-property-sync-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1.jar",
+          "size": 69788537,
+          "sha512": "88d2dc44fa4da25b6e2e19c8a78a6c1cc2fccc8198bed05a9ec384340ccc8c2c90b9397e1944c2bda0f5b8caadd45df11f446951d2f26030da602a8f56d2f8c2",
+          "sha256": "9ec9d8ec788ec46f283596c0e96bde6472ac3a5b59862e896db79f8e15a11931",
+          "sha1": "dd8310b2ddeee4c5fe2a1fcc879988a4beeeb3cb",
+          "md5": "af5e400533aaf1dbe94c176c699a456d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1.jar",
+          "size": 69788537,
+          "sha512": "88d2dc44fa4da25b6e2e19c8a78a6c1cc2fccc8198bed05a9ec384340ccc8c2c90b9397e1944c2bda0f5b8caadd45df11f446951d2f26030da602a8f56d2f8c2",
+          "sha256": "9ec9d8ec788ec46f283596c0e96bde6472ac3a5b59862e896db79f8e15a11931",
+          "sha1": "dd8310b2ddeee4c5fe2a1fcc879988a4beeeb3cb",
+          "md5": "af5e400533aaf1dbe94c176c699a456d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.3.0-fix-property-sync-dev+mc.1.20.1-sources.jar",
+          "size": 68269632,
+          "sha512": "7a9323dc8da320ecdaf9ddba4d71cc3492f5ca759f00bf60b6509389010a7f73a4ca8684669e41885fa4d606db714fd5a607321c965229c115ff71b114078ae8",
+          "sha256": "9aae79cad2e01a082da1042907a28821f1ed7f2adfb3d6badefbfbbf12392a3d",
+          "sha1": "3129b34e2b611e39a2106c8cc8af89e88028aeb4",
+          "md5": "3c4f5e5e7001d69c72f22185231624d6"
+        }
+      ]
+    }
+  ]
+}

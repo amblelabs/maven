@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1.jar",
+          "size": 60681141,
+          "sha512": "2fb6cbdf9bfc5be3703938e4a5af7781de0f22065c21799aa2265f5dd2e76ac921a16ca8dc7ba102bfc733d19cc5aa6f902702dc1e532d1f924d13afcc04a923",
+          "sha256": "a67f63c1b22698b1bc7109b4e6fca1fd7c73a3be44435c93757d5d752c3673ef",
+          "sha1": "5f35ff5f4a65e66790ba6729bb8dc63da42d6bd1",
+          "md5": "46ff2ed2232c4339ce25125229e42b9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1.jar",
+          "size": 60681141,
+          "sha512": "2fb6cbdf9bfc5be3703938e4a5af7781de0f22065c21799aa2265f5dd2e76ac921a16ca8dc7ba102bfc733d19cc5aa6f902702dc1e532d1f924d13afcc04a923",
+          "sha256": "a67f63c1b22698b1bc7109b4e6fca1fd7c73a3be44435c93757d5d752c3673ef",
+          "sha1": "5f35ff5f4a65e66790ba6729bb8dc63da42d6bd1",
+          "md5": "46ff2ed2232c4339ce25125229e42b9a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-fire-control-sets-on-fire-dev+mc.1.20.1-sources.jar",
+          "size": 59165846,
+          "sha512": "bffef6d5770f36e6291019e27bc6649a9232244e9c33c404348444177fcc8c2756a377fed168ba2df8b3a71e56571cf1597dc0fcf1f02cd6040df4d7def7463b",
+          "sha256": "bbb21ed00eea7c7ae1892f6dcac4cde85c4cd60365f9197ef5c3b8bf929e22c7",
+          "sha1": "13c70a09ab554577f6df983e6161564cb632fc9f",
+          "md5": "de5d5088eeba525be365c6252ce65481"
+        }
+      ]
+    }
+  ]
+}

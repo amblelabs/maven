@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1.jar",
+          "size": 497328,
+          "sha512": "dd595ce7ff946f9e49bb2ec60bf056b08cfd39a4bcbd26c3b18410e01f298f3493c519c525680005bac32028226f861d757ea37d21f7fbd305d5190fdd57cdd0",
+          "sha256": "40ff30ba94e42139683301a3ef35f2d75507784a71a5df54f3162d03a4d67e9f",
+          "sha1": "4c58198dca1b78d0f8fdacd06e05de1a56dcf99c",
+          "md5": "3cb4f079ba93dd6652002c183efa940f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1.jar",
+          "size": 497328,
+          "sha512": "dd595ce7ff946f9e49bb2ec60bf056b08cfd39a4bcbd26c3b18410e01f298f3493c519c525680005bac32028226f861d757ea37d21f7fbd305d5190fdd57cdd0",
+          "sha256": "40ff30ba94e42139683301a3ef35f2d75507784a71a5df54f3162d03a4d67e9f",
+          "sha1": "4c58198dca1b78d0f8fdacd06e05de1a56dcf99c",
+          "md5": "3cb4f079ba93dd6652002c183efa940f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-animation-state-cleanup-dev+mc.1.20.1-sources.jar",
+          "size": 187185,
+          "sha512": "cc443485cb852347a0334ec1799cd4b88aa78d4c317305a694feecc0f252cffa550e5cc4354ca1ee33dbd6ff2407ddc2e392481fe03d2a3678eef9cc8e577d54",
+          "sha256": "4252ef30d0547657be885aee9fbf982f00292fe0c1b05ebc1219dfc26acbe90b",
+          "sha1": "2da27d2e7b844c33c2574e1e2de81dc0fe48af74",
+          "md5": "9be3eef0ac055d30d8f1da539ffe30e6"
+        }
+      ]
+    }
+  ]
+}

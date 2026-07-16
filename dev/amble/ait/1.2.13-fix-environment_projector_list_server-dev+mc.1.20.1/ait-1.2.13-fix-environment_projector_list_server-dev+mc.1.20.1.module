@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1.jar",
+          "size": 63956282,
+          "sha512": "4a43b2daf1939e4ae8a54821bccb6e19168c7f1dc66a533c75773b45e156ba84514f1d91f6dced1e20b268f56d092edb6261db9e08e74792a6dca82b6ec267fc",
+          "sha256": "1bf4b153434a040308bf4490eea1a522b1e30bbd327961f4e9e464281a7f28fb",
+          "sha1": "e3c8467e2a8debdf1731a62a83c97934b96ab331",
+          "md5": "4d0d7a46b0270860197f491ac8917f7e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1.jar",
+          "size": 63956282,
+          "sha512": "4a43b2daf1939e4ae8a54821bccb6e19168c7f1dc66a533c75773b45e156ba84514f1d91f6dced1e20b268f56d092edb6261db9e08e74792a6dca82b6ec267fc",
+          "sha256": "1bf4b153434a040308bf4490eea1a522b1e30bbd327961f4e9e464281a7f28fb",
+          "sha1": "e3c8467e2a8debdf1731a62a83c97934b96ab331",
+          "md5": "4d0d7a46b0270860197f491ac8917f7e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-environment_projector_list_server-dev+mc.1.20.1-sources.jar",
+          "size": 62433864,
+          "sha512": "39f8621d1729daed071721fa043e970c45d78b655af9445e25305a70ba69c9a5f3da23b185074102a3047481ee749ac3385a32875b46e69e2fe2c711050649f6",
+          "sha256": "afd10c93ad7d08ca83d418542c53eb28ff0502d7399c6fcaca959361e01e83aa",
+          "sha1": "4e70dedee856ceb782da37d334a8055edbf52cdc",
+          "md5": "39c9fc011e2ad6ef66e8311d8e85b3e5"
+        }
+      ]
+    }
+  ]
+}

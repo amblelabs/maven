@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1.jar",
+          "size": 69784288,
+          "sha512": "5d8acfdd872cbe57b37ff4685dfc187d9a6b323a86457096ff99bce6566761d00a87f13769eb78d37156d3540bb63c800aef89ff139c0004389a1e5c87aa6bac",
+          "sha256": "2ded257eddb5bca3f05b4367a34c20c30afa527ff37e50e630590c4bf2996241",
+          "sha1": "0e7542fd23e9d7511b246823768458f5193dd1af",
+          "md5": "00daffb74314971343a28cf031f5faf9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1.jar",
+          "size": 69784288,
+          "sha512": "5d8acfdd872cbe57b37ff4685dfc187d9a6b323a86457096ff99bce6566761d00a87f13769eb78d37156d3540bb63c800aef89ff139c0004389a1e5c87aa6bac",
+          "sha256": "2ded257eddb5bca3f05b4367a34c20c30afa527ff37e50e630590c4bf2996241",
+          "sha1": "0e7542fd23e9d7511b246823768458f5193dd1af",
+          "md5": "00daffb74314971343a28cf031f5faf9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-assorted-rift-issues-dev+mc.1.20.1-sources.jar",
+          "size": 68268102,
+          "sha512": "c0b0317b7f87a68d921b0b59fbd254cc7b563f3e41ab2227f0a00a44647fe488e5abf4c448c1ebf6b62b765a354d3a96d39ce2d12de6c3957dbe161174935d5a",
+          "sha256": "a8daa1707ac9c56d0e511591495841b365e6c1829c280d072329d3266a8861a9",
+          "sha1": "9fdb5fdb31370074f77ca3b75f930f3c210d5cdf",
+          "md5": "8f2ee7876aabbff413ae3908ea35d4fd"
+        }
+      ]
+    }
+  ]
+}

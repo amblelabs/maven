@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1.jar",
+          "size": 69783832,
+          "sha512": "61bacb1dddbab00c942504afb73e73267af1596e7d34a46bced2183b54b9c9436293ed65172bad4621627f2feccd41dba10e1871390775261abf5375659b3e16",
+          "sha256": "ad7d41677bf5b5ed909042ec039ebdd0b2f864e669f9e6dd9a8105794f731623",
+          "sha1": "a852673d89f3d4309564353d398b2539f70813f2",
+          "md5": "72424062dc1e329f315da55d81a71a81"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1.jar",
+          "size": 69783832,
+          "sha512": "61bacb1dddbab00c942504afb73e73267af1596e7d34a46bced2183b54b9c9436293ed65172bad4621627f2feccd41dba10e1871390775261abf5375659b3e16",
+          "sha256": "ad7d41677bf5b5ed909042ec039ebdd0b2f864e669f9e6dd9a8105794f731623",
+          "sha1": "a852673d89f3d4309564353d398b2539f70813f2",
+          "md5": "72424062dc1e329f315da55d81a71a81"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-chore-repair_tool_tooltip-dev+mc.1.20.1-sources.jar",
+          "size": 68267849,
+          "sha512": "0710a89c9d88a4b1748f5e799a4acfa5a8b10f080468d630b3c39aeabee72a6bdc90f469682a39e3d101967d7303db90e34c2ff769cfecac1e214036a24d6cfa",
+          "sha256": "d41ecdefca454387f61bf69856dab67172a1340ee8c878233742f57600b90f75",
+          "sha1": "0ec95edb8aee66ae3e44c6866607f017e75314c6",
+          "md5": "23fba20de47f05de3160d4568ae163c9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-monitor-translatables-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1.jar",
+          "size": 60742522,
+          "sha512": "8c97bf65b3dcc45e00e4895429cd445ef5b0d529ab3bc02e74fad2f73df859daa8c4f4790e11ad554f7f32713731dc7c97e5f11fb536b793e51d16972ddb1ebf",
+          "sha256": "86fdbe6ab1f73b92d3c4c9503688003817f5fb9ef04e1810ae0a524e721d3297",
+          "sha1": "454c7101d504cf5d58ff6bc66e6275334619ac91",
+          "md5": "53efe86e47efc287b932f5c4f7faea91"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1.jar",
+          "size": 60742522,
+          "sha512": "8c97bf65b3dcc45e00e4895429cd445ef5b0d529ab3bc02e74fad2f73df859daa8c4f4790e11ad554f7f32713731dc7c97e5f11fb536b793e51d16972ddb1ebf",
+          "sha256": "86fdbe6ab1f73b92d3c4c9503688003817f5fb9ef04e1810ae0a524e721d3297",
+          "sha1": "454c7101d504cf5d58ff6bc66e6275334619ac91",
+          "md5": "53efe86e47efc287b932f5c4f7faea91"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-monitor-translatables-dev+mc.1.20.1-sources.jar",
+          "size": 59225881,
+          "sha512": "42c17029ce662bd12e63fa6a01a7b68e76119deaa10377c5a55593e32be9cf930ca2a8c54d34cf10d9cb171ef0991fcf4beef650b4d4606f57961a7b9e89de06",
+          "sha256": "9cf645d046c663d4a39d9a49be769c4774b7ccd8dbdc439d21301afe3d0923de",
+          "sha1": "9c3c1db7ad51d7ee80fb420abee8ee5a7416d48f",
+          "md5": "6b83ac0c30c7c3dde8c0fb5e5369f0ac"
+        }
+      ]
+    }
+  ]
+}

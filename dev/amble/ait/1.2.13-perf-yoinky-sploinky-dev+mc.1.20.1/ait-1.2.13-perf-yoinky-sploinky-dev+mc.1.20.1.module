@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1.jar",
+          "size": 58562986,
+          "sha512": "779706907e973690c7cd7ec7e08e84cc6ae58f3447f2f29ebc59b7c17c413ff2bcecba00bc4071b47c03281f59f426fe3909183c410f6e05640b3e428c19200c",
+          "sha256": "166df2d051eab91654b8cd56a457664f473241a81457e34ad01f1ce2f35a1b4f",
+          "sha1": "6b8af63a009457a952065bdf59f78786f779e979",
+          "md5": "1d20ebd9466bc1d119dfbbd59bd76171"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1.jar",
+          "size": 58562986,
+          "sha512": "779706907e973690c7cd7ec7e08e84cc6ae58f3447f2f29ebc59b7c17c413ff2bcecba00bc4071b47c03281f59f426fe3909183c410f6e05640b3e428c19200c",
+          "sha256": "166df2d051eab91654b8cd56a457664f473241a81457e34ad01f1ce2f35a1b4f",
+          "sha1": "6b8af63a009457a952065bdf59f78786f779e979",
+          "md5": "1d20ebd9466bc1d119dfbbd59bd76171"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-perf-yoinky-sploinky-dev+mc.1.20.1-sources.jar",
+          "size": 57058560,
+          "sha512": "38a3a19191017dea26a3acd53021ec1d55ae1ebf38813cd70f22fddc47b8b678138c9fb507c7f36afd6ef1817f47f5daa6e9e0830d380cb36941dee6c5c15091",
+          "sha256": "3717ec7196236a01241db5955300d9b03e58128e6dcf778808bc033654c68a0e",
+          "sha1": "9a5adfc48fe6cbb4ea62476d507d15373964cb55",
+          "md5": "9af3ac63aa89da2f69720543124b6443"
+        }
+      ]
+    }
+  ]
+}

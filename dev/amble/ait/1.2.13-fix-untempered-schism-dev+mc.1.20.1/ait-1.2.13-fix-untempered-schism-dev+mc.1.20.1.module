@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-untempered-schism-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1.jar",
+          "size": 69753437,
+          "sha512": "f562f21755369e462ca24d0574b588adef0c54724347154704cbae1f532a6e6278eb789d5a7e4d4164516f01854a672b6c1f9dedf4f9baaf85f66097b128e494",
+          "sha256": "d4c1b074b8080d3bd1b4477f75b87ec925d276761ed706ccbfbce36f15b5bfc9",
+          "sha1": "f97a3dfb2bde49dffb8556fe5805a0e9e3e23bb9",
+          "md5": "885e45589befdc41300b4e9a3dc056cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1.jar",
+          "size": 69753437,
+          "sha512": "f562f21755369e462ca24d0574b588adef0c54724347154704cbae1f532a6e6278eb789d5a7e4d4164516f01854a672b6c1f9dedf4f9baaf85f66097b128e494",
+          "sha256": "d4c1b074b8080d3bd1b4477f75b87ec925d276761ed706ccbfbce36f15b5bfc9",
+          "sha1": "f97a3dfb2bde49dffb8556fe5805a0e9e3e23bb9",
+          "md5": "885e45589befdc41300b4e9a3dc056cf"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-untempered-schism-dev+mc.1.20.1-sources.jar",
+          "size": 68238642,
+          "sha512": "c7c786ab14f36df91bffef39644e6844ca86eb5b2c496a831bc98a22a98928e85aa1d4bffbb8f065076a93de77a00d1054701b9901810399243f446fc509a821",
+          "sha256": "d10c5d459950058d4b65c1ef2f7db60a22796586e363f204a8e037fadb598700",
+          "sha1": "fb1da594adeea7078bda06a3c72db66c9c6c1f84",
+          "md5": "9fd191d5adeead2d5d29d91971794e3d"
+        }
+      ]
+    }
+  ]
+}

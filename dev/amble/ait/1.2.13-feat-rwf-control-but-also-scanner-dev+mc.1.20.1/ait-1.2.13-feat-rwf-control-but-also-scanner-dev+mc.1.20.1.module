@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1.jar",
+          "size": 60742059,
+          "sha512": "2f5d91d5fd19b546e065798598f83a8552d841330446d6f202453bb3c5dcf38014591aa00e25ca5a7d42c89f267511acf9efcbd9bfd97f969d4366ae7fe0c6c3",
+          "sha256": "25ed1bf6329e3db675b59ae7a27433e252a8b5428ab6f6577ae3bfe8a1190826",
+          "sha1": "298f7a960924a65c68d85ffcdb8bd8048117cb0c",
+          "md5": "3df5e0e9ccd1fc08ce68450a13e32885"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1.jar",
+          "size": 60742059,
+          "sha512": "2f5d91d5fd19b546e065798598f83a8552d841330446d6f202453bb3c5dcf38014591aa00e25ca5a7d42c89f267511acf9efcbd9bfd97f969d4366ae7fe0c6c3",
+          "sha256": "25ed1bf6329e3db675b59ae7a27433e252a8b5428ab6f6577ae3bfe8a1190826",
+          "sha1": "298f7a960924a65c68d85ffcdb8bd8048117cb0c",
+          "md5": "3df5e0e9ccd1fc08ce68450a13e32885"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-rwf-control-but-also-scanner-dev+mc.1.20.1-sources.jar",
+          "size": 59225802,
+          "sha512": "a6a2c107e00fa69b803db55df07372e076c6cb5089c76a9c0dd74037de2deb2c452978c143a61e709c898136ed48f6ab0b7cce4a7f3c78554a2d4bad18d76c41",
+          "sha256": "f68aee3ca04a45a480093bf4dbd18e28539a0024c5a36afb7a8b65057905cdd5",
+          "sha1": "ebb24d67ef8e3bafd6de56971c779a28083a1c54",
+          "md5": "8a18498da4fe0a56cce91dc7ed583f5d"
+        }
+      ]
+    }
+  ]
+}

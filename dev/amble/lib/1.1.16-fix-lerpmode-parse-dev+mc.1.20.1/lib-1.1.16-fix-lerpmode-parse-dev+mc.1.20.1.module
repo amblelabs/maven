@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-lerpmode-parse-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1.jar",
+          "size": 496435,
+          "sha512": "07f82bf736c64374eb23c349ef4f05a99430788bf0cec16aab325c2890f79ad5f8d9ee33dceab4f020a35b7cfad3a86a8608cbab6a209966c8e5f703e66b3263",
+          "sha256": "bb4fbcfcafff07a744d50a8104342f880c57e959e7c25d10f51751eb7bba80e8",
+          "sha1": "84bb948751d3bbc58148819f590d960ef3963206",
+          "md5": "efdf2b862b26ef5b540902d04e8af501"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1.jar",
+          "size": 496435,
+          "sha512": "07f82bf736c64374eb23c349ef4f05a99430788bf0cec16aab325c2890f79ad5f8d9ee33dceab4f020a35b7cfad3a86a8608cbab6a209966c8e5f703e66b3263",
+          "sha256": "bb4fbcfcafff07a744d50a8104342f880c57e959e7c25d10f51751eb7bba80e8",
+          "sha1": "84bb948751d3bbc58148819f590d960ef3963206",
+          "md5": "efdf2b862b26ef5b540902d04e8af501"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-lerpmode-parse-dev+mc.1.20.1-sources.jar",
+          "size": 186337,
+          "sha512": "fd7099d4943c9f1c56a7246bf71929e7ece1e44e6809f0e2f252e65275b9d0717af30658d17db6782ccd0474a4de6ecf4b7ab3dc22e81bdc80869fd9a5784ffe",
+          "sha256": "e31f868c1324ea6e063084db0f21521e81d81e39aae8fc0ffa5802c975fc0b1a",
+          "sha1": "4be7c5e1aac07b21c1443a79efb9181f98af002f",
+          "md5": "9f32c4dd91602d5fd8e70e3496194ea0"
+        }
+      ]
+    }
+  ]
+}

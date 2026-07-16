@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-registry-double-register-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1.jar",
+          "size": 496463,
+          "sha512": "6fc6c4988c7a8b8a6682f2bbf22e8200f22fb180938fdbd6146b493cff9a0636e6627119c6e76812defd783456eadb9abe0279c045e4b13d82a0860b2f394368",
+          "sha256": "4c1b01e34efdb88c8230e21b00f8ac1b36cc9c74c0c6930cfab5f9349d779016",
+          "sha1": "03cae5f3447f0cf84d7414a7d1b66c6eaffb22db",
+          "md5": "efcbca903100f8630135bcf69510583e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1.jar",
+          "size": 496463,
+          "sha512": "6fc6c4988c7a8b8a6682f2bbf22e8200f22fb180938fdbd6146b493cff9a0636e6627119c6e76812defd783456eadb9abe0279c045e4b13d82a0860b2f394368",
+          "sha256": "4c1b01e34efdb88c8230e21b00f8ac1b36cc9c74c0c6930cfab5f9349d779016",
+          "sha1": "03cae5f3447f0cf84d7414a7d1b66c6eaffb22db",
+          "md5": "efcbca903100f8630135bcf69510583e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-registry-double-register-dev+mc.1.20.1-sources.jar",
+          "size": 186403,
+          "sha512": "03a909d30d92c43c348da916ad1156ce9b3f9fe381e650df0b06df635298ae3d6230f8188cfd4bf07fe658466348c824fbcbb755f12cc17e73cb51f0c467a372",
+          "sha256": "f218013eba896040c393ad9f176df0bdc1f0c76493b86b5e7b9151ca08cfa1d6",
+          "sha1": "e73825ad26b487629a0d43600a5d76cee157b941",
+          "md5": "7c98995b1975854f9022912b6b9efe3e"
+        }
+      ]
+    }
+  ]
+}

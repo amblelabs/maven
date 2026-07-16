@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-perf-end-server-tick-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1.jar",
+          "size": 58555118,
+          "sha512": "914ae7ef7504778e548421599f19dfa7d911fde24d9f13789e2363e8c1c6e3e181b4c02163eeef192b530f3992b47381a247ad785823fe7a7d5ee46d01e21945",
+          "sha256": "1cbbe52b5e10f06d8b4c003cb3388c764ad6a9be6b93669adcd717f2f660c730",
+          "sha1": "eba8947b849d35c502ffa925a3defe66e3dc42cb",
+          "md5": "aeba75ff1858094b0e6d73837f6997b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1.jar",
+          "size": 58555118,
+          "sha512": "914ae7ef7504778e548421599f19dfa7d911fde24d9f13789e2363e8c1c6e3e181b4c02163eeef192b530f3992b47381a247ad785823fe7a7d5ee46d01e21945",
+          "sha256": "1cbbe52b5e10f06d8b4c003cb3388c764ad6a9be6b93669adcd717f2f660c730",
+          "sha1": "eba8947b849d35c502ffa925a3defe66e3dc42cb",
+          "md5": "aeba75ff1858094b0e6d73837f6997b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-perf-end-server-tick-dev+mc.1.20.1-sources.jar",
+          "size": 57055275,
+          "sha512": "aa340d5e6a18855e4f3784e03622b381b597ecbb8da0e0cbc96ba20fd19e6d5923343b0bf8f30a7d64e5e9e56fe035189b5a034e478d83fd42955aac76ec0215",
+          "sha256": "062195a91dc8d6c38e8d681a618b63f0de19001559c136cd7d21a971b7b3186f",
+          "sha1": "af3a4abf429d2570d5c166ee6404ef8fad4b8a43",
+          "md5": "f97d47d0363a9c23703b24a72d32044c"
+        }
+      ]
+    }
+  ]
+}

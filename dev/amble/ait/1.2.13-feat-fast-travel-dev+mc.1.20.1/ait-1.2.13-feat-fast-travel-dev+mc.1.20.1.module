@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-fast-travel-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1.jar",
+          "size": 63943171,
+          "sha512": "ae2c41a4a155ad34eb4f062ecea5d7fffcdd4c7b3a277c3ea56a1268595872798da3c1a36d431315c30d3316c9c7902f6b620d79b198843e630274fd0c81cd15",
+          "sha256": "142f422d756bb70ace59a1a738a9566ab56bff48577d7ed1a63abc74ffe42433",
+          "sha1": "b4c5c01b27fe05f6e7286a3ab2b4073843c2d943",
+          "md5": "c741948b28b02d714970a0e53b10c676"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1.jar",
+          "size": 63943171,
+          "sha512": "ae2c41a4a155ad34eb4f062ecea5d7fffcdd4c7b3a277c3ea56a1268595872798da3c1a36d431315c30d3316c9c7902f6b620d79b198843e630274fd0c81cd15",
+          "sha256": "142f422d756bb70ace59a1a738a9566ab56bff48577d7ed1a63abc74ffe42433",
+          "sha1": "b4c5c01b27fe05f6e7286a3ab2b4073843c2d943",
+          "md5": "c741948b28b02d714970a0e53b10c676"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-fast-travel-dev+mc.1.20.1-sources.jar",
+          "size": 62429859,
+          "sha512": "40b1b6323558800e6804a4b14592ec42768ab8282c3882b89a9560c632005c4dbb12dc19a1a4839658ccd9c3133db4359cabb85c4796eaf38b9b082cb7426447",
+          "sha256": "bd29f0ec58b98355298c96faaec1f4b7b75fd29f5ae83a82a0f8d3b33e6cffad",
+          "sha1": "a205d460fec7b82a24eab58997e6070bae0c9ce4",
+          "md5": "3e051ebd4547465f2ba531a566d7bbc3"
+        }
+      ]
+    }
+  ]
+}

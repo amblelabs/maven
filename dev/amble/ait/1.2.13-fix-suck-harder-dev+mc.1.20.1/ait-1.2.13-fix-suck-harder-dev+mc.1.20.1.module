@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-suck-harder-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1.jar",
+          "size": 58599314,
+          "sha512": "33db684cbe48af7ee5658b68a944c37ce4318e7321000f041b10b3dfa1fd5d89879f740c20d3b93bdac41c8560ebb230b622c77b7174bd97f36343197639dba5",
+          "sha256": "345fe1805f95f31b4304c052adc79d18d3d295af5b632a73603108636e33175d",
+          "sha1": "4cd5ce3ded1edade353a58935dd32e2463b73803",
+          "md5": "dd54358ef51783575031d0b1bc7ac2b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1.jar",
+          "size": 58599314,
+          "sha512": "33db684cbe48af7ee5658b68a944c37ce4318e7321000f041b10b3dfa1fd5d89879f740c20d3b93bdac41c8560ebb230b622c77b7174bd97f36343197639dba5",
+          "sha256": "345fe1805f95f31b4304c052adc79d18d3d295af5b632a73603108636e33175d",
+          "sha1": "4cd5ce3ded1edade353a58935dd32e2463b73803",
+          "md5": "dd54358ef51783575031d0b1bc7ac2b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-suck-harder-dev+mc.1.20.1-sources.jar",
+          "size": 57100614,
+          "sha512": "0d4a546484c6e0046ac6482f68308c923ba7eadfffbcc69c53ca98adb0eb239e974db92cfd1bfdf920dad04fedd86070f16fcdfd3939145c895fb0e67075d388",
+          "sha256": "cb17607409dbd2c7a92fc5f05faa40ee5f75df8a83da95f676617734bc2e66c5",
+          "sha1": "fcd469c1cf326d616c93ee5c3ba9412c220c55bd",
+          "md5": "b98d752c21f7272e662a7627576edd37"
+        }
+      ]
+    }
+  ]
+}

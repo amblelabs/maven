@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amblelabs",
+    "module": "ait",
+    "version": "1.3.0-fix-infested-space-blocks-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1.jar",
+          "size": 69784849,
+          "sha512": "5d5de89abd5c4d3a44669b05d54ab6493d318fffc7db8a9abe28fefd9e6df09e643e5d22867a898daaa5b9aa4e943cc854f8ad0ee29d915c5ba729d069c38afb",
+          "sha256": "ad6d578c4f7a9fb8444a5de871197c233702868a1a78381e98b841f403082023",
+          "sha1": "b1818c81a2354519591ae3f2cbb61d6f14e58ea7",
+          "md5": "8099f6a34cd36381fcc9944bb64af56f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1.jar",
+          "size": 69784849,
+          "sha512": "5d5de89abd5c4d3a44669b05d54ab6493d318fffc7db8a9abe28fefd9e6df09e643e5d22867a898daaa5b9aa4e943cc854f8ad0ee29d915c5ba729d069c38afb",
+          "sha256": "ad6d578c4f7a9fb8444a5de871197c233702868a1a78381e98b841f403082023",
+          "sha1": "b1818c81a2354519591ae3f2cbb61d6f14e58ea7",
+          "md5": "8099f6a34cd36381fcc9944bb64af56f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.3.0-fix-infested-space-blocks-dev+mc.1.20.1-sources.jar",
+          "size": 68268486,
+          "sha512": "392811fe2ebdeda8f234b9b482c267078370d9a56d0fb2ea750a1b88391e44230a2b27ee80b9fb51e8f1af48c9b8c34ba84b41dfc95769a35c799c84315085b4",
+          "sha256": "0d5df80da14cc20e948fb6dc6b8dad0886b2a41b125a72fd38b91984a476b905",
+          "sha1": "bc8bb9a85dab42c8c4e0190d21dd59ee9b8106cc",
+          "md5": "f372fbe0e4c04b91a628411d871211a5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1.jar",
+          "size": 64482247,
+          "sha512": "c56ac790cbc7b623e63ae51e5c9eff22f12b9cdaf062036945995fb03385669d34a4d21929cf7fd5b1c66f8699d88fad51076dab8065929e092a590b9367ebc0",
+          "sha256": "53b94e0e1b5bb3edcc35272356d3745a2ed5b97c5355896d2883d55acfbc5236",
+          "sha1": "a704cbb32e849eb06f81cec2c41ad7e7a762087b",
+          "md5": "01b490b8d0ecb55a5b594ddbbefe2d1a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1.jar",
+          "size": 64482247,
+          "sha512": "c56ac790cbc7b623e63ae51e5c9eff22f12b9cdaf062036945995fb03385669d34a4d21929cf7fd5b1c66f8699d88fad51076dab8065929e092a590b9367ebc0",
+          "sha256": "53b94e0e1b5bb3edcc35272356d3745a2ed5b97c5355896d2883d55acfbc5236",
+          "sha1": "a704cbb32e849eb06f81cec2c41ad7e7a762087b",
+          "md5": "01b490b8d0ecb55a5b594ddbbefe2d1a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-staser-bolt-dev-team-thing-dev+mc.1.20.1-sources.jar",
+          "size": 62982303,
+          "sha512": "306279b013ea20ff241f55eaceec2c80950dc6bd3c135d8905ae3a34f430a2e89695ea1bd82fb849ed370e5602437a549d030b69b69559ba33ff1d27619913a0",
+          "sha256": "24835055c44c1183faf96e204ea3d5e977bb02f714486fac42e8bfc1d891a6ea",
+          "sha1": "c2039c54a47cae881fffc2b5c95ff65426078f81",
+          "md5": "eca7ac4d0a5e5896f9207ef6a8c8dbef"
+        }
+      ]
+    }
+  ]
+}

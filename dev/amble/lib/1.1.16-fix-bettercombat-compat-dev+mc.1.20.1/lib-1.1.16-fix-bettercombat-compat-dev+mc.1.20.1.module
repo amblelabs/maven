@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-bettercombat-compat-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1.jar",
+          "size": 496284,
+          "sha512": "d2b5fa5640c7f2c4858ac5094fcc010970cb7b15fb307b77666629dcf2b38764973cacd9fa54ccfce04a8a04ebd715c5d4c987157bfc910164f325d5cf82a4f0",
+          "sha256": "ee0792f9b612209a9c217b0e47a0e2dfc5481e646b4dbadafe5aef7160fd1e41",
+          "sha1": "6ab16fdb614a3a02e39531f93760da16268e0908",
+          "md5": "2b1d9d02172825a6663da6efb25ef072"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1.jar",
+          "size": 496284,
+          "sha512": "d2b5fa5640c7f2c4858ac5094fcc010970cb7b15fb307b77666629dcf2b38764973cacd9fa54ccfce04a8a04ebd715c5d4c987157bfc910164f325d5cf82a4f0",
+          "sha256": "ee0792f9b612209a9c217b0e47a0e2dfc5481e646b4dbadafe5aef7160fd1e41",
+          "sha1": "6ab16fdb614a3a02e39531f93760da16268e0908",
+          "md5": "2b1d9d02172825a6663da6efb25ef072"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-bettercombat-compat-dev+mc.1.20.1-sources.jar",
+          "size": 186122,
+          "sha512": "7bc57b4081cc470b4a8c373c13ab820c2ebf3acf8247f39d32e69a04b9a095981d81b61a7b82ea6eec19cf9e08f832bcf190c2e34b3bfa6d5fc126ad2017b9fd",
+          "sha256": "752badd05034a8240233e5fd1cc690d485fae9c92b67494043eac03bbca0f40e",
+          "sha1": "a3b5b9e053328b03ab6bee2d5f70e3e49e07e1bb",
+          "md5": "d7999a1c32ee4f047106db9d0e066bb1"
+        }
+      ]
+    }
+  ]
+}

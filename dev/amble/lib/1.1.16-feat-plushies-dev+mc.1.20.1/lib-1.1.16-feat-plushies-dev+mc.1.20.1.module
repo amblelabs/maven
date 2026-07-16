@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-feat-plushies-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-plushies-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-feat-plushies-dev+mc.1.20.1.jar",
+          "size": 665740,
+          "sha512": "0e5050abada13a6c63c197fac4c8338ee3db3c5f90563ed2d3317fa569dd077cbc305940c13be29744574f32fa1b6ff1e31fb2e68f5d6357df015e82ba6d7c51",
+          "sha256": "839de1051a5cfc8a6c8a89d58445509af8465a452935fb624a0af63f79f950ed",
+          "sha1": "d444b54074ccd36a72c23b54ecd7caaade2389a0",
+          "md5": "866d484b081855a9a1f2d7b30c22c27c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-plushies-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-feat-plushies-dev+mc.1.20.1.jar",
+          "size": 665740,
+          "sha512": "0e5050abada13a6c63c197fac4c8338ee3db3c5f90563ed2d3317fa569dd077cbc305940c13be29744574f32fa1b6ff1e31fb2e68f5d6357df015e82ba6d7c51",
+          "sha256": "839de1051a5cfc8a6c8a89d58445509af8465a452935fb624a0af63f79f950ed",
+          "sha1": "d444b54074ccd36a72c23b54ecd7caaade2389a0",
+          "md5": "866d484b081855a9a1f2d7b30c22c27c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-plushies-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-feat-plushies-dev+mc.1.20.1-sources.jar",
+          "size": 339288,
+          "sha512": "fcd9f5a612f9118a380d74d0acd91de297980a5a54b72cb9e78603d6134b5ac6ec90f30baed0cf5e852e844e88501c82c699a5b0bde040dab8583ce070079a5e",
+          "sha256": "193561b8c4a2f6d6c7bd12146229d9c11a21a9f45281730c63408becea75faeb",
+          "sha1": "68e02f622972c04ab3a420f41d931904493a37b8",
+          "md5": "97b6ae6072b907310ecdd30218ff039c"
+        }
+      ]
+    }
+  ]
+}

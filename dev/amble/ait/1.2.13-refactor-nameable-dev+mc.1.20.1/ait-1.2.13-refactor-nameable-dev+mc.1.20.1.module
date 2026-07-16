@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-refactor-nameable-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1.jar",
+          "size": 58521487,
+          "sha512": "7d1acf2ee7e6642ae8091e5feba44fe073f9d0bb0e12ebc464681f72850543cb532e65d41b33d9c252232961c9a1ebc88ee2e2438a51bc9bea4f0e7100a349d6",
+          "sha256": "ddb8b99d9fd5da5ed0edb3c97caa103d4339749329ab681e25de61bd572a0059",
+          "sha1": "e5eaa0fb705fccfa35968724917898571ed551a5",
+          "md5": "b914d21f48fb910c3b410782cf7a2470"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1.jar",
+          "size": 58521487,
+          "sha512": "7d1acf2ee7e6642ae8091e5feba44fe073f9d0bb0e12ebc464681f72850543cb532e65d41b33d9c252232961c9a1ebc88ee2e2438a51bc9bea4f0e7100a349d6",
+          "sha256": "ddb8b99d9fd5da5ed0edb3c97caa103d4339749329ab681e25de61bd572a0059",
+          "sha1": "e5eaa0fb705fccfa35968724917898571ed551a5",
+          "md5": "b914d21f48fb910c3b410782cf7a2470"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-refactor-nameable-dev+mc.1.20.1-sources.jar",
+          "size": 57033578,
+          "sha512": "ec4135611671cdbb1859a4d8d8e6daf1df1468403820a41d6ac6b5e416a35504c0213fa73cdc4aac52e43d5fd6dcb0465b197260e7ecdcc490720aa4780c3e30",
+          "sha256": "ffcb8473561c995f530d7df826beaa4f7d55acceff15eaa541d6f3ccceaf896c",
+          "sha1": "c75493e2828612e0ecc1545cb2654931fcd84e01",
+          "md5": "c9f4b09768be004393eddfab0b28f75e"
+        }
+      ]
+    }
+  ]
+}

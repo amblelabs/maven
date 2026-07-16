@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-shalka-hudolin-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1.jar",
+          "size": 58519057,
+          "sha512": "468b6b2a92d5298e12764240ed957914c11e8f1f7b69d97493e2d3337ee5592188257ea5d7ce4ee8045c1ddb2d9722f42c197476fef65691cb04007ba9bc1c16",
+          "sha256": "e088579847788e84d8b9791979988f78e1e38fdc0b9bf99c829c7ce40140d960",
+          "sha1": "339a0a79bea980e4b282266282cd15cf1f6d574c",
+          "md5": "45afc37b320861db9627745dcefaf9ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1.jar",
+          "size": 58519057,
+          "sha512": "468b6b2a92d5298e12764240ed957914c11e8f1f7b69d97493e2d3337ee5592188257ea5d7ce4ee8045c1ddb2d9722f42c197476fef65691cb04007ba9bc1c16",
+          "sha256": "e088579847788e84d8b9791979988f78e1e38fdc0b9bf99c829c7ce40140d960",
+          "sha1": "339a0a79bea980e4b282266282cd15cf1f6d574c",
+          "md5": "45afc37b320861db9627745dcefaf9ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-shalka-hudolin-dev+mc.1.20.1-sources.jar",
+          "size": 57031349,
+          "sha512": "25cf65152e017060b4a1a0925a067d382a1d2214141bf0e6ce02e20f94fd3c1ae43c9faa26db0dfc55c46b6320594a03460f4038f57e4015fe92ec93137af004",
+          "sha256": "679dbc29ab99dde7ac64f4f4db08f0fd75345e6ca3d27c7a551e9cca983c0b86",
+          "sha1": "fca2a23c0be3056e583ecd2aa98d1dad7c9a36de",
+          "md5": "567e0aa329db8b0165f066df432a8793"
+        }
+      ]
+    }
+  ]
+}

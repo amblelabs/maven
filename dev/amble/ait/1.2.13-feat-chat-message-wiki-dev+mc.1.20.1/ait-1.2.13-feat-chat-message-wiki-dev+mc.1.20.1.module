@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-feat-chat-message-wiki-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1.jar",
+          "size": 58555079,
+          "sha512": "d63e1b0953d3331f12a596dc034060f74eb803dcc353a014c764dc4a11a7fbe65b8364cc4c6ddb42e2d254cea4120ff535bf76fb6710367d6b9ee3fee0097b39",
+          "sha256": "bd492807f54fad8105b6bf58c094c37aa5a206fd6477eb16c48753ef20ce1b6f",
+          "sha1": "6228603806b05b5505b1b1f3f4beee6277e9c507",
+          "md5": "4e90285ad221c632813abdaa8c65fa7b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1.jar",
+          "size": 58555079,
+          "sha512": "d63e1b0953d3331f12a596dc034060f74eb803dcc353a014c764dc4a11a7fbe65b8364cc4c6ddb42e2d254cea4120ff535bf76fb6710367d6b9ee3fee0097b39",
+          "sha256": "bd492807f54fad8105b6bf58c094c37aa5a206fd6477eb16c48753ef20ce1b6f",
+          "sha1": "6228603806b05b5505b1b1f3f4beee6277e9c507",
+          "md5": "4e90285ad221c632813abdaa8c65fa7b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-feat-chat-message-wiki-dev+mc.1.20.1-sources.jar",
+          "size": 57055131,
+          "sha512": "25d8d5e0de067fcc0178f15090e0cadb43f12d9a4c5ec3e2374cb1fd49f4ec8e9456be70b031ee935ab66b619f71419198fa528fd0206afe321d4793aaf2c597",
+          "sha256": "17ead2e8e5bf723694750c05b04192413708c4cd3aceeef0ec81332ab9cfde8c",
+          "sha1": "272bd68abed9733a4db70febea09e20ddfed603f",
+          "md5": "b41affa039ee84e9e610e3723c0edff0"
+        }
+      ]
+    }
+  ]
+}

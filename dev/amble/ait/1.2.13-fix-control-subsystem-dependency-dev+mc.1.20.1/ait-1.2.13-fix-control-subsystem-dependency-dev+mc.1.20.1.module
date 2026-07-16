@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1.jar",
+          "size": 58553823,
+          "sha512": "f26950507c9c5df7205a119a1e362f52bdefb8f44c784e1a747683f0694e1138bbca81d202f933bd7f9cdcdfb3e87e2b46ae1bd92a1828f4d006298da7b0278c",
+          "sha256": "2d8602ba8a7ce49ff4b09b03dc53cbe45f3128742c7d6e55a5bedeb166d31007",
+          "sha1": "55460cd501f404f0bf3e4cefafa401ac80189ced",
+          "md5": "130dc862f4f9187ebb7fe37b64568c14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1.jar",
+          "size": 58553823,
+          "sha512": "f26950507c9c5df7205a119a1e362f52bdefb8f44c784e1a747683f0694e1138bbca81d202f933bd7f9cdcdfb3e87e2b46ae1bd92a1828f4d006298da7b0278c",
+          "sha256": "2d8602ba8a7ce49ff4b09b03dc53cbe45f3128742c7d6e55a5bedeb166d31007",
+          "sha1": "55460cd501f404f0bf3e4cefafa401ac80189ced",
+          "md5": "130dc862f4f9187ebb7fe37b64568c14"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-control-subsystem-dependency-dev+mc.1.20.1-sources.jar",
+          "size": 57053961,
+          "sha512": "6b5c6c67aee052752d81c6f94ea96f876e892c0a16b29ab2981a293ae5ac196a47e5ad6db08bb044feb7ef03d6b32f1f84f38557b4665ac591e25c95077019f8",
+          "sha256": "0b3ad6651ad2aacd3afc2c81c9d11224a061286006918086a7aab50a855ca542",
+          "sha1": "915eccf17ac8e42c9ee4d106c81c484e57c4a973",
+          "md5": "68ceb171a595c76fa0236157e9d2fe50"
+        }
+      ]
+    }
+  ]
+}

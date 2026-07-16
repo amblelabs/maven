@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-redux-rifts-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-redux-rifts-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-redux-rifts-dev+mc.1.20.1.jar",
+          "size": 58539646,
+          "sha512": "81d37ea926cda8acea4c05b3014519689ae0d42d99cb1525a7c7dbdf2d7ed5a4047c21cbc541d33819853b5c6ce0468b2cd773676b54ce6ccbccfe045a3fc20b",
+          "sha256": "61f38032a1c1ecab5c28a36672ec442a0d82863f383f6480c6a960f27aba3407",
+          "sha1": "ca984117bbf2f5f9e81eaf565a0e989696028bc9",
+          "md5": "a248fc1e567f1bd5a4ae67c25cb6d342"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-redux-rifts-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-redux-rifts-dev+mc.1.20.1.jar",
+          "size": 58539646,
+          "sha512": "81d37ea926cda8acea4c05b3014519689ae0d42d99cb1525a7c7dbdf2d7ed5a4047c21cbc541d33819853b5c6ce0468b2cd773676b54ce6ccbccfe045a3fc20b",
+          "sha256": "61f38032a1c1ecab5c28a36672ec442a0d82863f383f6480c6a960f27aba3407",
+          "sha1": "ca984117bbf2f5f9e81eaf565a0e989696028bc9",
+          "md5": "a248fc1e567f1bd5a4ae67c25cb6d342"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-redux-rifts-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-redux-rifts-dev+mc.1.20.1-sources.jar",
+          "size": 57044954,
+          "sha512": "e0631525ee0d316bf7f3d2e5dea33fcc697af917f71a37231746f871977e4b8c170e089ca4864a0313fcc7507e2644193a1a534af043c1727b26110ea88bb288",
+          "sha256": "eded53a095c8000846ff1ee6074254e3db50c5a038ff3f288138a81243b535be",
+          "sha1": "ce4acd5345e1dd2c820b08643747c4d8680a1055",
+          "md5": "8df765a33321188f449a334d4b74ae04"
+        }
+      ]
+    }
+  ]
+}

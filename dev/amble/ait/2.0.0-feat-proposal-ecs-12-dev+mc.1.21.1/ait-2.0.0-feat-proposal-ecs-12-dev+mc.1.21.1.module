@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1.jar",
+          "size": 686615,
+          "sha512": "5ad69d15589faa48d288145c6277a32dd89ff65edfe57a75f3aa7a47ea92399956737799122ceb4a479fd53254e194daae7ee62d52c34ed40729ed9f89443607",
+          "sha256": "8d7f6c5c50b040f36c2ffd110c12698c57642da0d6cdda82b7f4b1d508f59df5",
+          "sha1": "37a052a8fb7fce2a46ef855e46bed4c970fb13f5",
+          "md5": "1610b3d81c5b7773e60932f858df58b2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.105.0+1.21.1"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21.1-92-FABRIC-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "trinkets",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.1.22+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.21.1",
+          "version": {
+            "requires": "4.7.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1.jar",
+          "size": 686615,
+          "sha512": "5ad69d15589faa48d288145c6277a32dd89ff65edfe57a75f3aa7a47ea92399956737799122ceb4a479fd53254e194daae7ee62d52c34ed40729ed9f89443607",
+          "sha256": "8d7f6c5c50b040f36c2ffd110c12698c57642da0d6cdda82b7f4b1d508f59df5",
+          "sha1": "37a052a8fb7fce2a46ef855e46bed4c970fb13f5",
+          "md5": "1610b3d81c5b7773e60932f858df58b2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1-sources.jar",
+          "url": "ait-2.0.0-feat-proposal-ecs-12-dev+mc.1.21.1-sources.jar",
+          "size": 138860,
+          "sha512": "30776a156da9d4b25d1740689e09a8ec269ff2d16352e7c28df87e3defcfbf42157f59cdd2ef5ea3d641dfdf6fc5955b03342d735a7afcfb1d7a376c8ae9648b",
+          "sha256": "8add98d4e34e65f7e9462f4f969fc63b7808d27e2db5967b19e29987591ad545",
+          "sha1": "8e49662a4a911a1cf38a45ae564f359635dd96ac",
+          "md5": "fbdb37628a5df215b1391668a72235a6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1.jar",
+          "size": 63943202,
+          "sha512": "d934a523b2d5093fabd2b625fbf2495dbdd5c7ae57730cd6f2d481cb641fa7f731ce6245f4ad90453c4996d95eebcf16673e7ecef52274f900abf949a0e502f3",
+          "sha256": "b068954854fa39430c57729f2bbb8f9632ff2be10100a73e5dc621da377087d2",
+          "sha1": "9ac76b90b56ebc7bf98712cd227846a1808c7c2b",
+          "md5": "05e834f50a2b001bf2c13ee8167c42b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1.jar",
+          "size": 63943202,
+          "sha512": "d934a523b2d5093fabd2b625fbf2495dbdd5c7ae57730cd6f2d481cb641fa7f731ce6245f4ad90453c4996d95eebcf16673e7ecef52274f900abf949a0e502f3",
+          "sha256": "b068954854fa39430c57729f2bbb8f9632ff2be10100a73e5dc621da377087d2",
+          "sha1": "9ac76b90b56ebc7bf98712cd227846a1808c7c2b",
+          "md5": "05e834f50a2b001bf2c13ee8167c42b7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-hacky-fix-demat-post-cancel-dev+mc.1.20.1-sources.jar",
+          "size": 62429852,
+          "sha512": "4d2d44989140a7b1537fd5962f09be4ffb81ef0442beef44c21ed21cd2f0c7641078f92c756a22bde1ee5975c06de246ccf4daa9ad174fe6725df425dd1b2bf6",
+          "sha256": "ce9c20ce3b4e4d78d1913da4a20812c2129756fac0e7f7b21bee75f5588cee55",
+          "sha1": "4b89e4666eac0039d3fba0f042cf43f265a6baf3",
+          "md5": "057c73dc36dc02702f38cf0e594e542e"
+        }
+      ]
+    }
+  ]
+}

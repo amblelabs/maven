@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1.jar",
+          "size": 60741527,
+          "sha512": "1a4b1a54f976306db15abd41b4901229181baa5c3d484805c6b8cc8bcab3dfa1d2067afa668312bddcd203a5653a8435a61ec5e4eb5a33730d6af7e4caaf5d5d",
+          "sha256": "839ed7ff8f3822fe616e2d04c206cf40fc93a182de6ca610f2d0f7e8de7e5bdb",
+          "sha1": "f3b64fac597691ba958f2b73b1f9849aaed2befd",
+          "md5": "cf06873537c6ee21b489fbfdff10cb12"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1.jar",
+          "size": 60741527,
+          "sha512": "1a4b1a54f976306db15abd41b4901229181baa5c3d484805c6b8cc8bcab3dfa1d2067afa668312bddcd203a5653a8435a61ec5e4eb5a33730d6af7e4caaf5d5d",
+          "sha256": "839ed7ff8f3822fe616e2d04c206cf40fc93a182de6ca610f2d0f7e8de7e5bdb",
+          "sha1": "f3b64fac597691ba958f2b73b1f9849aaed2befd",
+          "md5": "cf06873537c6ee21b489fbfdff10cb12"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-inconsistent-exterior-console-models-dev+mc.1.20.1-sources.jar",
+          "size": 59225437,
+          "sha512": "8b372326e0a6f031c0343b9aa00a1be87b970de733e2e68c424d14460abe742724575be65667134dfec9a7f1b7a9b19b375c23e0e94f550978656a13e76d4bbc",
+          "sha256": "a239d153f3c444b22da13b08631a5761a4bcf5296cc9ea4228fb847ac9dee744",
+          "sha1": "e1336bbd619c2884c389ac8c412e5142e27a8c7e",
+          "md5": "bc77131b69f0b809a6f6ce45ee539a9c"
+        }
+      ]
+    }
+  ]
+}

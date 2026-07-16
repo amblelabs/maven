@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-feat-colour_picker-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1.jar",
+          "size": 970143,
+          "sha512": "8b310848f7c45d69a6367056b4541431d527c6efd15ab43307867761804f10b4e8db8def6e2c2cdbeb506b8ef86163c3250e95ced8dae294b9cab45e581f9d76",
+          "sha256": "0324675c5e37e4dd9423f24c0e6d648081ad96de4250125a313c328177e0a3ff",
+          "sha1": "de56f4ad04b47785947c7208b22cbaa9aa39bfec",
+          "md5": "b50a8c8685538ca74a9948d79d0d4cb2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "org.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1.jar",
+          "size": 970143,
+          "sha512": "8b310848f7c45d69a6367056b4541431d527c6efd15ab43307867761804f10b4e8db8def6e2c2cdbeb506b8ef86163c3250e95ced8dae294b9cab45e581f9d76",
+          "sha256": "0324675c5e37e4dd9423f24c0e6d648081ad96de4250125a313c328177e0a3ff",
+          "sha1": "de56f4ad04b47785947c7208b22cbaa9aa39bfec",
+          "md5": "b50a8c8685538ca74a9948d79d0d4cb2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-feat-colour_picker-dev+mc.1.20.1-sources.jar",
+          "size": 251671,
+          "sha512": "7900a5d831a77b2795a066a0681eabb6aa0bfac055ae983c92a0fa74e5848a578d1c473041b9156dbb63258505fde8e4e5f388a2a56ccaa0a11e2c8f12f1c09c",
+          "sha256": "2fe122acd4d4a64e57afb109af4c36185dee1c4ec68ddfdf2fee67eb23cc7417",
+          "sha1": "6d24a5bdf9af9ee5b46fec2cbf68e64b7f4017ad",
+          "md5": "b4709560d24ada5130307501db7bc2f3"
+        }
+      ]
+    }
+  ]
+}

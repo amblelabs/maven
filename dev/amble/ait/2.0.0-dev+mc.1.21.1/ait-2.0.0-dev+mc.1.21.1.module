@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "2.0.0-dev+mc.1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-dev+mc.1.21.1.jar",
+          "size": 1750747,
+          "sha512": "a6ebefef4d1377ba4793c9f8d3dc5ef7bdd5a0f9392ea970e17357c6fab6f4ebdc81fb51e8ae2c04ecfc1445ed5c8de21f0e123e1741f9544ab1c4738311f3a8",
+          "sha256": "969cd0da62003beeadbed854d26e22e5d52c1e0f671429e22f5f1abb26ba530f",
+          "sha1": "5ad6ad3cc680dbb36c0ca94c4e78c513b2d1bbe2",
+          "md5": "b88ac6caa0a7f8c416bdedb8f3cdc5b8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.105.0+1.21.1"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21.1-92-FABRIC-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "trinkets",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.1.22+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.21.1",
+          "version": {
+            "requires": "4.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-dev+mc.1.21.1.jar",
+          "size": 1750747,
+          "sha512": "a6ebefef4d1377ba4793c9f8d3dc5ef7bdd5a0f9392ea970e17357c6fab6f4ebdc81fb51e8ae2c04ecfc1445ed5c8de21f0e123e1741f9544ab1c4738311f3a8",
+          "sha256": "969cd0da62003beeadbed854d26e22e5d52c1e0f671429e22f5f1abb26ba530f",
+          "sha1": "5ad6ad3cc680dbb36c0ca94c4e78c513b2d1bbe2",
+          "md5": "b88ac6caa0a7f8c416bdedb8f3cdc5b8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-2.0.0-dev+mc.1.21.1-sources.jar",
+          "url": "ait-2.0.0-dev+mc.1.21.1-sources.jar",
+          "size": 217263,
+          "sha512": "b8cae7fa8691cbe807f03e6a97069a69c52cf30f8ef694a073bb69d2a8efb30009b272bba0e5df59094ce6e82aeaeabbcf94f34eb2b94efe8e47faf3f77d02fe",
+          "sha256": "5f5c6036d1bbadda67513b5434ce6d7597ccd2c203bcd44a8a949a15e48466c6",
+          "sha1": "ae4c92aef89b1bd184c8503c829103324e4e9339",
+          "md5": "5a8780ebb482ff0db9f47d03f85363b5"
+        }
+      ]
+    }
+  ]
+}

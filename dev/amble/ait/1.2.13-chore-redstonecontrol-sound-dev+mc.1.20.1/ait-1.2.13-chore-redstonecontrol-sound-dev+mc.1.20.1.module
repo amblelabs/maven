@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1.jar",
+          "size": 60739684,
+          "sha512": "e458c2cf89793460085d280ad785391825445ad513380749ca27c10f89ab626c8a8fbb4eeb2ee563fb98ee2cde61b93ad10a154d4bdd8d6390e9fcc45f346390",
+          "sha256": "1a6d20d610d03182aebc79838d179f4d2c45f00d7d4658f5fb1fb546e332af7e",
+          "sha1": "7c5f5806188bb86f4dbd6c8f6323398e72fc2ab9",
+          "md5": "4bcb98d969f342ffed41195a501059e0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1.jar",
+          "size": 60739684,
+          "sha512": "e458c2cf89793460085d280ad785391825445ad513380749ca27c10f89ab626c8a8fbb4eeb2ee563fb98ee2cde61b93ad10a154d4bdd8d6390e9fcc45f346390",
+          "sha256": "1a6d20d610d03182aebc79838d179f4d2c45f00d7d4658f5fb1fb546e332af7e",
+          "sha1": "7c5f5806188bb86f4dbd6c8f6323398e72fc2ab9",
+          "md5": "4bcb98d969f342ffed41195a501059e0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-chore-redstonecontrol-sound-dev+mc.1.20.1-sources.jar",
+          "size": 59224532,
+          "sha512": "790043bb2d775005d5e412e90f2f42a48a28ee839451518604e3ebab269cdd012130d6929071472164e70c18f11fce46cadb3cbf588fcbda182d2e22935daed1",
+          "sha256": "4c55d33a9af09b743de797f862b0d4fa1e8ff857fd37fa1f76c82e55db7c62f4",
+          "sha1": "204f332c97326d064a92876e7ccb82c02036ee32",
+          "md5": "018120f983caf319317101b20385274b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-repair-tool-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1.jar",
+          "size": 69784589,
+          "sha512": "ee7a73d182e735e21d2ae1e1f8d7dacd4db147d482415cf993f6648aa687a1802c7dfbb99415181261917fec1d8ff018e8f7c7311b26ba0e3c3ba91bf4ac4a72",
+          "sha256": "f24ac448acbe532662bda44a0fee367de7e838879fb790757fe3428521bc8d34",
+          "sha1": "ed09f5a1fdc28b5b46cc97e5a92026ab101f3421",
+          "md5": "e4cb3217e43c0bca247fff9f59832599"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1.jar",
+          "size": 69784589,
+          "sha512": "ee7a73d182e735e21d2ae1e1f8d7dacd4db147d482415cf993f6648aa687a1802c7dfbb99415181261917fec1d8ff018e8f7c7311b26ba0e3c3ba91bf4ac4a72",
+          "sha256": "f24ac448acbe532662bda44a0fee367de7e838879fb790757fe3428521bc8d34",
+          "sha1": "ed09f5a1fdc28b5b46cc97e5a92026ab101f3421",
+          "md5": "e4cb3217e43c0bca247fff9f59832599"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-repair-tool-dev+mc.1.20.1-sources.jar",
+          "size": 68268254,
+          "sha512": "845b7aaab0c9c2dabe10012424c1fa468ed145f1b270035983418657462affa21145d59e3a0b1cf215d4bae5b3ddb794e3f732581b3a487a4aa763995c6d9481",
+          "sha256": "dbd02dcafe75e75ace8129aaf2e96e1e563a6f1282e163765ed6d4e73f144ebd",
+          "sha1": "86cc9b9fca04f604aacde8ce66da0a28b3048e8b",
+          "md5": "d48ac7ae54d6c1e10b84a670afb3e935"
+        }
+      ]
+    }
+  ]
+}

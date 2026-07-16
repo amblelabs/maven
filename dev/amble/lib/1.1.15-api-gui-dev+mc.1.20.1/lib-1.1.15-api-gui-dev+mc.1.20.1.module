@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.15-api-gui-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-api-gui-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.15-api-gui-dev+mc.1.20.1.jar",
+          "size": 888692,
+          "sha512": "b8eec7afaea4b3ce096197701a0ccee8473d960409c74d194dafff4f59455138b9acd55c337bf8d03a9907a2ffdb5e0afe4fcfb85d714c62c0e75ba7759e00c3",
+          "sha256": "73c6af865b2e951846ba7777d09bb6eee0cd0bbad692b6987e2161a6ac2f4a07",
+          "sha1": "2ffb84aacd6ec68a67714fbe80d8a3a9a710a34f",
+          "md5": "a94c6956aa9795d59e08c53de4bd999a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "org.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.15-api-gui-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.15-api-gui-dev+mc.1.20.1.jar",
+          "size": 888692,
+          "sha512": "b8eec7afaea4b3ce096197701a0ccee8473d960409c74d194dafff4f59455138b9acd55c337bf8d03a9907a2ffdb5e0afe4fcfb85d714c62c0e75ba7759e00c3",
+          "sha256": "73c6af865b2e951846ba7777d09bb6eee0cd0bbad692b6987e2161a6ac2f4a07",
+          "sha1": "2ffb84aacd6ec68a67714fbe80d8a3a9a710a34f",
+          "md5": "a94c6956aa9795d59e08c53de4bd999a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.15-api-gui-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.15-api-gui-dev+mc.1.20.1-sources.jar",
+          "size": 208650,
+          "sha512": "e1b7bbb36bbf0ff75e4e267d787ed5d696e96682d24f3bbee87a45665bce88e98d57b32c32c43da68e47bf9d9edd73dd78d07502aad00644a945cc22ad5f643d",
+          "sha256": "6aa48f9d1f2477950567ef073e276077073dd5f900213eb8f9ce8412965c94fa",
+          "sha1": "a4e8d9c450624b4ae93ea2d60b7306e282d6bc91",
+          "md5": "3c27f5d62a58e15ebbc1966b94963694"
+        }
+      ]
+    }
+  ]
+}

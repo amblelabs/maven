@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-fix-security-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-security-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-security-dev+mc.1.20.1.jar",
+          "size": 929175,
+          "sha512": "f19b49869ee53da8fd767024b5b50ba893d75bef24fad7c4ca1a4b56feb910afae6d9791e0506f8d7131b2608daf1cd007ec2cd4c7b744d4ca19baf28ca32ae0",
+          "sha256": "8e794f392d440713285bd6ba652b176febf9d6572acdfa9dc48d103ff1782ac6",
+          "sha1": "606703efc1563c660cf832b9896922df992791b6",
+          "md5": "34e1edb5a64522eab6cf05d0558a54e8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "org.luaj",
+          "module": "luaj-jse",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-security-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-fix-security-dev+mc.1.20.1.jar",
+          "size": 929175,
+          "sha512": "f19b49869ee53da8fd767024b5b50ba893d75bef24fad7c4ca1a4b56feb910afae6d9791e0506f8d7131b2608daf1cd007ec2cd4c7b744d4ca19baf28ca32ae0",
+          "sha256": "8e794f392d440713285bd6ba652b176febf9d6572acdfa9dc48d103ff1782ac6",
+          "sha1": "606703efc1563c660cf832b9896922df992791b6",
+          "md5": "34e1edb5a64522eab6cf05d0558a54e8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-fix-security-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-fix-security-dev+mc.1.20.1-sources.jar",
+          "size": 232443,
+          "sha512": "5b2aced333a7db876996a7711402dbea297d11a5eaf967e5a27035910c5904f2be042c17b01aa1433d9df6d4bf104d9fb214ad0b6e3671373ecf495f743f365f",
+          "sha256": "39c7f931f2b15c08ce0f8cf2ac663c3f3dc602c532592f0b6f33d9ea0792dc3b",
+          "sha1": "7a7d3e68cb21a943b163a6c886d312f4e52cbf43",
+          "md5": "4e418cc541317a22d7e30fa9a697e0e7"
+        }
+      ]
+    }
+  ]
+}

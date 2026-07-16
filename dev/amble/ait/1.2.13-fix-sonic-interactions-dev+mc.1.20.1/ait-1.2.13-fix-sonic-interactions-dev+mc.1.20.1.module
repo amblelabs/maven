@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-sonic-interactions-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1.jar",
+          "size": 60741883,
+          "sha512": "744ee271333dd2f6cf33870da4ba5c60f3d37d33454ef781fe22a1f93501e341ddf35f7ea88aef80b41fe3b14da8885a30a0fc357fe0ba38b2e8b199db477ce6",
+          "sha256": "1fb9bafb1a7b46f634ca5572cf370e2c6dd3346d7461e40a8178819803b04043",
+          "sha1": "3f73eaed6b2b714f6b60306011f1a20049dab61e",
+          "md5": "e9ac5582f6f49289a123cbb09cd06903"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1.jar",
+          "size": 60741883,
+          "sha512": "744ee271333dd2f6cf33870da4ba5c60f3d37d33454ef781fe22a1f93501e341ddf35f7ea88aef80b41fe3b14da8885a30a0fc357fe0ba38b2e8b199db477ce6",
+          "sha256": "1fb9bafb1a7b46f634ca5572cf370e2c6dd3346d7461e40a8178819803b04043",
+          "sha1": "3f73eaed6b2b714f6b60306011f1a20049dab61e",
+          "md5": "e9ac5582f6f49289a123cbb09cd06903"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-sonic-interactions-dev+mc.1.20.1-sources.jar",
+          "size": 59225571,
+          "sha512": "f9a0aca517b1de7be5324d4b0268fc0afa5d91e5daeac3bb49a0e3c932febd8d0ced6424eabe3369168d98510babb9004f429b7cc0eb318248c02397effaf339",
+          "sha256": "479066b00ddc39987592958958437f2928492f359078cf2ea7fa7131ff5b4e8d",
+          "sha1": "8d25df79c80945e9333dd1bcb9a94a81a1d1e96e",
+          "md5": "e20d31e9e2a46815bbd66b07e1831087"
+        }
+      ]
+    }
+  ]
+}

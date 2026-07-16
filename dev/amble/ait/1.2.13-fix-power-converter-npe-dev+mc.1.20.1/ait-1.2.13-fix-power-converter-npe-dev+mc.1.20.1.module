@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-power-converter-npe-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1.jar",
+          "size": 63961871,
+          "sha512": "00d0f00cfc5c8b61726567b916113678106a01df0f9315347e9e0dc0c25b0736a89d931c8263da1e73e89828c1606bc208f952bd99073eb4acacad8870e0cf05",
+          "sha256": "6f5d10e3d1af2a7ad6ee115e09b1afc1dff07ad3049d1456f4e4269ce5c632e6",
+          "sha1": "93b128d47616e3acf7000defc1634faabc37eb5b",
+          "md5": "321b95ad5c6ebf31b78aa9ee634d27df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1.jar",
+          "size": 63961871,
+          "sha512": "00d0f00cfc5c8b61726567b916113678106a01df0f9315347e9e0dc0c25b0736a89d931c8263da1e73e89828c1606bc208f952bd99073eb4acacad8870e0cf05",
+          "sha256": "6f5d10e3d1af2a7ad6ee115e09b1afc1dff07ad3049d1456f4e4269ce5c632e6",
+          "sha1": "93b128d47616e3acf7000defc1634faabc37eb5b",
+          "md5": "321b95ad5c6ebf31b78aa9ee634d27df"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-power-converter-npe-dev+mc.1.20.1-sources.jar",
+          "size": 62433437,
+          "sha512": "20c8917085e91715fa15b895d762170d4f660af53274ef75a55143f9babba443557e62c880bfd0c4ded575c999a9b1d2e6e307e00e3d271ca93c03031055f0dc",
+          "sha256": "abd971cdea74daee40fed764787447d205c11ca2ff96a63389d854dd955e3ece",
+          "sha1": "7820bc9d904210da100b0dcfa8ec049c9815d470",
+          "md5": "00359e3e4fa572c500ae97d38bde9cba"
+        }
+      ]
+    }
+  ]
+}

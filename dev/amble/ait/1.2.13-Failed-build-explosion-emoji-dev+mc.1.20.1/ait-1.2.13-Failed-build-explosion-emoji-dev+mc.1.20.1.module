@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1.jar",
+          "size": 60739781,
+          "sha512": "44532d8493806251cb2271a20eeb4d7e33cb04a1ec4b8f323a607dc3d6b2e7f9e1f48cc583c3dec1ad4ab332190a693b107005c3b148b618854d2fecac01c048",
+          "sha256": "b952c853f6a29bcbc7b7ef622cdb9beceaf950c50f4de3302e6a82ce3ee26c6f",
+          "sha1": "3abd328c8b430aa312cc1d05acf46d03cd4a5796",
+          "md5": "e2351f6961c4c7e1333e8679578199c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1.jar",
+          "size": 60739781,
+          "sha512": "44532d8493806251cb2271a20eeb4d7e33cb04a1ec4b8f323a607dc3d6b2e7f9e1f48cc583c3dec1ad4ab332190a693b107005c3b148b618854d2fecac01c048",
+          "sha256": "b952c853f6a29bcbc7b7ef622cdb9beceaf950c50f4de3302e6a82ce3ee26c6f",
+          "sha1": "3abd328c8b430aa312cc1d05acf46d03cd4a5796",
+          "md5": "e2351f6961c4c7e1333e8679578199c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-Failed-build-explosion-emoji-dev+mc.1.20.1-sources.jar",
+          "size": 59224568,
+          "sha512": "8b94c77380c3a8a4a65327d7155fcc6329e1e12b053158c0b77372cb547b3968612c216f42e359468bff4f5adaa6bff94c075ee08474d1fb7822a89cef8d2e7c",
+          "sha256": "6cc895fee38b7b796c814440d8300e0c99cbd23fb8e2007870fb219821edc895",
+          "sha1": "1583f98adbb3c2b1a50eadebdcd130d8795ece13",
+          "md5": "9d89e147e2690edfa30da6d9e84f1ed0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-exterior-duping-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1.jar",
+          "size": 63963298,
+          "sha512": "8e59bbff938b943e0124315c50afa4a7f85d2835a97d606305dbefaf8c3d87c6cf314d4c6c6e60955cc971ca42e509e565a3b2c72dc973d63461f946e267e356",
+          "sha256": "d9d5ed8b56534671c8bce5ee844135547bbee3f65653a7ed1cbc9e7932f8b0f4",
+          "sha1": "5e4d5b071a304e16c8e141ae3d87fa4499c69ec6",
+          "md5": "a0b424c6d9131ef5ed79ab0dee314c51"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1.jar",
+          "size": 63963298,
+          "sha512": "8e59bbff938b943e0124315c50afa4a7f85d2835a97d606305dbefaf8c3d87c6cf314d4c6c6e60955cc971ca42e509e565a3b2c72dc973d63461f946e267e356",
+          "sha256": "d9d5ed8b56534671c8bce5ee844135547bbee3f65653a7ed1cbc9e7932f8b0f4",
+          "sha1": "5e4d5b071a304e16c8e141ae3d87fa4499c69ec6",
+          "md5": "a0b424c6d9131ef5ed79ab0dee314c51"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-exterior-duping-dev+mc.1.20.1-sources.jar",
+          "size": 62433844,
+          "sha512": "671adfe923621b03918274c43708ef819552c173b32f471f2e98700ff760a30ff8c533f95b572ee0aeb1130689ac3bde0e529559e3639c561199573084e0213b",
+          "sha256": "e9e60dc243b359ece3a91859c9a1c8d7fcaecf2e2753ca9c065538a61d21af57",
+          "sha1": "7bd05e7a4809837e13560fe8ec5367b023d4b385",
+          "md5": "6c3f5c5434d19a0451c5f4c0b13fd647"
+        }
+      ]
+    }
+  ]
+}

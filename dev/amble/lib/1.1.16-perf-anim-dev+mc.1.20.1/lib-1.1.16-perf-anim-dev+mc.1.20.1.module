@@ -1,0 +1,147 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "lib",
+    "version": "1.1.16-perf-anim-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-perf-anim-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-perf-anim-dev+mc.1.20.1.jar",
+          "size": 496039,
+          "sha512": "128332dbf315d392835ded67350b9a0efdcb8daf169ff9d2212e3dead0604fd3a46ff82cb1962e56508ffb3693a883e8c80dd466dc4fc57f2741e9b980193730",
+          "sha256": "156fb5d73ce79c51ad424aad759db08def9dc79e63b4497fa7077835eaba3afc",
+          "sha1": "2dcf61c8fdc3fb608fc18921b3cd5d27e3d6b970",
+          "md5": "d3a2b57e6a7c64eeb8b0b1f315cb56d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "multidim",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "scheduler",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "dev.drtheo",
+          "module": "queue",
+          "version": {
+            "requires": "1.1.0-1.20"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lib-1.1.16-perf-anim-dev+mc.1.20.1.jar",
+          "url": "lib-1.1.16-perf-anim-dev+mc.1.20.1.jar",
+          "size": 496039,
+          "sha512": "128332dbf315d392835ded67350b9a0efdcb8daf169ff9d2212e3dead0604fd3a46ff82cb1962e56508ffb3693a883e8c80dd466dc4fc57f2741e9b980193730",
+          "sha256": "156fb5d73ce79c51ad424aad759db08def9dc79e63b4497fa7077835eaba3afc",
+          "sha1": "2dcf61c8fdc3fb608fc18921b3cd5d27e3d6b970",
+          "md5": "d3a2b57e6a7c64eeb8b0b1f315cb56d0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lib-1.1.16-perf-anim-dev+mc.1.20.1-sources.jar",
+          "url": "lib-1.1.16-perf-anim-dev+mc.1.20.1-sources.jar",
+          "size": 186070,
+          "sha512": "8bfaff5a873b088ed2a3bc96e9afeb07b6475d5108c8fbeb790cc5dddb79f1eea0a5eac7f402dbfd87abdfe98b231ce0413d0403b83dd0f87f95ce833b0fdf2a",
+          "sha256": "8951c7181aa62a6df2b70b823d793a00bfb61711caaff2f583e4c4d4de114081",
+          "sha1": "0c8968db845d58ebd2d381583c0978d6474bf9ba",
+          "md5": "d5570f684371e75bef800a37416cfea9"
+        }
+      ]
+    }
+  ]
+}

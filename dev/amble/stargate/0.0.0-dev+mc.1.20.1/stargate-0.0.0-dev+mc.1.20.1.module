@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "stargate",
+    "version": "0.0.0-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-dev+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-dev+mc.1.20.1.jar",
+          "size": 4107153,
+          "sha512": "b5de7c4576b41d05eed4dcfac4d38990c3d6c052fa3123f729b6bae516ca7d697bcc4f6b7b90ba84afa987b4f2adebb5812a7848e76adb472455593c83da460a",
+          "sha256": "ca1b93d55dcc81af173beba40fdb46f23df4d06df3faecf4d8b48661c14584be",
+          "sha1": "4a4798bde45072fed1a23408867725ec8ad42662",
+          "md5": "a1509466805d3b19036ec41b900cd30c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "com.klikli_dev",
+          "module": "modonomicon-1.20.1-fabric",
+          "version": {
+            "requires": "1.79.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stargate-0.0.0-dev+mc.1.20.1.jar",
+          "url": "stargate-0.0.0-dev+mc.1.20.1.jar",
+          "size": 4107153,
+          "sha512": "b5de7c4576b41d05eed4dcfac4d38990c3d6c052fa3123f729b6bae516ca7d697bcc4f6b7b90ba84afa987b4f2adebb5812a7848e76adb472455593c83da460a",
+          "sha256": "ca1b93d55dcc81af173beba40fdb46f23df4d06df3faecf4d8b48661c14584be",
+          "sha1": "4a4798bde45072fed1a23408867725ec8ad42662",
+          "md5": "a1509466805d3b19036ec41b900cd30c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stargate-0.0.0-dev+mc.1.20.1-sources.jar",
+          "url": "stargate-0.0.0-dev+mc.1.20.1-sources.jar",
+          "size": 3897852,
+          "sha512": "4e5481c21733995fd4a4219dad291ce1e3a09d9372a30517cf42d82e3a939beb0736543a48d0ae0da47484d2b93ed0363e554c197de5632832839dfaccc77e62",
+          "sha256": "049640f98f2e8703f1d3622e22b5312e71909d661f5421de1f5c82653a421e38",
+          "sha1": "44b84fc408f3799e8e88ff86d7567ea9b839ba12",
+          "md5": "5c9a5b3c405a1cede2b7d26d302ddd17"
+        }
+      ]
+    }
+  ]
+}

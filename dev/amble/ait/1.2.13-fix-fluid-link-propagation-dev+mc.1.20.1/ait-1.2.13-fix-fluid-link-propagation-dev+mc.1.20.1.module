@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1.jar",
+          "size": 58599714,
+          "sha512": "535183328e090c5858beb927a98747321d259512d66579114463e0e2d4d540e2b2cadd5cb88a19b3e8a95f1f4b58e5e95865e60344a04395188886a704d7b80e",
+          "sha256": "2d05a9f5f13e8aa8d7326ead68491665665ab234534396bf765ef4f12bd1ad28",
+          "sha1": "c371209012b836fd2683e3a360368d56d0455ac0",
+          "md5": "105585194ba478ed9adc9f5a5ec84b7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1.jar",
+          "size": 58599714,
+          "sha512": "535183328e090c5858beb927a98747321d259512d66579114463e0e2d4d540e2b2cadd5cb88a19b3e8a95f1f4b58e5e95865e60344a04395188886a704d7b80e",
+          "sha256": "2d05a9f5f13e8aa8d7326ead68491665665ab234534396bf765ef4f12bd1ad28",
+          "sha1": "c371209012b836fd2683e3a360368d56d0455ac0",
+          "md5": "105585194ba478ed9adc9f5a5ec84b7f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-fluid-link-propagation-dev+mc.1.20.1-sources.jar",
+          "size": 57102481,
+          "sha512": "d231574b61cf36ae331b5a013e0caf0ce952565065ccb566e08ecc20d36bbc55f1ba52321ab5718b6bb3d6e7075c7440aba187072c6c67ab8bf1427c0d7a9ebf",
+          "sha256": "8dd8da24d2968ba04ad3ce152c9d6232ae3b6f5e42cc69b98bea7a854a0c486c",
+          "sha1": "25c0f3ceb1ebdb7d9ce702379392d3de5eb683a5",
+          "md5": "d27a1f84bbceeb37a4559488d65bacae"
+        }
+      ]
+    }
+  ]
+}

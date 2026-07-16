@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1.jar",
+          "size": 69783089,
+          "sha512": "4e8ec0716375abf832815a6e62821525c1a6433dae20f79c3655acb00dfe782974371288925642043e68a267e7f6c7c3664fe90197a272957e87a42b1774e7ba",
+          "sha256": "e6871d6edb054c9324f485beacb69018c35f3d44e0b34406f6ca580f5b877729",
+          "sha1": "6e45d4f98924e0bea244412809864910a5fc1231",
+          "md5": "aaa699ffa729879bbe1a50c35de11da4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1.jar",
+          "size": 69783089,
+          "sha512": "4e8ec0716375abf832815a6e62821525c1a6433dae20f79c3655acb00dfe782974371288925642043e68a267e7f6c7c3664fe90197a272957e87a42b1774e7ba",
+          "sha256": "e6871d6edb054c9324f485beacb69018c35f3d44e0b34406f6ca580f5b877729",
+          "sha1": "6e45d4f98924e0bea244412809864910a5fc1231",
+          "md5": "aaa699ffa729879bbe1a50c35de11da4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-fast-travel-autopilot-dev+mc.1.20.1-sources.jar",
+          "size": 68267385,
+          "sha512": "9dc7cfaf05698f32b4a84a3eb9304c444ecd7d6058abb76defd5ebd0cd309101cfa7d3b6042f30db06ead134081298181b396476826e387acf6655f777c0d900",
+          "sha256": "fd286a3783bfbf90f4aae2821cb7bc77a00ea8d783fbf22e0cbaa4ad9d843af2",
+          "sha1": "4af1fbcce5ab4e541687c4f00f55dba5217039c9",
+          "md5": "f99ed8407b0a9111d167c56197ba4bd0"
+        }
+      ]
+    }
+  ]
+}

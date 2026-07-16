@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-land_mat_sfx-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1.jar",
+          "size": 58423609,
+          "sha512": "79d70ad1397ce80c26f56daa36c252bef87b2d1dc8127d4aae8e90cbb3c0d9b7affed971506e39dbf97aa3e2d089b2ec85ba47321ad7814130c3c916f5bceef9",
+          "sha256": "84aac6fb7a5a393c5876f841f56ef3801813c6b04901f66f5b7a17b00a35c33a",
+          "sha1": "7289151075b49c968e18e3835302e8fa7da86d9c",
+          "md5": "6fc890079a07089713b0ebebb8ed2a57"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "imm_ptl_core",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.github.iPortalTeam.ImmersivePortalsMod",
+          "module": "q_misc_util",
+          "version": {
+            "requires": "v3.3.9-mc1.20.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1.jar",
+          "size": 58423609,
+          "sha512": "79d70ad1397ce80c26f56daa36c252bef87b2d1dc8127d4aae8e90cbb3c0d9b7affed971506e39dbf97aa3e2d089b2ec85ba47321ad7814130c3c916f5bceef9",
+          "sha256": "84aac6fb7a5a393c5876f841f56ef3801813c6b04901f66f5b7a17b00a35c33a",
+          "sha1": "7289151075b49c968e18e3835302e8fa7da86d9c",
+          "md5": "6fc890079a07089713b0ebebb8ed2a57"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-land_mat_sfx-dev+mc.1.20.1-sources.jar",
+          "size": 56943599,
+          "sha512": "72c5c8a20df54f12265890dd18987edfce026a46e9f6b213bf2e6767b35763018ca6d7087dcd3fa66a9f331b8c4c883043064bd8969e6f0d0a223f72847c72ce",
+          "sha256": "555ff81d261fe3f80602ece4a5f58a4ca0092a7247a648e8b7a9b84debc5a42b",
+          "sha1": "98c28a9623f5c6358b195170015c39c7e75e8f43",
+          "md5": "a6287e7b5db2db2d29fadaa5b04de069"
+        }
+      ]
+    }
+  ]
+}

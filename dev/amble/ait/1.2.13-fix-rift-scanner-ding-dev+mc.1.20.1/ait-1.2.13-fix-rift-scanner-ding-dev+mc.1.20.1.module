@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1.jar",
+          "size": 60742354,
+          "sha512": "8e293228d945aaf12549fbe88e86351535b34aa63c80571826c4d656806eb267e485c76f0ba0ce9d6cf0f7fe91e513dd5786cb6015902f7f4eadbe407ffa6ae6",
+          "sha256": "538cdaaa3df639e818032e9b4ef96b419e467fb607077e050a4a952d4ed5684d",
+          "sha1": "361b8a2073f04cd727ad096c05c6c7811fd8efb4",
+          "md5": "c20e23d9693a243e9911cd8dcaf42e88"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1.jar",
+          "size": 60742354,
+          "sha512": "8e293228d945aaf12549fbe88e86351535b34aa63c80571826c4d656806eb267e485c76f0ba0ce9d6cf0f7fe91e513dd5786cb6015902f7f4eadbe407ffa6ae6",
+          "sha256": "538cdaaa3df639e818032e9b4ef96b419e467fb607077e050a4a952d4ed5684d",
+          "sha1": "361b8a2073f04cd727ad096c05c6c7811fd8efb4",
+          "md5": "c20e23d9693a243e9911cd8dcaf42e88"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-fix-rift-scanner-ding-dev+mc.1.20.1-sources.jar",
+          "size": 59225801,
+          "sha512": "e4c04f03ce6f38b4f30166d32634277161ddb8c52984eed0c92f9369eb14b286ccc8699e7647b0b921aed7d068b3e8ba22f7387ffe274f9b545aff3d65e597d5",
+          "sha256": "7999fceeb2801f77b3975d61cabb4ec49e5bf6786dbdf5c9925a6cc06dc985b4",
+          "sha1": "9a245b7fb1afd4b062bc2cf8c540969bb0af6592",
+          "md5": "49472e294901380b002120c8ce670199"
+        }
+      ]
+    }
+  ]
+}

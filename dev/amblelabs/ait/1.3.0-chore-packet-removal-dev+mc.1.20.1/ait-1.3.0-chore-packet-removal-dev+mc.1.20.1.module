@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amblelabs",
+    "module": "ait",
+    "version": "1.3.0-chore-packet-removal-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1.jar",
+          "size": 69784218,
+          "sha512": "8524091715a94b7605349c85dba080b42cdb0773ed63d78a9653857d9b7074101fbc1e9812c59945ee89d06abdb417b06f9d1354c18099fc808602f67da0d72b",
+          "sha256": "99ccac6bd5cf0371f4e218a8905929edc200dcdc5084e6fd5f91e1eb1c7df657",
+          "sha1": "f279d7b137943b583fc055ac7862909662d11b5b",
+          "md5": "6ca77c13d8341b93de0287dbb0e5250e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.16-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        },
+        {
+          "group": "mezz.jei",
+          "module": "jei-1.20.1-fabric-api",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "jei",
+          "version": {
+            "requires": "15.20.0.112"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1.jar",
+          "url": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1.jar",
+          "size": 69784218,
+          "sha512": "8524091715a94b7605349c85dba080b42cdb0773ed63d78a9653857d9b7074101fbc1e9812c59945ee89d06abdb417b06f9d1354c18099fc808602f67da0d72b",
+          "sha256": "99ccac6bd5cf0371f4e218a8905929edc200dcdc5084e6fd5f91e1eb1c7df657",
+          "sha1": "f279d7b137943b583fc055ac7862909662d11b5b",
+          "md5": "6ca77c13d8341b93de0287dbb0e5250e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.3.0-chore-packet-removal-dev+mc.1.20.1-sources.jar",
+          "size": 68268150,
+          "sha512": "f89070e8a4ff744ce38419cb86ddbc4ce435c65287fbae891f8023168cad1066938317a3ae9fb44874305c8d4485af5823c0e5de1fdcc4883f95655187063dc4",
+          "sha256": "912219d7856932ef1aa5c50597f182e2bdf0edc96ebe7b40352cf1964c232050",
+          "sha1": "90d63e3fcf46c4f8b0705da78f6b097f9b7a4cdf",
+          "md5": "2a65421c8b6893cafbaa3b6d728b7d0d"
+        }
+      ]
+    }
+  ]
+}

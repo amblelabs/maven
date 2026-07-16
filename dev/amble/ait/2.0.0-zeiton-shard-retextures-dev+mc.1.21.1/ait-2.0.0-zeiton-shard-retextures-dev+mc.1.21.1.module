@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "2.0.0-zeiton-shard-retextures-dev+mc.1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1.jar",
+          "size": 1484779,
+          "sha512": "e29fce467b1b779bac7560ee2d932911600be9b942ac136b5a36599870af5b328640ebb2e74238238e8bcc4b6b4398f15e28c08393683f399d5760e441c83268",
+          "sha256": "33cfef385209ea9321ca9a7197c409c615c64c619af6e038b7f5e2381481050d",
+          "sha1": "b11df46e47445be4cc88e2b887203e41b5328566",
+          "md5": "e3138f7e141be7034a554171c9047a8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "15.0.140"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.105.0+1.21.1"
+          }
+        },
+        {
+          "group": "vazkii.patchouli",
+          "module": "Patchouli",
+          "version": {
+            "requires": "1.21.1-92-FABRIC-SNAPSHOT"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "trinkets",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.1.22+1.21.1"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.3"
+          }
+        },
+        {
+          "group": "software.bernie.geckolib",
+          "module": "geckolib-fabric-1.21.1",
+          "version": {
+            "requires": "4.8.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1.jar",
+          "url": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1.jar",
+          "size": 1484779,
+          "sha512": "e29fce467b1b779bac7560ee2d932911600be9b942ac136b5a36599870af5b328640ebb2e74238238e8bcc4b6b4398f15e28c08393683f399d5760e441c83268",
+          "sha256": "33cfef385209ea9321ca9a7197c409c615c64c619af6e038b7f5e2381481050d",
+          "sha1": "b11df46e47445be4cc88e2b887203e41b5328566",
+          "md5": "e3138f7e141be7034a554171c9047a8e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1-sources.jar",
+          "url": "ait-2.0.0-zeiton-shard-retextures-dev+mc.1.21.1-sources.jar",
+          "size": 213069,
+          "sha512": "2ce13444190afb841057119b9a428791e756bcd920ee0b543e6d3410d1a84787678cf022c7ba5479723f6b7ebe7888414ffc46aa293c9aa7fbb46a8d34bbfb0e",
+          "sha256": "48863b938c45ba00f15f6457c68992552ccb185a02f4aff5571fe7960eae2503",
+          "sha1": "e79e10be1d435d8b140f0ea778c6d6bfcef8e081",
+          "md5": "743d88570f7dc5242695456f268fe7cf"
+        }
+      ]
+    }
+  ]
+}

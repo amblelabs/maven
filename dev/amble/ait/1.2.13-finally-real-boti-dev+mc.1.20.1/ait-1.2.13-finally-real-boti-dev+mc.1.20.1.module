@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.amble",
+    "module": "ait",
+    "version": "1.2.13-finally-real-boti-dev+mc.1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1.jar",
+          "size": 60747645,
+          "sha512": "999237edd5549cdbaff7c8a8c97dc4ed5babea7752d6124b681838101df12fc9603ed98a024c8eba3dc59bdbfd122af1d22cdc2f3e643274421c15c059e79476",
+          "sha256": "9c126374211519f0ed1cc9544fc6eaefe6851c4fc6cb26afe350ae244ccfc2e5",
+          "sha1": "0887d70a692226af924019582fe2a1ea0843c3fb",
+          "md5": "0bbf7aae44fe6432bc0cef4f9b8aa50d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.objecthunter",
+          "module": "exp4j",
+          "version": {
+            "requires": "0.4.8"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.9"
+          }
+        },
+        {
+          "group": "dev.amble",
+          "module": "lib",
+          "version": {
+            "requires": "1.1.15-dev+mc.1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.92.3+1.20.1"
+          }
+        },
+        {
+          "group": "dev.isxander",
+          "module": "yet-another-config-lib",
+          "version": {
+            "requires": "3.6.1+1.20.1-fabric"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "7.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1.jar",
+          "url": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1.jar",
+          "size": 60747645,
+          "sha512": "999237edd5549cdbaff7c8a8c97dc4ed5babea7752d6124b681838101df12fc9603ed98a024c8eba3dc59bdbfd122af1d22cdc2f3e643274421c15c059e79476",
+          "sha256": "9c126374211519f0ed1cc9544fc6eaefe6851c4fc6cb26afe350ae244ccfc2e5",
+          "sha1": "0887d70a692226af924019582fe2a1ea0843c3fb",
+          "md5": "0bbf7aae44fe6432bc0cef4f9b8aa50d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1-sources.jar",
+          "url": "ait-1.2.13-finally-real-boti-dev+mc.1.20.1-sources.jar",
+          "size": 59212544,
+          "sha512": "d1e3459d08e1b57f061851051c6ab64b3c0690f946801b86e008e4d91019b45dd187749d53d3796d3d9a4156e758f3ce6c0cdb6acddcf612eecb74f5dec66165",
+          "sha256": "ab56a31d35a30d42b5ddb23fd75fd6383064b0a1da99be93d1848d33d8127b6e",
+          "sha1": "93452ad4653279386ab8cb602259869232bd1b22",
+          "md5": "d0259eeccde8900aef6d71ae62ef70f8"
+        }
+      ]
+    }
+  ]
+}
