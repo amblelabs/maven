@@ -50,11 +50,11 @@
         {
           "name": "lib-1.1.16-dev+mc.1.20.1.jar",
           "url": "lib-1.1.16-dev+mc.1.20.1.jar",
-          "size": 496984,
-          "sha512": "6e027f211ef3120c6260fb9542a36aa71cc765791e2b55980e1314899b2c143b85f13ebf3d3e4a2427766e0afc7505408159e91f501e40564446a9b316c55e42",
-          "sha256": "b391e040f5e7b5d2e2ba922e4fa2213e9c3149c0dce321d1fc6b6c167e9a87b2",
-          "sha1": "7cd3e46f0618de186fcfd0204bca73e5fcbe429a",
-          "md5": "90c9ffa0d2200576964c95802ce66038"
+          "size": 665733,
+          "sha512": "ac2fdf704b22446dde4a292f74a66d05f7b7bed89fa93757642f151317f1ff59b00a969937594b330ebf7c394c4a9d3dd02938bc7b8f27638633b0f15fefc7b2",
+          "sha256": "05d9ec29149942824c80782bb02d4f1d4d47a23cc63a8a76bc96c7ec9d088b8e",
+          "sha1": "42092569009c6ea4ceb95707445a5937cae400ea",
+          "md5": "0b7d588589d3ba325fe1d391b24d5c28"
         }
       ]
     },
@@ -115,11 +115,11 @@
         {
           "name": "lib-1.1.16-dev+mc.1.20.1.jar",
           "url": "lib-1.1.16-dev+mc.1.20.1.jar",
-          "size": 496984,
-          "sha512": "6e027f211ef3120c6260fb9542a36aa71cc765791e2b55980e1314899b2c143b85f13ebf3d3e4a2427766e0afc7505408159e91f501e40564446a9b316c55e42",
-          "sha256": "b391e040f5e7b5d2e2ba922e4fa2213e9c3149c0dce321d1fc6b6c167e9a87b2",
-          "sha1": "7cd3e46f0618de186fcfd0204bca73e5fcbe429a",
-          "md5": "90c9ffa0d2200576964c95802ce66038"
+          "size": 665733,
+          "sha512": "ac2fdf704b22446dde4a292f74a66d05f7b7bed89fa93757642f151317f1ff59b00a969937594b330ebf7c394c4a9d3dd02938bc7b8f27638633b0f15fefc7b2",
+          "sha256": "05d9ec29149942824c80782bb02d4f1d4d47a23cc63a8a76bc96c7ec9d088b8e",
+          "sha1": "42092569009c6ea4ceb95707445a5937cae400ea",
+          "md5": "0b7d588589d3ba325fe1d391b24d5c28"
         }
       ]
     },
@@ -135,11 +135,11 @@
         {
           "name": "lib-1.1.16-dev+mc.1.20.1-sources.jar",
           "url": "lib-1.1.16-dev+mc.1.20.1-sources.jar",
-          "size": 187853,
-          "sha512": "7420a7d5ef9e058c0626a4f7d81faca29bde2d80b6df4f999cd975047da4a0d10334446b5631b99f004b82ed40d02071f80cf59a1267016a8df50bcb5a65e70f",
-          "sha256": "0ac9c5c7b91866b173d75043d4a1a58a3fd4d0d89a585f1fda0ded170a6768ba",
-          "sha1": "fbc48d86f13bdb84721707386cc1f06251091900",
-          "md5": "ae38ca58748ac2d08983bca45b8f3ec4"
+          "size": 339288,
+          "sha512": "09aa41cf1358b7e0c59a86a7d68f136c2647dc13bdeaa4677abc564e489af329fabdcf3448955623b71a9f58595ed5f12e9cc52bf2105d913accd3b8970e06ea",
+          "sha256": "c98a88d562517c87e790b9133b59c566960a707484ab914b0502e4a3112b6e89",
+          "sha1": "e54c787eab37188e33b548cc41f667ce0d761aa0",
+          "md5": "33d14d08a64f91fa3d2edc59897729c3"
         }
       ]
     }
